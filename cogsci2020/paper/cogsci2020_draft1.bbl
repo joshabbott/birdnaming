@@ -73,6 +73,34 @@ Berlin, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Berlin%
+, Breedlove%
+\BCBL {}\ \BBA {} Raven%
+}{%
+Berlin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1973}}%
+}]{%
+berlin1973general}
+\APACinsertmetastar {%
+berlin1973general}%
+\begin{APACrefauthors}%
+Berlin, B.%
+, Breedlove, D\BPBI E.%
+\BCBL {}\ \BBA {} Raven, P\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {General principles of classification and nomenclature in
+  folk biology} {General principles of classification and nomenclature in folk
+  biology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American anthropologist}{75}{1}{214--242}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Clements%
 }{%
 Clements%
