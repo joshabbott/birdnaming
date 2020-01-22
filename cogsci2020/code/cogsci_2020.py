@@ -204,7 +204,7 @@ plt.figure()
 plt.violinplot([data_compounds,data_monomials],pos)
 plt.title('Mass densities of Zapotec name forms')
 plt.xticks(pos,plotnames)
-plt.ylabel('Log Frequency of occurence')
+plt.ylabel('Log Mass')
 plt.show()
 
 # ## What birds are named?

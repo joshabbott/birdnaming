@@ -131,13 +131,13 @@ We focus on the body mass data, separately sourced from \cite{dunning2007crc}, w
 \section{What categories are given a name?}
 
 \subsection{Frequency}
-Here we analyze the frequencies of birds named in Zapotec. We plot the densities of birds named and unamed birds, along with all birds observed in the state of Oaxaca in Figure~\ref{birdfreqviolin}.
+Here we analyze the frequencies of birds named in Zapotec. We plot the densities of birds named and unamed birds, along with all birds observed in the state of Oaxaca in Figure~\ref{fig-birdfreqviolin}.
 
 \begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{./figures/birdfreq-violinplots.png}
         \caption{Frequency densities of birds named in Zapotec and those observed in the state of OAX.}
-        \label{birdfreqviolin}
+        \label{fig-birdfreqviolin}
 	\end{center}
 \end{figure}
 
@@ -148,10 +148,37 @@ SSRRs.
 \section{Analysis of name-forms}
 
 \subsection{Name-length}
-Zipfian?
+Here we analyze the frequencies of birds named in Zapotec in relation to the name length of the bird. See Figure~\ref{fig-freq-namelength}
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{./figures/freq-namelength.png}
+        \caption{Frequency densities of birds named in Zapotec as a function of name length.}
+        \label{fig-freq-namelength}
+  \end{center}
+\end{figure}
 
 \subsection{Compound names}
-Monomial vs. compound frequencies, sizes?
+Here we further examine names based on whether the Zapotec label is a single word (a monomial) or a compound of multiple words. First we examine frequencies, in Figure~\ref{fig-freq-nameforms}. Here we see that the monomials tend to be more frequently observed than compounds. The raw mean frequency counts are mono = 2465 and compound = 1715, for monomials and compound names, respectively.
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{./figures/freq-nameforms.png}
+        \caption{Frequency densities of birds named in Zapotec as a function of name form.}
+        \label{fig-freq-nameforms}
+  \end{center}
+\end{figure}
+
+We also explore how masses are distributed based on name form. See Figure~\ref{fig-mass-nameforms}. Here we see a similar trend as before, with raw mean masses of mono = 375g and compound = 152g.
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{./figures/mass-nameforms.png}
+        \caption{Mass densities of birds named in Zapotec as a function of name form.}
+        \label{fig-mass-nameforms}
+  \end{center}
+\end{figure}
+
 
 \subsection{Prototypes}
 
@@ -163,7 +190,7 @@ Here we look at unmarked-prototypes in Hunn's data on Zapotec bird-naming.
 This work extends the investigation of language categories using large-scale datasets online \cite{kemp2012kinship,regier2016languages}
 
 \subsection{Future Directions}
-The next step would be to expand these analyses to more languages. To do this one needs to find trustworthy ethnographies similar to the Zapotec naming data we used here from \citeA{hunn2008zapotec}, and one needs decent coverage in eBird over the geographic region in question. Clear next steps would be to analyze the Tzeltal language from Chiapas, Mexico, and the Tlingit language from the Pacific Northwest of North America, both published by Hunn as well \cite{hunn1977tzeltal,hunn2012tlingit}, which have decent coverage within their respective geographics regions in eBird observational data. 
+The next step would be to expand these analyses to more languages. To do this one needs to find trustworthy ethnographies similar to the Zapotec naming data we used here from \citeA{hunn2008zapotec}, and one needs decent coverage in eBird over the geographic region in question. Clear next steps would be to analyze the Tzeltal language from Chiapas, Mexico, and the Tlingit language from the south-east Alaska, both published by Hunn as well \cite{hunn1977tzeltal,hunn2012tlingit}, which have decent coverage within their respective geographics regions in eBird observational data. 
 
 That said, it can be difficult to find languages with both expert ethnographries of the folk biological naming systems which also have good coverage in eBird. This has prohibited us from exploring bird naming data from known experts in regions with low coverage in eBird (e.g., naming data summarized in \cite{holman2002relation}, including the Tobelo language from Indonesia \cite{taylor1990folk} and the Anindilyakwa language from Australia \cite{waddy1988classification}, which do not have coverage in eBird currently).
 
@@ -326,7 +353,7 @@ That said, it can be difficult to find languages with both expert ethnographries
 % \nocite{NewellSimon1972a}
 % \nocite{ShragerLangley1990a}
 
-\newpage
+% \newpage
 \bibliographystyle{apacite}
 
 \setlength{\bibleftmargin}{.125in}
