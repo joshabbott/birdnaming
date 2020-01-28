@@ -326,33 +326,6 @@ Hunn, E\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kemp%
-\ \BBA {} Regier%
-}{%
-Kemp%
-\ \BBA {} Regier%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-kemp2012kinship}
-\APACinsertmetastar {%
-kemp2012kinship}%
-\begin{APACrefauthors}%
-Kemp, C.%
-\BCBT {}\ \BBA {} Regier, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Kinship categories across languages reflect general
-  communicative principles} {Kinship categories across languages reflect
-  general communicative principles}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Science}{336}{6084}{1049--1054}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Lopez%
 , Atran%
 , Coley%
@@ -407,34 +380,6 @@ Peterson, A\BPBI T.%
   species-level bird taxonomy}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Bird Conservation International}{16}{2}{155--173}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Regier%
-, Carstensen%
-\BCBL {}\ \BBA {} Kemp%
-}{%
-Regier%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2016}}%
-}]{%
-regier2016languages}
-\APACinsertmetastar {%
-regier2016languages}%
-\begin{APACrefauthors}%
-Regier, T.%
-, Carstensen, A.%
-\BCBL {}\ \BBA {} Kemp, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Languages support efficient communication about the
-  environment: Words for snow revisited} {Languages support efficient
-  communication about the environment: Words for snow revisited}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{PloS one}{11}{4}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

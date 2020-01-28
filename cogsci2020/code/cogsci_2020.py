@@ -28,7 +28,7 @@ def get_birdcounts(ebd_data):
 df = pd.read_csv('./data/df_zapotec.csv')
 
 # load ebird data
-ebd_data = pd.read_csv('./data/ebird_MX-OAX_relJul-2019_clean.csv')
+ebd_data = pd.read_csv('./data/ebird_MX-OAX_cogsci_clean.csv')
 # get bird counts, index by species name
 bird_counts = get_birdcounts(ebd_data)
 

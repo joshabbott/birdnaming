@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cogsci2020_draft1.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -13,45 +13,45 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: CogSci2020.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 21 entries,
+You've used 19 entries,
             6735 wiz_defined-function locations,
-            1371 strings with 13938 characters,
-and the built_in function-call counts, 41915 in all, are:
-= -- 5236
-> -- 303
-< -- 2139
-+ -- 2272
-- -- 44
-* -- 2711
-:= -- 8032
-add.period$ -- 85
-call.type$ -- 21
-change.case$ -- 358
+            1356 strings with 13537 characters,
+and the built_in function-call counts, 37883 in all, are:
+= -- 4747
+> -- 270
+< -- 1919
++ -- 2062
+- -- 40
+* -- 2429
+:= -- 7236
+add.period$ -- 77
+call.type$ -- 19
+change.case$ -- 324
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 1052
-empty$ -- 1566
-format.name$ -- 506
-if$ -- 7778
+cite$ -- 38
+duplicate$ -- 957
+empty$ -- 1418
+format.name$ -- 450
+if$ -- 7036
 int.to.chr$ -- 0
-int.to.str$ -- 42
+int.to.str$ -- 38
 missing$ -- 0
-newline$ -- 503
-num.names$ -- 168
-pop$ -- 664
+newline$ -- 452
+num.names$ -- 152
+pop$ -- 613
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 76
 quote$ -- 0
-skip$ -- 2618
+skip$ -- 2374
 stack$ -- 0
-substring$ -- 2510
-swap$ -- 597
-text.length$ -- 53
+substring$ -- 2285
+swap$ -- 536
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1744
+type$ -- 1584
 warning$ -- 1
-while$ -- 184
+while$ -- 165
 width$ -- 0
-write$ -- 600
+write$ -- 534
 (There was 1 warning)

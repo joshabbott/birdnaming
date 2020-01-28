@@ -127,7 +127,8 @@ clementstax_data = pd.read_csv("./clementstaxonomy.csv")
 clements_groups = get_clements_group(clementstax_data)
 
 # load ebird data
-ebd_data = pd.read_csv('./ebird_MX-OAX_relJul-2019_clean.csv')
+# ebd_data = pd.read_csv('./ebird_MX-OAX_relJul-2019_clean.csv')
+ebd_data = pd.read_csv('./ebird_MX-OAX_cogsci_clean.csv')
 # get bird counts, index by species name
 bird_counts = get_birdcounts(ebd_data)
 
