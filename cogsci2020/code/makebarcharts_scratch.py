@@ -1,7 +1,11 @@
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+plt.rcParams.update({'font.size': 12})
 
 
-bird_list = list(df['species']) 
+
 
 def get_barheights_freq(bar_species,bird_list,df):
 	heights = []
@@ -14,176 +18,92 @@ def get_barheights_freq(bar_species,bird_list,df):
 	return heights
 
 
+prototypes = ['Cathartes aura','Buteo jamaicensis','Columba livia',
+'Bubo virginianus','Thryomanes bewickii',
+'Haemorhous mexicanus']
+
+# read zapotec data
+df = pd.read_csv('./data/df_zapotec.csv')
 
 
-plt.subplot(1, 2, 1)
+plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
 
-# vultures
+
+plt.subplot(2, 3, 1)
+# vultures (3)
 bar_species = ['Cathartes aura','Coragyps atratus','Sarcoramphus papa']
 bar_labels = ('Turkey','Black','King')
 subplot_title = 'Vultures'
-
 heights = get_barheights_freq(bar_species,bird_list,df)
-
-
-y_pos = np.arange(len(bar_labels))
-# Create horizontal bars
-plt.barh(y_pos, heights)
-# Create names on the y-axis
-plt.yticks(y_pos, bar_labels)
-# add plot title
-plt.title(subplot_title)
-
-
-
-
-# plt.subplot(2, 2, 2)
-
-# # vultures
-# bar_species = ['Cathartes aura','Coragyps atratus','Sarcoramphus papa']
-# bar_labels = ('Turkey','Black','King')
-# subplot_title = 'Vultures'
-
-# heights = get_barheights_freq(bar_species,bird_list,df)
-
-
-# y_pos = np.arange(len(bar_labels))
-# # Create horizontal bars
-# plt.barh(y_pos, heights)
-# # Create names on the y-axis
-# plt.yticks(y_pos, bar_labels)
-# # add plot title
-# plt.title(subplot_title)
-
-
-
-plt.subplot(1, 2, 2)
-
-# hawks in general
-bar_species = ['Buteo jamaicensis','Accipiter cooperii','Buteo brachyurus','Buteo albonotatus','Falco peregrinus','Accipiter striatus']
-bar_labels = ('Red-tailed','Coopers','Short-tailed','Zone-tailed','Peregrine Falcon','Sharp-shinned')
-subplot_title = 'Hawks'
-
-heights = get_barheights_freq(bar_species,bird_list,df)
-
-
-y_pos = np.arange(len(bar_labels))
-# Create horizontal bars
-plt.barh(y_pos, heights)
-# Create names on the y-axis
-plt.yticks(y_pos, bar_labels)
-# add plot title
-plt.title(subplot_title)
-
-
-# plt.subplot(2, 2, 4)
-
-# # hawks in general
-# bar_species = ['Buteo jamaicensis','Accipiter cooperii','Buteo brachyurus','Buteo albonotatus','Falco peregrinus','Accipiter striatus']
-# bar_labels = ('Red-tailed','Coopers','Short-tailed','Zone-tailed','Peregrine Falcon','Sharp-shinned')
-# subplot_title = 'Hawks'
-
-# heights = get_barheights_freq(bar_species,bird_list,df)
-
-
-# y_pos = np.arange(len(bar_labels))
-# # Create horizontal bars
-# plt.barh(y_pos, heights)
-# # Create names on the y-axis
-# plt.yticks(y_pos, bar_labels)
-# # add plot title
-# plt.title(subplot_title)
-
-
-
-# Show graphic
-plt.show()
-
-
-
-plt.figure()
-# heights = [11514,7346,49]
-# bars = ('Turkey Vulture','Black Vulture','King Vulture')
-
-bar_species = ['Cathartes aura','Coragyps atratus','Sarcoramphus papa']
-bar_labels = ('Turkey','Black','King')
-subplot_title = 'Vultures'
-
-heights = get_barheights_freq(bar_species,bird_list,df)
-
 pos = [1,2,3]
 plt.bar(pos,heights,color=['red','black','black'])
-plt.title('Vultures')
-plt.xticks(pos,bar_labels)
-plt.show()
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+plt.tick_params(labelbottom=False)
 
+plt.subplot(2, 3, 2)
+# pigeons (2)
+bar_species = ['Columba livia','Patagioenas fasciata']
+bar_labels = ('Rock','Band-tailed')
+subplot_title = 'Pigeons'
+heights = get_barheights_freq(bar_species,bird_list,df)
+pos = [1,2]
+plt.bar(pos,heights,color=['red','black'])
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+plt.tick_params(labelbottom=False)
 
-
-
-
-
-# plt.figure()
-# heights = [2488,1169,844,772,745,1354]
-# bars = ('Red-tailed','Short-tailed','Zone-tailed','Peregrine Falcon','Sharp-shinned','Coopers')
-# 
+plt.subplot(2, 3, 3)
+# hawks (6)
 bar_species = ['Buteo jamaicensis','Accipiter cooperii','Buteo brachyurus','Buteo albonotatus','Falco peregrinus','Accipiter striatus']
 bar_labels = ('Red-tailed','Coopers','Short-tailed','Zone-tailed','Peregrine Falcon','Sharp-shinned')
 subplot_title = 'Hawks'
-
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3,4,5,6]
 plt.bar(pos,heights,color=['red','black','black','black','black','black'])
-plt.title('Hawks')
-plt.xticks(pos,bar_labels)
-plt.show()
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+plt.tick_params(labelbottom=False)
 
-
-# plt.figure()
-# heights = [1935,803]
-# bars = ('Rock','Band-tailed')
-# pos = [1,2]
-# plt.bar(pos,heights,color=['red','black'])
-# plt.title('Pigeons')
-# plt.xticks(pos,bars)
-# plt.show()
-
-
-plt.figure()
-# heights = [131,264,10]
-# bars = ('Great Horned','Mottled','Stygian')
-bar_species = ['Bubo virginianus','Ciccaba virgata','Asio stygius']
-bar_labels = ('Great Horned','Mottled','Stygian')
+plt.subplot(2, 3, 4)
+# owls (3)
+bar_species = ['Ciccaba virgata','Bubo virginianus','Asio stygius']
+bar_labels = ('Mottled','Great Horned','Stygian')
 subplot_title = 'Owls'
-
 heights = get_barheights_freq(bar_species,bird_list,df)
-
 pos = [1,2,3]
-plt.bar(pos,heights,color=['red','black','black'])
-plt.title('Owls')
-plt.xticks(pos,bar_labels)
-plt.show()
+plt.bar(pos,heights,color=['black','red','black'])
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+plt.tick_params(labelbottom=False)
 
-
-
-bar_species = ['Thryomanes bewickii','Ciccaba virgata','Asio stygius']
-bar_labels = ('Great Horned','Mottled','Stygian')
-subplot_title = 'Owls'
-
+plt.subplot(2, 3, 5)
+# finches (4)
+bar_species = ['Haemorhous mexicanus','Icterus wagleri','Pheucticus melanocephalus','Piranga rubra']
+bar_labels = ('House','Black-vented','Black-headed','Summer Tanager')
+subplot_title = 'Finches'
 heights = get_barheights_freq(bar_species,bird_list,df)
+pos = [1,2,3,4]
+plt.bar(pos,heights,color=['red','black','black','black'])
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+plt.tick_params(labelbottom=False)
 
-pos = [1,2,3]
-plt.bar(pos,heights,color=['red','black','black'])
-plt.title('Owls')
-plt.xticks(pos,bar_labels)
+
+plt.subplot(2, 3, 6)
+# wrens (6)
+bar_species = ['Thryomanes bewickii','Catherpes mexicanus','Oreothlypis superciliosa','Troglodytes aedon','Henicorhina leucophrys','Salpinctes obsoletus']
+bar_labels = ('Bewicks','Canyon','Crescent-chested','Brown-throated','Gray-breasted','Rock')
+subplot_title = 'Wrens'
+heights = get_barheights_freq(bar_species,bird_list,df)
+pos = [1,2,3,4,5,6]
+plt.bar(pos,heights,color=['red','black','black','black','black','black'])
+plt.title(subplot_title)
+# plt.xticks(pos,bar_labels)
+
+plt.tick_params(labelbottom=False)
+plt.tight_layout()
 plt.show()
-
-Bewick's Wren, (Thryomanes bewickii): 4937
-	Canyon Wren, (Catherpes mexicanus): 2130
-	Rock Wren, (Salpinctes obsoletus): 915
-	Brown-throated Wren, (Troglodytes bruneicollis): not in ebird
-	Gray-breasted Wood-Wren, (Henicorhina leucophrys): 1353
-	Crescent-chested Warbler, (Oreothlypis superciliosa): 1845
-
 
 
 

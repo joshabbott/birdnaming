@@ -145,7 +145,9 @@ terminal_names = get_terminallevel(zapotec_data)
 
 
 # define prototypes based on Hunn's marking
-prototypes = ['Cathartes aura','Buteo jamaicensis','Accipiter striatus','Columba livia','Bubo virginianus','Thryomanes bewickii','Myadestes occidentalis','Haemorhous mexicanus','Icterus wagleri']
+prototypes = ['Cathartes aura','Buteo jamaicensis','Columba livia',
+'Bubo virginianus','Thryomanes bewickii',
+'Haemorhous mexicanus']
 
 
 
@@ -192,7 +194,7 @@ basic2clements['Vermivora celata'] = 'Oreothlypis celata'
 basic2clements['Oporornis tolmiei'] = 'Geothlypis tolmiei'
 basic2clements['Picoides scalaris'] = 'Dryobates scalaris'
 basic2clements['Aratinga canicularis'] = 'Eupsittula canicularis'
-basic2clements['Troglodytes bruneicollis'] = 'Troglodytes aedon'
+# basic2clements['Troglodytes bruneicollis'] = 'Troglodytes aedon'
 basic2clements['Cypseloides rutilus'] = 'Streptoprocne rutila'
 basic2clements['Hirundo pyrrhonota'] = 'Petrochelidon pyrrhonota'
 basic2clements['Caprimulgus arizonae'] = 'Antrostomus arizonae'
@@ -215,7 +217,7 @@ clements2birdmass['Amazilia wagneri'] = 'Amazilia rutila'
 clements2birdmass['Centurus hypopolius'] = 'Melanerpes hypopolius'
 clements2birdmass['Dryobates villosus'] = 'Picoides villosus'
 clements2birdmass['Poecile sclateri'] = 'Parus sclateri'
-clements2birdmass['Troglodytes bruneicollis'] = 'Troglodytes aedon'
+# clements2birdmass['Troglodytes bruneicollis'] = 'Troglodytes aedon'
 clements2birdmass['Oreothlypis superciliosa'] = 'Parula superciliosa'
 clements2birdmass['Ptiliogonys cinereus'] = 'Ptilogonys cinereus'
 clements2birdmass['Cardellina pusilla'] = 'Wilsonia pusilla'

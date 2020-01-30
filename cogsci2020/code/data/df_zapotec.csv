@@ -12,10 +12,10 @@ Pooecetes gramineus,6.125,25.68,198,wǐt,wǐt,New World Sparrows,0
 Glaucidium gnoma,7.25,61.25,413,mquí,mquí,Owls,0
 Zenaida macroura,12.0,118.93,1936,mézh,mézh,Pigeons and Doves,0
 Hylocharis leucotis,3.4,3.39,2753,dzǐn̲g,dzǐn̲g-dán-yǎ-guì,Hummingbirds,0
-Icterus wagleri,8.75,41.8,5262,mguěy,mguěy-guièe-pchôg,Blackbirds,1
+Icterus wagleri,8.75,41.8,5262,mguěy,mguěy-guièe-pchôg,Blackbirds,0
 Picoides scalaris,7.0,31.59,0,càrpìntêr,càrpìntêr-psì-yèen̲,Woodpeckers,0
 Carduelis psaltria,4.5,8.77,0,mdzíl-dò,mdzíl-dò,"Finches, Euphonias, and Allies",0
-Myadestes occidentalis,8.0,36.4,3842,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,1
+Myadestes occidentalis,8.0,36.4,3842,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,0
 Sphyrapicus varius,8.5,50.3,671,càrpìntêr,càrpìntêr-diè,Woodpeckers,0
 Columbina inca,8.0,47.5,10723,côc,côc,Pigeons and Doves,0
 Vireo huttoni,4.875,11.3,2103,mtsùu,mtsùu,Vireos,0
@@ -35,7 +35,7 @@ Catharus frantzii,6.5,28.9,357,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrus
 Megascops trichopsis,7.25,88.26,112,mquí,mquí,Owls,0
 Tyrannus verticalis,8.75,39.6,1155,cùchguêr,cùchguêr,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0
 Empidonax oberholseri,5.75,10.4,1198,wǐt,wǐt,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0
-Accipiter striatus,12.0,130.59,862,msì,msì-lâg,"Vultures, Hawks, and Allies",1
+Accipiter striatus,12.0,130.59,862,msì,msì-lâg,"Vultures, Hawks, and Allies",0
 Lampornis amethystinus,4.75,5.2,562,dzǐn̲g,dzǐn̲g-yǎ-guì,Hummingbirds,0
 Cyanocitta stelleri,11.5,128.0,2302,cuǐl̲,cuǐl̲-guì,"Jays, Magpies, Crows, and Ravens",0
 Melozone albicollis,8.1,46.4,9110,chûurr,chûurr,New World Sparrows,0
@@ -71,6 +71,7 @@ Eugenes fulgens,4.525,8.0,1642,dzǐn̲g,dzǐn̲g,Hummingbirds,0
 Junco phaeonotus,6.25,20.4,2155,mguîn̲-x-còl-nquǐts,mguîn̲-x-còl-nquǐts,New World Sparrows,0
 Buteo albonotatus,19.5,745.92,993,msì,msì,"Vultures, Hawks, and Allies",0
 Pipilo maculatus,7.25,39.28,1523,mguîn̲-wǐx,mguîn̲-wǐx,New World Sparrows,0
+Troglodytes aedon,4.699999999999999,10.85,2184,nguzhǐn,nguzhǐn-guì,Wrens,0
 Spatula discors,15.15,359.44,2080,bǎd,bǎd-guìx,Waterfowl,0
 Melanerpes formicivorus,9.0,79.62,949,càrpìntêr,càrpìntêr-ngǎs,Woodpeckers,0
 Dendrocygna autumnalis,19.5,755.3,1153,pìxîx,pìxîx,Waterfowl,0
@@ -132,7 +133,6 @@ Calothorax pulcher,3.25,2.7,609,dzǐn̲g,dzǐn̲g,Hummingbirds,0
 Caprimulgus arizonae,9.399999999999999,53.3,0,pùrpùrwít,pùrpùrwít,Nightjars,0
 Anas platyrhynchos,23.0,843.42,0,bǎd,bǎd,Waterfowl,0
 Cyrtonyx montezumae,8.5,185.38,18,mtǒ,mtǒ,"Grouse, Quail, and Allies",0
-Troglodytes bruneicollis,4.699999999999999,10.85,0,nguzhǐn,nguzhǐn-guì,Wrens,0
 Bombycilla cedrorum,7.0,31.58,533,mguîn̲-bæ̀d,mguîn̲-bæ̀d,Waxwings,0
 Trogon mexicanus,12.5,71.0,1561,mèr-dán,mèr-dán,Trogons and Quetzals,0
 Spizella passerina,5.5,12.2,1834,mtsùu,mtsùu,New World Sparrows,0

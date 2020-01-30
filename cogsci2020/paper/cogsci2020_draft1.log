@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 JAN 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 JAN 2020 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,62 +285,46 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 220--221
  [] 
  []
 
-<./figures/nameforms-both.png, id=14, 867.24pt x 361.35pt>
+<./figures/nameforms-both.png, id=14, 650.43pt x 289.08pt>
 File: ./figures/nameforms-both.png Graphic file (type png)
 
 <use ./figures/nameforms-both.png>
 Package pdftex.def Info: ./figures/nameforms-both.png used on input line 249.
-(pdftex.def)             Requested size: 480.59395pt x 200.24837pt.
+(pdftex.def)             Requested size: 480.59395pt x 213.60266pt.
  [2 <./figures/birdfreq-violinplots.png> <./figures/birdmass-violinplots.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<./figures/prototype-barplot-vultures.png, id=20, 462.528pt x 346.896pt>
-File: ./figures/prototype-barplot-vultures.png Graphic file (type png)
+<./figures/prototypes-barplots-all.png, id=20, 867.24pt x 433.62pt>
+File: ./figures/prototypes-barplots-all.png Graphic file (type png)
 
-<use ./figures/prototype-barplot-vultures.png>
-Package pdftex.def Info: ./figures/prototype-barplot-vultures.png used on input
- line 298.
-(pdftex.def)             Requested size: 252.94499pt x 189.70827pt.
+<use ./figures/prototypes-barplots-all.png>
+Package pdftex.def Info: ./figures/prototypes-barplots-all.png used on input li
+ne 306.
+(pdftex.def)             Requested size: 480.59395pt x 240.29803pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 298--299
- [] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3 <./figures/ssrr-singlespecies.png> <./figures/nameforms-both.png>]
-<./figures/prototypefreqs-violinplots.png, id=26, 462.528pt x 346.896pt>
-File: ./figures/prototypefreqs-violinplots.png Graphic file (type png)
-
-<use ./figures/prototypefreqs-violinplots.png>
-Package pdftex.def Info: ./figures/prototypefreqs-violinplots.png used on input
- line 310.
-(pdftex.def)             Requested size: 252.94499pt x 189.70827pt.
-
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 310--311
- [] 
- []
-
-(./cogsci2020_draft1.bbl [4 <./figures/freq-namelength.png> <./figures/prototyp
-e-barplot-vultures.png> <./figures/prototypefreqs-violinplots.png>]) [5
-
-]
-(./cogsci2020_draft1.aux) ) 
+ [3 <./figures/ssrr-singlespecies.png> <./figures/nameforms-both.png>] [4 <./fi
+gures/prototypes-barplots-all.png> <./figures/freq-namelength.png>]
+(./cogsci2020_draft1.bbl) [5] (./cogsci2020_draft1.aux) ) 
 Here is how much of TeX's memory you used:
- 2382 strings out of 493117
- 34675 string characters out of 6135433
- 96924 words of memory out of 5000000
- 5806 multiletter control sequences out of 15000+600000
+ 2376 strings out of 493117
+ 34416 string characters out of 6135433
+ 96916 words of memory out of 5000000
+ 5801 multiletter control sequences out of 15000+600000
  35773 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,1300b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/
-base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cogsci2020_draft1.pdf (5 pages, 463461 bytes).
+{/usr/local/texlive/20
+14/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on cogsci2020_draft1.pdf (5 pages, 462313 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
