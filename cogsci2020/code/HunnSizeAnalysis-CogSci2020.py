@@ -29,7 +29,7 @@ import seaborn as sns
 from scipy.stats import pearsonr
 from scipy.stats import linregress
 
-
+plt.rcParams.update({'font.size': 14})
 # In[57]:
 
 
@@ -420,3 +420,64 @@ plt.xlabel('log freq')
 
 
 plt.show()
+
+
+
+
+# ## A further methodological refinement
+# Treating each scientific species as a "sampling unit" (the single species point method), calculating an average size for each species, then calculating the SSRRS of each species according to a slightly variant procedure.
+# 
+# The SSRR of a species this procedure is 1 if it corresponds 1:1 to a basic folk taxon, it is 0.5 if it is one of two species included within a single basic folk taxon; it is 0.33 if it is one of three such species; and it may be 2.0 if it is "split" between two basic folk taxa; and so on.
+
+# In[98]:
+
+
+SSRR_species = {}
+xs = []
+ys = []
+zs = []
+for bird_species in bird_list:
+    # get basic level
+    basic_taxon = basic_levels[bird_species]
+    len_unique_species_in_basic = len(list(set(zapotec_data[zapotec_data['folk_generic'] == basic_taxon]['species'])))
+    SSRR_species[bird_species] = 1/len_unique_species_in_basic
+    xs.append(bird_sizes[bird_species])
+    ys.append(SSRR_species[bird_species])
+    zs.append(bird_counts[bird_species])
+    
+    
+
+
+# In[99]:
+plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
+
+plt.subplot(1,2,1)
+slope, intercept, r_value, p_value, std_err = linregress(np.log(xs), ys)
+print("slope: %f    intercept: %f" % (slope, intercept))
+print("R-squared: %f" % r_value**2)
+
+plt.scatter(np.log(xs),ys)
+plt.plot(np.log(xs),intercept+slope*np.log(xs),'r')
+plt.xlabel('log size')
+plt.ylabel('SSRR (1/#species per taxon)')
+
+
+
+# In[100]:
+
+plt.subplot(1,2,2)
+slope, intercept, r_value, p_value, std_err = linregress(np.log(zs), ys)
+print("slope: %f    intercept: %f" % (slope, intercept))
+print("R-squared: %f" % r_value**2)
+
+# plot log freq vs. SSRR
+plt.scatter(np.log(zs),ys)
+plt.plot(np.log(zs),intercept+slope*np.log(zs),'r')
+plt.xlabel('log freq')
+# plt.ylabel('SSRR (1/#species per taxon)')
+
+plt.tight_layout()
+plt.show()
+
+# plt.figsave("../paper/figures/ssrr-singlespecies2", ext="png", close=True, verbose=True)
+

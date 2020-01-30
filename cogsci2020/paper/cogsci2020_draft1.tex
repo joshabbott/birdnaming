@@ -49,7 +49,7 @@
 %%the camera-ready version, which could interfere with the timely
 %%appearance of your paper in the Proceedings.
 
-\title{Exploring the contributions of environmental factors in folk categorization}
+\title{Birds and Words: Exploring environmental factors in folk categorization}
  
 \author{{\large \bf Joshua T. Abbott (joshua.abbott@unimelb.edu.au)} \\
  {\large \bf Charles Kemp (ckemp@unimelb.edu.au)} \\
@@ -77,7 +77,6 @@ What role does frequency of exposure have in being able to determine the name fo
 
 More generally, we're interested in exploring computational principles that guide the naming and structuring of categories. Following a tradition of ethnobiological classification \cite{berlin1973general,berlin2014ethnobiological}, we aim to explore what kinds of features influence these behaviors. 
 
-
 % In particular we will explore frequency of observation. (WE'LL WANT SOME COGPSYCH PAPERS ABOUT THIS -- THAT ACTUALLY MIGHT BE A NICE WAY TO FRAME SOME RESULTS LATER -- SHOULD EXPLORE PREVIOUS PAPERS FOR POSSIBLE HYPOTHESES/PREDICTIONS RELATED TO THIS -- e.g., where we use eBird data as the frequency and test predictions against the language data)
 
 What ebird can contribute to the folk biology literature: frequency data.
@@ -90,11 +89,20 @@ This connects with the theoretical debate about cognitive vs utilitarian view of
 
 3) in cases where nomenclature reveals prototype effects -- is the prototype highest in frequency?
 
-The outline for the rest of the paper is as follows. First we describe some of the factors that ethnobiologists have explored and the variables in particular that we will consider. Then we examine some questions using this data. We then discuss the implications of this work and potential future directions. We conlude with a brief summary of the work.
+We also examine the contribution of mass, following \cite{hunn1999size}, and extending to other questions.
+
+We focus on two issues:
+
+(1) which categories get named
+
+(2) which labels are chosen for those categories
+
+
+The outline for the rest of the paper is as follows. First we describe some of the factors that ethnobiologists have explored and the variables in particular that we will consider. Then we examine some questions using this data. We then discuss the implications of this work and potential future directions. We conclude with a brief summary of the work.
 
 
 \section{Environmental factors in ethnobiological classification}
-Environmental factors have played a major role in scientific classification of species \cite{amadon1943bird}.
+Environmental factors have played a major role in scientific classification of species \cite{amadon1943bird,hunn1999size}.
 
 Here we talk about the data we use. We show how to utilize publicly available digitized information to explore these questions.
 
@@ -104,6 +112,8 @@ Here we talk about the data we use. We show how to utilize publicly available di
 We focus on a single language for brevity. We use bird-naming data from \cite{hunn2008zapotec}, also found online\footnote{http://faculty.washington.edu/hunn/zapotec/z5.html}, a Zapotec language spoken in a small village in San Juan Gb\"{e}\"{e}, Oaxaca Mexico.
 
 Describe the dataset and what we extracted from it (e.g., basic-level, terminal-level names, prototypes, etc.) in more detail here.
+
+For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 13 birds in Zapotec. Of these 13 birds, there are 3 other labels besides \textit{dz\v{i}n\b{g}}, there are folk-specifics \textit{dz\v{i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{i}n\b{g}-gu\'{e}}, \textit{and dz\v{i}n\b{g}-y\v{a}-gu\`{i}}.
 
 \subsection{Frequency data}
 We utilize a citizen-based bird observation network, eBird \cite{sullivan2009ebird}. We sampled bird observational data from just the region containing the state of Oaxaca, Mexico\footnote{We use eBird observation of frequency from the Basic Dataset (EBD) on https://ebird.org/data/download, last accessed January 24, 2020.}. This resulted in XXX entries. 
@@ -117,16 +127,16 @@ We'll also look at bird size as a factor, following \cite{hunn1999size} and usin
 
 We focus on the body mass data, separately sourced from \cite{dunning2007crc}, which is measured as the geometric mean of average values provided for both sexes.
 
-\subsection{Distribution of data}
-Here we plot the log mass by log frequency of the birds named in Zapotec in Figure \ref{fig-birdmassxfreq}. We see that smaller birds tend to never have a low frequency.
+% \subsection{Distribution of data}
+% Here we plot the log mass by log frequency of the birds named in Zapotec in Figure \ref{fig-birdmassxfreq}. We see that smaller birds tend to never have a low frequency.
 
-\begin{figure}[h!]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{./figures/bird_massxfreq.png}
-        \caption{Frequencies and masses of birds named in Zapotec.}
-        \label{fig-birdmassxfreq}
-  \end{center}
-\end{figure}
+% \begin{figure}[h!]
+%   \begin{center}
+%     \includegraphics[width=0.5\textwidth]{./figures/bird_massxfreq.png}
+%         \caption{Frequencies and masses of birds named in Zapotec.}
+%         \label{fig-birdmassxfreq}
+%   \end{center}
+% \end{figure}
 
 
 \section{What categories are given a name?}
@@ -137,11 +147,11 @@ We first look at the distributions of birds with and without names in Zapotec, u
 Here we analyze the frequencies of birds named in Zapotec. We plot the densities of birds named and unamed birds, along with all birds observed in the state of Oaxaca in Figure~\ref{fig-birdfreqviolin}.
 
 \begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=0.5\textwidth]{./figures/birdfreq-violinplots.png}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{./figures/birdfreq-violinplots.png}
         \caption{Frequency densities of birds named in Zapotec and those observed in the state of OAX.}
         \label{fig-birdfreqviolin}
-	\end{center}
+  \end{center}
 \end{figure}
 
 \subsection{Size}
@@ -154,6 +164,13 @@ Here we analyze the masses of birds named in Zapotec. We plot the densities of b
         \label{fig-birdmassviolin}
   \end{center}
 \end{figure}
+% \begin{figure*}[hbt!]
+%   \begin{center}
+%     \includegraphics[width=.95\textwidth]{./figures/birdfreqmass-violinplots.png}
+%         \caption{Frequency densities (left) and Mass densitities (right) of birds named in Zapotec and those observed in the state of OAX.}
+%         \label{fig-birdfreqmassviolin}
+%   \end{center}
+% \end{figure*}
 
 We see here that frequency is more informative than mass in predicting which birds in OAX are given a name in Zapotec. In the next section, we will find a different set of results.
 
@@ -164,29 +181,41 @@ Here we re-explore Hunn's analysis of how size affects the perceptual salience f
 % By contrast, ornithologists have recorded 291 species of birds from south- eastern Alaska, the homeland of the Tlingit people (Armstrong, 1990). Have the Tlingit noted only 30 per cent (89/291) of the region’s bird species? By contrast, the Fore of Papua New Guinea name 92 per cent of the species recorded during a comprehensive ornithological survey (Diamond, 1966). These percentages are what Hunn (1975) has defined as the Scientific Species Recognition Ratio (SSRR; Table 13.1), which is the number of bird categories recognized by the local residents divided by the number of bird species recorded in the same territory by professional biologists (Hunn, 1999). This ratio will include a certain number of folk categories that are in 1:1 correspon- dence with a single scientific species, but also instances of under-differentiation – where the folk system ‘lumps’ a group of birds that professional scientists consider to represent two or more species – and over-differentiation – where the folk system ‘splits’ a single scientific species into two or more basic categories. The SSRR will decline when local people are selective in their atten- tion, dismissing species of limited cultural salience with a very general term or ignoring them altogether.
 Hunn proposed that the size of an organism is influential in folk categorization and developed a measure which examines the degree to which the organisms are recognized taxonomically in the folk classification. Typical use of the measure considers how many scientific species are included within each folk-generic or folk-specific level taxon. Hunn called this the Scientific Species Recognition Ratio (SSRR).
 
-For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 13 birds in Zapotec. Of these 13 birds, there are 3 other labels besides \textit{dz\v{i}n\b{g}}, there are folk-specifics \textit{dz\v{i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{i}n\b{g}-gu\'{e}}, \textit{and dz\v{i}n\b{g}-y\v{a}-gu\`{i}}. Thus the SSRR of hummingbirds for folk-generic analyses would be 1/13, and 4/13 for folk-specific analyses.
+% For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 13 birds in Zapotec. Of these 13 birds, there are 3 other labels besides \textit{dz\v{i}n\b{g}}, there are folk-specifics \textit{dz\v{i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{i}n\b{g}-gu\'{e}}, \textit{and dz\v{i}n\b{g}-y\v{a}-gu\`{i}}. Thus the SSRR of hummingbirds for folk-generic analyses would be 1/13, and 4/13 for folk-specific analyses.
 
-For our sample groups, we use the eBird species group, which is standardized using the Clements taxonomy \cite{clements2007clements}. This results in sampling groups like "Hummingbirds", "Owls", "Waterfowl", etc.
+Treating each scientific species as a ``sampling unit'' (the single species point method), calculating an average size for each species, then calculating the SSRRS of each species according to a slightly variant procedure.
 
-We analyze both folk-generic and folk-specific names using both mass and frequency as predictors. Figure~\ref{fig-ssrr} presents SSRR plots of folk-generic names (top row) and folk-specific names (bottom row) for both mass (left column) and frequency (right column).
+The SSRR of a species this procedure is 1 if it corresponds 1:1 to a basic folk taxon, it is 0.5 if it is one of two species included within a single basic folk taxon; it is 0.33 if it is one of three such species; and so on.
 
+We analyze this using both mass and frequency as predictors. Figure~\ref{fig-ssrr} presents SSRR plots of folk-generic names (top row) and folk-specific names (bottom row) for both mass (left column) and frequency (right column).
+
+% \begin{figure*}[t!]
+%   \begin{center}
+%     \includegraphics[width=1.0\textwidth]{./figures/ssrr-bothplots.png}
+%         \caption{SSRR plots of folk-generic names (top row) and folk-specific names (bottom row) for both mass (left column) and frequency (right column).}
+%         \label{fig-ssrr}
+%   \end{center}
+% \end{figure*}
 \begin{figure*}[t!]
   \begin{center}
-    \includegraphics[width=1.0\textwidth]{./figures/ssrr-bothplots.png}
-        \caption{SSRR plots of folk-generic names (top row) and folk-specific names (bottom row) for both mass (left column) and frequency (right column).}
+    \includegraphics[width=0.95\textwidth]{./figures/ssrr-singlespecies.png}
+        \caption{SSRR plots of single-species for both mass (left column) and frequency (right column).}
         \label{fig-ssrr}
   \end{center}
 \end{figure*}
 
-
 Here we find that mass rather than frequency is a better predictor, opposite of the results in the previous section.
+
+
+
+
 
 \section{Analysis of name-forms}
 
 \subsection{Name-length}
 Here we analyze the frequencies of birds named in Zapotec in relation to the name length of the bird. See Figure~\ref{fig-freq-namelength}
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{./figures/freq-namelength.png}
         \caption{Frequency densities of birds named in Zapotec as a function of name length.}
@@ -195,26 +224,33 @@ Here we analyze the frequencies of birds named in Zapotec in relation to the nam
 \end{figure}
 
 \subsection{Compound names}
-Here we further examine names based on whether the Zapotec label is a single word (a monomial) or a compound of multiple words. First we examine frequencies, in Figure~\ref{fig-freq-nameforms}. Here we see that the monomials tend to be more frequently observed than compounds. The raw mean frequency counts are mono = 2465 and compound = 1715, for monomials and compound names, respectively.
+Here we further examine names based on whether the Zapotec label is a single word (a monomial) or a compound of multiple words. First we examine frequencies, in Figure~\ref{fig-both-nameforms}. Here we see that the monomials tend to be more frequently observed than compounds. The raw mean frequency counts are mono = 2465 and compound = 1715, for monomials and compound names, respectively.
 
-\begin{figure}[h!]
+% \begin{figure}[h!]
+%   \begin{center}
+%     \includegraphics[width=0.5\textwidth]{./figures/freq-nameforms.png}
+%         \caption{Frequency densities of birds named in Zapotec as a function of name form.}
+%         \label{fig-freq-nameforms}
+%   \end{center}
+% \end{figure}
+
+We also explore how masses are distributed based on name form. See Figure~\ref{fig-both-nameforms}. Here we see a similar trend as before, with raw mean masses of mono = 375g and compound = 152g.
+
+% \begin{figure}[h!]
+%   \begin{center}
+%     \includegraphics[width=0.5\textwidth]{./figures/mass-nameforms.png}
+%         \caption{Mass densities of birds named in Zapotec as a function of name form.}
+%         \label{fig-mass-nameforms}
+%   \end{center}
+% \end{figure}
+
+\begin{figure*}[ht!]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{./figures/freq-nameforms.png}
-        \caption{Frequency densities of birds named in Zapotec as a function of name form.}
-        \label{fig-freq-nameforms}
+    \includegraphics[width=0.95\textwidth]{./figures/nameforms-both.png}
+        \caption{Frequency and mass densities of birds named in Zapotec as a function of name form.}
+        \label{fig-both-nameforms}
   \end{center}
-\end{figure}
-
-We also explore how masses are distributed based on name form. See Figure~\ref{fig-mass-nameforms}. Here we see a similar trend as before, with raw mean masses of mono = 375g and compound = 152g.
-
-\begin{figure}[h!]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{./figures/mass-nameforms.png}
-        \caption{Mass densities of birds named in Zapotec as a function of name form.}
-        \label{fig-mass-nameforms}
-  \end{center}
-\end{figure}
-
+\end{figure*}
 
 \subsection{Prototypes}
 
@@ -257,7 +293,7 @@ Following Hunn's data\cite{hunn2008zapotec}, we used X prototypes; instances in 
 % 5c) pěch[-0] [`vulture´, unmarked prototype] (= pěch-yèts [`vulture´ + `yellowish´]); Turkey Vulture (Cathartes aura): the prototypical vulture; normally simply named pěch.
 We explored every clear instance in which Hunn determined a prototype in his data. See Figure \ref{fig-freq-prototype-vultures} to see the distribution for vultures, in which the prototypical Turkey Vulture clearly is more frequent. This trend holds across the other instances in the Hunn data\footnote{with a noteable exception for the category of Owls. Refer to the Discussion for more information.}.
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{./figures/prototype-barplot-vultures.png}
         \caption{Frequencies of Vultures named in Zapotec, with the prototypical Turkey Vulture highlighted in red.}
@@ -269,7 +305,7 @@ We explored every clear instance in which Hunn determined a prototype in his dat
 
 In Figure \ref{fig-freq-prototype-densities} we examine a violinplot of the frequencies of birds in Zapotec split into groups based on whether the label is an unmarked prototype or not. We see those that are prototypes are highest in frequency (m=7.93 vs. m=7.02 for log non-zero frequency of prototypes and non-prototypes respectively).
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{./figures/prototypefreqs-violinplots.png}
         \caption{Log-Frequency densities of birds named in Zapotec as a function of whether or not their name is an unmarked-prototype.}

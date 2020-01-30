@@ -28,30 +28,6 @@ Berlin%
 }{%
 Berlin%
 }{%
-{\protect \APACyear {1972}}%
-}]{%
-berlin1972speculations}
-\APACinsertmetastar {%
-berlin1972speculations}%
-\begin{APACrefauthors}%
-Berlin, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1972}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Speculations on the growth of ethnobotanical
-  nomenclature} {Speculations on the growth of ethnobotanical
-  nomenclature}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Language in society}{1}{1}{51--86}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Berlin%
-}{%
-Berlin%
-}{%
 {\protect \APACyear {2014}}%
 }]{%
 berlin2014ethnobiological}
@@ -98,29 +74,6 @@ Berlin, B.%
   biology}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{American anthropologist}{75}{1}{214--242}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Clements%
-}{%
-Clements%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-clements2007clements}
-\APACinsertmetastar {%
-clements2007clements}%
-\begin{APACrefauthors}%
-Clements, J\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2007}.
-\newblock
-\APACrefbtitle {Clements checklist of birds of the world} {Clements checklist
-  of birds of the world}.
-\newblock
-\APACaddressPublisher{}{Comstock Pub. Associates/Cornell University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

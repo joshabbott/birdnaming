@@ -13,45 +13,45 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: CogSci2020.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 19 entries,
+You've used 17 entries,
             6735 wiz_defined-function locations,
-            1356 strings with 13537 characters,
-and the built_in function-call counts, 37883 in all, are:
-= -- 4747
-> -- 270
-< -- 1919
-+ -- 2062
-- -- 40
-* -- 2429
-:= -- 7236
-add.period$ -- 77
-call.type$ -- 19
-change.case$ -- 324
+            1347 strings with 13303 characters,
+and the built_in function-call counts, 34821 in all, are:
+= -- 4356
+> -- 250
+< -- 1780
++ -- 1935
+- -- 36
+* -- 2250
+:= -- 6692
+add.period$ -- 69
+call.type$ -- 17
+change.case$ -- 290
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 957
-empty$ -- 1418
-format.name$ -- 450
-if$ -- 7036
+cite$ -- 34
+duplicate$ -- 885
+empty$ -- 1280
+format.name$ -- 422
+if$ -- 6423
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 34
 missing$ -- 0
-newline$ -- 452
-num.names$ -- 152
-pop$ -- 613
+newline$ -- 408
+num.names$ -- 136
+pop$ -- 544
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 68
 quote$ -- 0
-skip$ -- 2374
+skip$ -- 2160
 stack$ -- 0
-substring$ -- 2285
-swap$ -- 536
-text.length$ -- 49
+substring$ -- 2144
+swap$ -- 495
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1584
+type$ -- 1424
 warning$ -- 1
-while$ -- 165
+while$ -- 155
 width$ -- 0
-write$ -- 534
+write$ -- 486
 (There was 1 warning)
