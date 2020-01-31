@@ -284,5 +284,69 @@ for cur_species in bird_list:
         prototype.append('0')
 
 
+# for bird_species in bird_list:
+#     # get basic level
+#     basic_taxon = basic_levels[cur_species]
+#     len_unique_species_in_basic = len(list(set(zapotec_data[zapotec_data['folk_generic'] == basic_taxon]['species'])))
+#     # SSRR_species[bird_species] = 1/len_unique_species_in_basic
+#     SSRR_species[bird_species] = len_unique_species_in_basic
+#     xs.append(bird_sizes[bird_species])
+
 df = pd.DataFrame(list(zip(species,lengths,masses,freq,folk_generic,folk_specific,clements_group,prototype)),columns =['species','length','mass','freq','folk_generic','folk_specific','clements_group','prototype'])
+# df.to_csv('./df_zapotec.csv', index=False)
+
+group_size_folk_generics = []
+basic_levels = list(df['folk_generic']) 
+for basic_level in basic_levels:
+	group_size_folk_generics.append(len(df[df['folk_generic'] == basic_level]))
+df['group_size_folk_generics'] = group_size_folk_generics 
+
+group_size_folk_specific = []
+terminal_levels = list(df['folk_specific']) 
+for terminal_level in terminal_levels:
+	group_size_folk_specific.append(len(df[df['folk_specific'] == terminal_level]))
+df['group_size_folk_specific'] = group_size_folk_specific 
+
+
+group_size_clements = []
+clements_groups = list(df['clements_group'])
+for clements_group_item in clements_groups:
+	group_size_clements.append(len(df[df['clements_group'] == clements_group_item]))
+df['group_size_clements'] = group_size_clements 
+
+
+
+
+# add all other birds
+	
+# Pass the row elements as key value pairs to append() function 
+modDfObj = dfObj.append({'Name' : 'Sahil' , 'Age' : 22} , ignore_index=True)
+
+
+species  length    mass   freq  folk_generic folk_specific clements_group prototype  group_size_folk_generics  group_size_folk_specific  group_size_clements
+
+
+bird_list = list(df['species']) 
+
+missing_species = []
+missing_freq = []
+missing_mass = []
+
+for birdname in bird_counts.keys():
+	if birdname not in bird_list:
+		# get species name, freq, mass -- everything else is NA
+		missing_species.append(birdname)
+		missing_freq.append(bird_counts[birdname])
+		missing_mass.append(get_birdmass(birdname,bird_mass_df))
+
+i=0
+for cur_item in missing_species:
+	foo = {'species':cur_item,'length':'NA','mass':missing_mass[i],'freq':missing_freq[i],'folk_generic':'NA','folk_specific':'NA','clements_group':'NA','prototype':'NA','group_size_folk_generics':'NA','group_size_folk_specific':'NA','group_size_clements':'NA'}
+	print(foo)
+	i+=1
+
+
+
+
 df.to_csv('./df_zapotec.csv', index=False)
+
