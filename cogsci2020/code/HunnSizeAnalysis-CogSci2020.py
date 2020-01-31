@@ -440,7 +440,8 @@ for bird_species in bird_list:
     # get basic level
     basic_taxon = basic_levels[bird_species]
     len_unique_species_in_basic = len(list(set(zapotec_data[zapotec_data['folk_generic'] == basic_taxon]['species'])))
-    SSRR_species[bird_species] = 1/len_unique_species_in_basic
+    # SSRR_species[bird_species] = 1/len_unique_species_in_basic
+    SSRR_species[bird_species] = len_unique_species_in_basic
     xs.append(bird_sizes[bird_species])
     ys.append(SSRR_species[bird_species])
     zs.append(bird_counts[bird_species])
@@ -459,7 +460,7 @@ print("R-squared: %f" % r_value**2)
 plt.scatter(np.log(xs),ys)
 plt.plot(np.log(xs),intercept+slope*np.log(xs),'r')
 plt.xlabel('log size')
-plt.ylabel('SSRR (1/#species per taxon)')
+plt.ylabel('#species per taxon')
 
 
 
