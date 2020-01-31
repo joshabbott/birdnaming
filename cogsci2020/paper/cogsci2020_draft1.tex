@@ -49,7 +49,7 @@
 %%the camera-ready version, which could interfere with the timely
 %%appearance of your paper in the Proceedings.
 
-\title{Birds and Words: Exploring environmental factors in folk categorization}
+\title{Birds and Words: Exploring environmental influences on folk categorization}
  
 \author{{\large \bf Joshua T. Abbott (joshua.abbott@unimelb.edu.au)} \\
  {\large \bf Charles Kemp (ckemp@unimelb.edu.au)} \\
@@ -73,32 +73,44 @@ ethnobiology; categorization; bird naming; citizen science
 
 \section{Introduction}
 
-What role does frequency of exposure have in being able to determine the name for a bird or its role in a taxonomy? What about the size of the bird? BIG QUESTION: What contributes to naming data?
 
-More generally, we're interested in exploring computational principles that guide the naming and structuring of categories. Following a tradition of ethnobiological classification \cite{berlin1973general,berlin2014ethnobiological}, we aim to explore what kinds of features influence these behaviors. 
+
+Languages around the world include rich systems of names for plants and animals, and each system can be viewed as the outcome of a natural experiment in which generations of speakers have organized their local environment into categories. A classic line of work in cognitive anthropology addresses the question of how named categories reflect the structure of the local environment~\cite{berlin2014ethnobiological}. One prominent theme is that folk taxonomies often align well with Western scientific taxonomies, suggesting that folk taxonomies are shaped more by environmental structure than by the idiosyncratic needs and concerns of a particular culture. 
+
+Much of the cognitively-oriented work on folk biology took place last century, and in recent years new data sets have made it possible to characterize the structure of the environment in ways that were previously difficult or impossible. Here we draw on these resources to revisit the classic question of the relationship between named categories and the environment. We focus on birds in particular, and begin by compiling properties of the bird species in a given area (e.g.\ how big is each species, and how often is it observed?) We then study how these properties relate to named bird categories in the local language. In particular, we ask whether the frequency of a species influences whether  the species is named, and if so whether frequency influences the form of the name for that species and how many other species it is grouped with. 
+
+The effects of frequency on categorization have been previously studied in the psychological literature~\cite{parducci83,nosofsky88,barsalouhl98}.  One relevant finding is that categories tend to be relatively broad in low-frequency regions of stimulus space, but relatively narrow in regions including frequently encountered stimuli~\cite{parducci83}. We might therefore predict that bird species encountered frequently are more likely to be assigned to their own distinctive categories.  
+
+Our focus on frequency also connects with a prominent debate between \emph{intellectualist} ~\cite{berlin2014ethnobiological} and \emph{utilitarian} \cite{hunn1982utilitarian} accounts of folk classification. The intellectualist view holds that named categories reflect ``fundamental biological discontinuities`` that are perceptually salient (Berlin, 1992 p 53)~\nocite{berlin2014ethnobiological}, and assigns a minimal role to freqeuncy. The utilitarian view emphasizes ways in which categories are useful for a given culture, and naturally accommodates frequency effects because assigning a label to a category is especially worthwhile if there are many occasions to use it.
+
+The next section introduces the data sets that we use, and we then address two broad questions. First, we focus on category extensions, and ask whether environmental factors predict whether a species is named, and how the set of named species is organized into groups. Second, we focus on category labels, and ask whether environmental factors predict the relative lengths of category labels, and which labels have the structure of unmarked prototypes. 
+
+%The outline for the rest of the paper is as follows. First we describe some of the factors that ethnobiologists have explored and the variables in particular that we will consider. Then we examine some questions using this data. We then discuss the implications of this work and potential future directions. We conclude with a brief summary of the work.
+
+
+%What role does frequency of exposure have in being able to determine the name for a bird or its role in a taxonomy? What about the size of the bird? BIG QUESTION: What contributes to naming data?
+
+%More generally, we're interested in exploring computational principles that guide the naming and structuring of categories. Following a tradition of ethnobiological classification \cite{berlin1973general,berlin2014ethnobiological}, we aim to explore what kinds of features influence these behaviors. 
 
 % In particular we will explore frequency of observation. (WE'LL WANT SOME COGPSYCH PAPERS ABOUT THIS -- THAT ACTUALLY MIGHT BE A NICE WAY TO FRAME SOME RESULTS LATER -- SHOULD EXPLORE PREVIOUS PAPERS FOR POSSIBLE HYPOTHESES/PREDICTIONS RELATED TO THIS -- e.g., where we use eBird data as the frequency and test predictions against the language data)
 
-What ebird can contribute to the folk biology literature: frequency data.
+%What ebird can contribute to the folk biology literature: frequency data.
 
-This connects with the theoretical debate about cognitive vs utilitarian view of classification \cite{hunn1982utilitarian,lopez1997tree}. Frequency data provide some new ways to test the utilitarian view. For example, we could use frequencies to address questions like:
-
-1) do unnamed species tend to have low frequency?
-
-2) if a species is lumped in with another species under the same label -- does one of these species have low frequency?
-
-3) in cases where nomenclature reveals prototype effects -- is the prototype highest in frequency?
-
-We also examine the contribution of mass, following \cite{hunn1999size}, and extending to other questions.
-
-We focus on two issues:
-
-(1) which categories get named
-
-(2) which labels are chosen for those categories
-
-
-The outline for the rest of the paper is as follows. First we describe some of the factors that ethnobiologists have explored and the variables in particular that we will consider. Then we examine some questions using this data. We then discuss the implications of this work and potential future directions. We conclude with a brief summary of the work.
+%This connects with the theoretical debate about cognitive vs utilitarian view of classification \cite{hunn1982utilitarian,lopez1997tree}. Frequency data provide some new ways to test the utilitarian view. For example, we could use frequencies to address questions like:
+%
+%1) do unnamed species tend to have low frequency?
+%
+%2) if a species is lumped in with another species under the same label -- does one of these species have low frequency?
+%
+%3) in cases where nomenclature reveals prototype effects -- is the prototype highest in frequency?
+%
+%We also examine the contribution of mass, following \cite{hunn1999size}, and extending to other questions.
+%
+%We focus on two issues:
+%
+%(1) which categories get named
+%
+%(2) which labels are chosen for those categories
 
 
 \section{Environmental factors in ethnobiological classification}
