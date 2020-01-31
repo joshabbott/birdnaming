@@ -24,6 +24,7 @@
 \documentclass[10pt,letterpaper]{article}
 
 \usepackage{cogsci}
+\usepackage{url}
 
 %\cogscifinalcopy % Uncomment this line for the final submission 
 
@@ -77,7 +78,8 @@ ethnobiology; categorization; bird naming
 
 Languages around the world include rich systems of names for plants and animals, and each system can be viewed as the outcome of a natural experiment in which generations of speakers have organized their local environment into categories. A classic line of work in cognitive anthropology addresses the question of how named categories reflect the structure of the local environment~\cite{berlin2014ethnobiological}. One prominent theme is that folk taxonomies often align well with Western scientific taxonomies, suggesting that folk taxonomies are shaped more by environmental structure than by the idiosyncratic needs and concerns of a particular culture. 
 
-Much of the cognitively-oriented work on folk biology took place last century, and in recent years new data sets have made it possible to characterize the structure of the environment in ways that were previously difficult or impossible. Here we draw on these resources to revisit the classic question of the relationship between named categories and the environment. We focus on birds in particular, and begin by compiling properties of the bird species in a given area (e.g.\ how big is each species, and how often is it observed?) We then study how these properties relate to named bird categories in the local language. In particular, we ask whether the frequency of a species influences whether the species is named, and if so whether frequency influences the form of the name for that species and how many other species it is grouped with. 
+Much of the cognitively-oriented work on folk biology took place last century, and in recent years new data sets have made it possible to characterize the structure of the environment in ways that were previously difficult or impossible\cite{sullivan2009ebird,wilman2014eltontraits}.
+ Here we draw on these resources to revisit the classic question of the relationship between named categories and the environment. We focus on birds in particular, and begin by compiling properties of the bird species in a given area (e.g.\ how big is each species, and how often is it observed?) We then study how these properties relate to named bird categories in the local language. In particular, we ask whether the frequency of a species influences whether the species is named, and if so whether frequency influences the form of the name for that species and how many other species it is grouped with. 
 
 The effects of frequency on categorization have been previously studied in the psychological literature~\cite{parducci83,nosofsky88,barsalouhl98}.  One relevant finding is that categories tend to be relatively broad in low-frequency regions of stimulus space, but relatively narrow in regions including frequently encountered stimuli~\cite{parducci83}. We might therefore predict that bird species encountered frequently are more likely to be assigned to their own distinctive categories.  
 
@@ -113,32 +115,36 @@ The next section introduces the data sets that we use, and we then address two b
 %(2) which labels are chosen for those categories
 
 
-\section{Environmental factors in ethnobiological classification}
-Environmental factors have played a major role in scientific classification of species \cite{amadon1943bird,hunn1999size}.
+%\section{Environmental factors in ethnobiological classification}
 
-Here we talk about the data we use. We show how to utilize publicly available digitized information to explore these questions.
+\section{Data sets}
+
+%Environmental factors have played a major role in scientific classification of species \cite{amadon1943bird,hunn1999size}.
+%Here we talk about the data we use. We show how to utilize publicly available digitized information to explore these questions.
+
+The literature contains detailed folk classifications of birds from several languages around the world, and we focus here on named bird categories from Zapotec \cite{hunn2008zapotec}, a language spoken in Oaxaca, Mexico.  We used two data sets that characterize the frequency and size of bird species found in Oaxaca, and a third that specifies how these species are organized into named categories.
+
+\subsection{Frequency data}
+
+Our frequency data are drawn from eBird, a citizen-science based bird observation network managed by the Cornell Lab of Ornithology \cite{sullivan2009ebird}.  eBird data are contributed by bird lovers (both professional and amateur) who use the site to record the time and place of bird sightings.  We used data from just the region containing the state of Oaxaca, Mexico\footnote{We used all eBird observation of frequency from the Basic Dataset (EBD) on https://ebird.org/data/download, last accessed January 24, 2020.}. An observer who sees a group of 5 vultures may record both the species (e.g.\ \emph{Cathartes aura}) and the number of birds in the group (5), but we treated each case like this as a single observation of the species in question. Our data for Oaxaca include 660,223 unique observations of 922 distinct species. 
+
+We will take eBird counts as a very rough proxy for the frequency with which a species is encountered in the course of regular life. The fact that nocturnal species will tend to have lower counts than equally common diurnal species is therefore a strength of the data rather than a limitation. eBird, however,  does not provide an unbiased measure of frequency in everyday life. As a group, eBird contributors are more interested in some species than others, and counts for rare but iconic species (e.g.\ the Bald eagle in the USA) will overestimate the frequency which which they are encountered relative to other species. Even so, eBird is a valuable resource that allows rough estimates of a variable (frequency) that would otherwise be extremely difficult to measure.  
 
 
+\subsection{Size data}
+% Bird weights as an aid in taxonomy \cite{amadon1943bird}.
+Beyond frequency it is plausible that physical and behavioral characteristics of birds both influence folk categorization.  \citeA{hunn1999size} has documented that smaller species are more likely to be lumped together into large categories, and larger species are more likely to be given distinct names. Following his lead we evaluate bird size as an influence on categorization, and use size data from EltonTraits~\cite{wilman2014eltontraits} which includes information on key attributes for all 9993 extant bird species, including those from Oaxaca.  We use the body mass variable, separately sourced from \cite{dunning2007crc}, which is defined as the geometric mean of average values provided for both sexes. Beyond body mass EltonTraits includes variables related to diet types, foraging strata, and activity patterns, and future studies can explore whether and how these variables influence naming. 
 
-\subsection{Language naming data}
-We focus on a single language for brevity. We use bird-naming data from \cite{hunn2008zapotec}, also found online\footnote{http://faculty.washington.edu/hunn/zapotec/z5.html}, a Zapotec language spoken in a small village in San Juan Gb\"{e}\"{e}, Oaxaca Mexico.
+
+\subsection{Naming data}
+
+Our naming data are based on a detailed folk taxonomy provided by \citeA{hunn2008zapotec}\footnote{
+\footnote{Also available online at \url{http://faculty.washington.edu/hunn/zapotec/z5.html}} based on his fieldwork in San Juan Gb\"{e}\"{e}, a small village in Oaxaca.
 
 Describe the dataset and what we extracted from it (e.g., basic-level, terminal-level names, prototypes, etc.) in more detail here.
 
 For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 13 birds in Zapotec. Of these 13 birds, there are 3 other labels besides \textit{dz\v{i}n\b{g}}, there are folk-specifics \textit{dz\v{i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{i}n\b{g}-gu\'{e}}, \textit{and dz\v{i}n\b{g}-y\v{a}-gu\`{i}}.
 
-\subsection{Frequency data}
-
-We utilize a citizen-science based bird observation network, eBird, managed by the Cornell Lab of Ornithology \cite{sullivan2009ebird}. We sampled bird observational data from just the region containing the state of Oaxaca, Mexico\footnote{We used all eBird observation of frequency from the Basic Dataset (EBD) on https://ebird.org/data/download, last accessed January 24, 2020.}. Counting only each observation (not the number of birds in the observation), resulted in 660,223 unique observations of 922 total bird species. 
-
-
-
-\subsection{Physical Size}
-Bird weights as an aid in taxonomy \cite{amadon1943bird}.
-
-We'll also look at bird size as a factor, following \cite{hunn1999size} and using data from EltonTraits \cite{wilman2014eltontraits}.  This data set provides information on key attributes for all 9993 and 5400 extant bird and mammal species, derived from key literature sources. Variables include relevance of select diet types and foraging strata, body size, and activity time.
-
-We focus on the body mass data, separately sourced from \cite{dunning2007crc}, which is measured as the geometric mean of average values provided for both sexes.
 
 % \subsection{Distribution of data}
 % Here we plot the log mass by log frequency of the birds named in Zapotec in Figure \ref{fig-birdmassxfreq}. We see that smaller birds tend to never have a low frequency.
@@ -189,6 +195,8 @@ Next we analyze the masses of birds named in Zapotec. We plot the densities of b
 % \end{figure*}
 
 We see here that frequency is more informative than mass in predicting which birds in Oaxaca are given a name in Zapotec. In the next section, we will find a different set of results.
+
+% mention that information about unnamed species not systematically included in folk taxonomies
 
 \section{Hunn Analysis}
 Here we re-explore Hunn's analysis of how size affects the perceptual salience for folk biological classification, following the chapter \cite{hunn1999size}. In sum, he demonstrates a positive correlation between the groupings of named categories, and the average size of those organisms in those categories.
