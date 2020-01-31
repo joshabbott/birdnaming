@@ -1,29 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Amadon%
-}{%
-Amadon%
-}{%
-{\protect \APACyear {1943}}%
-}]{%
-amadon1943bird}
-\APACinsertmetastar {%
-amadon1943bird}%
-\begin{APACrefauthors}%
-Amadon, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1943}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Bird weights as an aid in taxonomy} {Bird weights as an
-  aid in taxonomy}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Wilson Bull}{55}{3}{164--177}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Barsalou%
 , Huttenlocher%
 \BCBL {}\ \BBA {} Lamberts%
@@ -72,6 +49,29 @@ Berlin, B.%
   Principles of categorization of plants and animals in traditional societies}.
 \newblock
 \APACaddressPublisher{}{Princeton University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Clements%
+}{%
+Clements%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+clements2007clements}
+\APACinsertmetastar {%
+clements2007clements}%
+\begin{APACrefauthors}%
+Clements, J\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Clements checklist of birds of the world} {Clements checklist
+  of birds of the world}.
+\newblock
+\APACaddressPublisher{}{Comstock Pub. Associates/Cornell University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -143,8 +143,9 @@ bird_counts = get_birdcounts(ebd_data)
 # In[62]:
 
 
-zapotec_data = pd.read_csv('./data/df_zapotec.csv')
-zapotec_data
+zapotec_data_all = pd.read_csv('./data/df_zapotec.csv')
+# use only the data of birds named in Zapotec
+zapotec_data = zapotec_data_all[zapotec_data_all['folk_generic'].notna()] 
 
 
 # In[60]:
@@ -194,38 +195,27 @@ bird_list = list(set(bird_sizes.keys()).intersection(set(bird_counts.keys())))
 # In[95]:
 
 
-# plot just the distribution of bird sizes by bird freqs
-xs = []
-ys = []
-for bird_name in bird_list:
-    xs.append(bird_sizes[bird_name])
-    ys.append(bird_counts[bird_name])
+# # plot just the distribution of bird sizes by bird freqs
+# xs = []
+# ys = []
+# for bird_name in bird_list:
+#     xs.append(bird_sizes[bird_name])
+#     ys.append(bird_counts[bird_name])
     
-slope, intercept, r_value, p_value, std_err = linregress(np.log(xs), np.log(ys))
-print("slope: %f    intercept: %f" % (slope, intercept))
-print("R-squared: %f" % r_value**2)
+# slope, intercept, r_value, p_value, std_err = linregress(np.log(xs), np.log(ys))
+# print("slope: %f    intercept: %f" % (slope, intercept))
+# print("R-squared: %f" % r_value**2)
 
     
-plt.scatter(np.log(xs),np.log(ys))
-# plt.plot(np.log(xs),intercept+slope*np.log(xs),'r')
-plt.xlabel('log bird sizes')
-plt.ylabel('log bird freqs')
-plt.show()
+# plt.scatter(np.log(xs),np.log(ys))
+# # plt.plot(np.log(xs),intercept+slope*np.log(xs),'r')
+# plt.xlabel('log bird sizes')
+# plt.ylabel('log bird freqs')
+# plt.show()
 
 # ## Back to the procedure
 # "The next step is to match the size measures with some measure of the degree to which the organisms are recognized taxonomically in the folk classification." 
-# 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+#
 
 
 # 
@@ -447,6 +437,31 @@ for bird_species in bird_list:
     zs.append(bird_counts[bird_species])
     
     
+# library & dataset
+
+plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
+plt.title('Zapotec category organization')
+
+plt.subplot(1,2,1)
+ssrrdf = pd.DataFrame(list(zip(np.log(zs),ys)),columns =['log freq','num species'])
+sns.regplot(x=ssrrdf["log freq"], y=ssrrdf["num species"])
+plt.xlabel('Log frequency')
+plt.ylabel('# species per taxon')
+
+# plt.xlim([0.,1.])
+plt.ylim([0.,15.])
+
+plt.subplot(1,2,2)
+ssrrdf = pd.DataFrame(list(zip(np.log(xs),ys)),columns =['log size','num species'])
+sns.regplot(x=ssrrdf["log size"], y=ssrrdf["num species"])
+plt.xlabel('Log size')
+plt.ylabel('')
+# plt.xlim([0.,1.])
+plt.ylim([0.,15.])
+
+plt.tight_layout()
+plt.show()
+ 
 
 
 # In[99]:

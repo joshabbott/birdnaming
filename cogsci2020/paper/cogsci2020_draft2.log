@@ -1,31 +1,35 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.20)  31 JAN 2020 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 JAN 2020 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cogsci2020_draft2.tex
 (./cogsci2020_draft2.tex
-LaTeX2e <2019-10-01>
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(./cogsci.sty
+) (./cogsci.sty
 Conference Style for COGSCI -- last modified December 31, 2018
 \titlebox=\skip43
-) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/pslatex/pslatex.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pslatex/pslatex.sty
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -62,41 +66,48 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 )
 (./apacite.sty
 Package: apacite 2012/02/25 v6.01 APA citation
-\c@BibCnt=\count88
+\c@BibCnt=\count87
 \bibleftmargin=\skip44
 \bibindent=\skip45
 \bibparsep=\skip46
 \bibitemsep=\skip47
 \biblabelsep=\skip48
-)
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
+\c@float@type=\count88
 \float@exts=\toks14
-\float@box=\box27
+\float@box=\box26
 \@float@everytoks=\toks15
-\@floatcapt=\box28
+\@floatcapt=\box27
 )
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -104,34 +115,36 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (./cogsci2020_draft2.aux)
 \openout1 = `cogsci2020_draft2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 61.
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 62
+.
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/omspzccm.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 \c@maskedRefs=\count90
 
-
-Package apacite Warning: Language definition file english.apc not found.
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen105
-\scratchbox=\box29
+\scratchbox=\box28
 \nofMPsegments=\count92
 \nofMParguments=\count93
 \everyMPshowfont=\toks17
@@ -140,174 +153,187 @@ Package apacite Warning: Language definition file english.apc not found.
 \MPnumerator=\count95
 \makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
- 63.
- (/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 64
+.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
- 63.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 64
+.
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
- 63.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 64
+.
 
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 
-Underfull \vbox (badness 10000) detected at line 63
+Underfull \vbox (badness 10000) detected at line 64
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
-[1{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
 <./figures/birdfreq-violinplots.png, id=9, 462.528pt x 346.896pt>
 File: ./figures/birdfreq-violinplots.png Graphic file (type png)
+
 <use ./figures/birdfreq-violinplots.png>
-Package pdftex.def Info: ./figures/birdfreq-violinplots.png  used on input line
- 165.
+Package pdftex.def Info: ./figures/birdfreq-violinplots.png used on input line 
+174.
 (pdftex.def)             Requested size: 252.94499pt x 189.70827pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 165--166
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 174--175
  [] 
  []
 
 <./figures/birdmass-violinplots.png, id=11, 462.528pt x 346.896pt>
 File: ./figures/birdmass-violinplots.png Graphic file (type png)
+
 <use ./figures/birdmass-violinplots.png>
-Package pdftex.def Info: ./figures/birdmass-violinplots.png  used on input line
- 178.
+Package pdftex.def Info: ./figures/birdmass-violinplots.png used on input line 
+187.
 (pdftex.def)             Requested size: 252.94499pt x 189.70827pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 178--179
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 187--188
  [] 
  []
 
-<./figures/ssrr-singlespecies.png, id=12, 650.43pt x 289.08pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./figures/birdfreq-violinplots.png>]
+<./figures/ssrr-singlespecies.png, id=17, 650.43pt x 289.08pt>
 File: ./figures/ssrr-singlespecies.png Graphic file (type png)
+
 <use ./figures/ssrr-singlespecies.png>
-Package pdftex.def Info: ./figures/ssrr-singlespecies.png  used on input line 2
-17.
+Package pdftex.def Info: ./figures/ssrr-singlespecies.png used on input line 23
+2.
 (pdftex.def)             Requested size: 480.59395pt x 213.60266pt.
-[2 <./figures/birdfreq-violinplots.png> <./figures/birdmass-violinplots.png>]
+
 <./figures/freq-namelength.png, id=18, 462.528pt x 346.896pt>
 File: ./figures/freq-namelength.png Graphic file (type png)
-<use ./figures/freq-namelength.png>
-Package pdftex.def Info: ./figures/freq-namelength.png  used on input line 236.
 
+<use ./figures/freq-namelength.png>
+Package pdftex.def Info: ./figures/freq-namelength.png used on input line 251.
 (pdftex.def)             Requested size: 252.94499pt x 189.70827pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 236--237
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 251--252
  [] 
  []
 
 <./figures/nameforms-both.png, id=19, 650.43pt x 289.08pt>
 File: ./figures/nameforms-both.png Graphic file (type png)
+
 <use ./figures/nameforms-both.png>
-Package pdftex.def Info: ./figures/nameforms-both.png  used on input line 265.
+Package pdftex.def Info: ./figures/nameforms-both.png used on input line 280.
 (pdftex.def)             Requested size: 480.59395pt x 213.60266pt.
-[3 <./figures/ssrr-singlespecies.png> <./figures/freq-namelength.png>]
-<./figures/prototypes-barplots-all.png, id=25, 867.24pt x 433.62pt>
+
+<./figures/prototypes-barplots-all.png, id=20, 867.24pt x 433.62pt>
 File: ./figures/prototypes-barplots-all.png Graphic file (type png)
+
 <use ./figures/prototypes-barplots-all.png>
-Package pdftex.def Info: ./figures/prototypes-barplots-all.png  used on input l
-ine 322.
+Package pdftex.def Info: ./figures/prototypes-barplots-all.png used on input li
+ne 337.
 (pdftex.def)             Requested size: 480.59395pt x 240.29803pt.
+ [3 <./figures/birdmass-violinplots.png> <./figures/freq-namelength.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./cogsci2020_draft2.bbl [4 <./figures/nameforms-both.png>]
-Underfull \vbox (badness 2726) has occurred while \output is active []
+ [4 <./figures/ssrr-singlespecies.png> <./figures/nameforms-both.png>]
+(./cogsci2020_draft2.bbl
+Underfull \vbox (badness 3735) has occurred while \output is active []
 
-) [5 <./figures/prototypes-barplots-all.png>] (./cogsci2020_draft2.aux) ) 
+ [5 <./figures/prototypes-barplots-all.png>]) [6
+
+] (./cogsci2020_draft2.aux) ) 
 Here is how much of TeX's memory you used:
- 2357 strings out of 493610
- 34313 string characters out of 6159293
- 100353 words of memory out of 5000000
- 6476 multiletter control sequences out of 15000+600000
- 35773 words of font info for 70 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 46i,10n,30p,1300b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/
-local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
-ive/2019basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-019basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019ba
-sic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cogsci2020_draft2.pdf (5 pages, 450387 bytes).
+ 2442 strings out of 493117
+ 35240 string characters out of 6135433
+ 100151 words of memory out of 5000000
+ 5857 multiletter control sequences out of 15000+600000
+ 37586 words of font info for 76 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,10n,23p,1300b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8
+a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cogsci2020_draft2.pdf (6 pages, 521398 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

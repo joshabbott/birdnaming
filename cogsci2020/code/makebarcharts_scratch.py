@@ -25,9 +25,7 @@ prototypes = ['Cathartes aura','Buteo jamaicensis','Columba livia',
 # read zapotec data
 df = pd.read_csv('./data/df_zapotec.csv')
 
-
-plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
-
+plt.figure(figsize=(12, 6), dpi=100, facecolor='w', edgecolor='k')
 
 plt.subplot(2, 3, 1)
 # vultures (3)
@@ -104,6 +102,7 @@ plt.title(subplot_title)
 plt.tick_params(labelbottom=False)
 plt.tight_layout()
 plt.show()
+
 
 
 

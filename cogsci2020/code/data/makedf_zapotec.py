@@ -315,16 +315,9 @@ for clements_group_item in clements_groups:
 df['group_size_clements'] = group_size_clements 
 
 
+# df.to_csv('./df_only_zapotec.csv', index=False)
 
-
-# add all other birds
-	
-# Pass the row elements as key value pairs to append() function 
-modDfObj = dfObj.append({'Name' : 'Sahil' , 'Age' : 22} , ignore_index=True)
-
-
-species  length    mass   freq  folk_generic folk_specific clements_group prototype  group_size_folk_generics  group_size_folk_specific  group_size_clements
-
+# add missing OAX data
 
 bird_list = list(df['species']) 
 
@@ -342,7 +335,8 @@ for birdname in bird_counts.keys():
 i=0
 for cur_item in missing_species:
 	foo = {'species':cur_item,'length':'NA','mass':missing_mass[i],'freq':missing_freq[i],'folk_generic':'NA','folk_specific':'NA','clements_group':'NA','prototype':'NA','group_size_folk_generics':'NA','group_size_folk_specific':'NA','group_size_clements':'NA'}
-	print(foo)
+	# print(foo)
+	df = df.append(foo, ignore_index=True)
 	i+=1
 
 
