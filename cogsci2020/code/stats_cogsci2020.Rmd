@@ -1,0 +1,177 @@
+---
+title: 'Stats for CogSci2020 submission'
+date: "Jan 2020"
+output:
+  html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, progress = TRUE)
+```
+
+```{r packageload, message=FALSE}
+library(here)
+library(tidyverse)
+library(lme4)
+```
+
+
+
+
+Read in the data frame Josh created with all the relevant information.
+
+```{r readdata, message=FALSE}
+df <- read_csv(here("code", "data", "df_zapotec.csv"))
+```
+
+Add variables we'll need for the analyses.
+
+```{r preprocessing, message=FALSE}
+df_mf <- df  %>% 
+  mutate(is_named = !is.na(folk_specific), logmass = log(mass), logfreq = log(freq)) %>% 
+  # XXX: should is_compound and name_length be based on specific or generic names?
+  mutate(is_compound = grepl('-', folk_specific)) %>% 
+  mutate(name_length = str_count(folk_specific) - is_compound) %>% 
+  mutate(logname_length = log(name_length)) %>% 
+  mutate(clements_group=factor(clements_group)) %>% 
+  # XXX: include only species for which we have mass and frequency?
+  filter(mass > 0 & freq > 0) 
+
+# make long data frame for generating figures
+df_mf_long <- df_mf %>% 
+  gather(key='variable', value='val', logmass, logfreq)
+```
+
+## Named vs Unnamed categories
+
+```{r namedunnamed, message=FALSE}
+
+namedvsunnamed_plot <- df_mf_long %>% 
+  ggplot(aes(x = is_named, y = val)) +
+  geom_violin() +
+  facet_wrap(~variable)
+namedvsunnamed_plot
+
+logitmodnaming <- glm(
+  formula = is_named ~ logfreq + logmass, 
+  family = binomial,
+  data = df_mf)
+
+naming_drop <- drop1(logitmodnaming, test="Chisq")
+summary(logitmodnaming)
+naming_drop
+```
+
+The coefficients suggest that logfreq is a strong predictor (0.84) but that logmass is not (-0.03). The call to `drop1` compares the full model against models that drop one of the predictors. Dropping logfreq means that the model fit gets significantly worse (p < 2e-16), but dropping logmass doesn't hurt the fit (p = 0.59). The AIC values support this conclusion (dropping logfreq makes the AIC bigger (ie worse), but dropping logmass makes the AIC a little bit better (smaller))
+
+## Lumping analysis
+Now we analyze how many other species each named species is lumped with. 
+
+```{r lumping, message=FALSE}
+df_named <- df_mf %>% 
+  filter(is_named) %>% 
+  mutate(norm_group_size_generic = group_size_folk_generics/group_size_clements) 
+
+lumping_plot <- df_mf_long %>% 
+  filter(is_named) %>% 
+  ggplot(aes(x = val, y = group_size_folk_generics)) +
+  geom_point() +
+  geom_smooth(method=lm) +
+  facet_wrap(~variable)
+lumping_plot
+
+lmlumping <- lm(
+  formula = group_size_folk_generics ~ logfreq + logmass, 
+  data = df_named)
+
+lumping_drop <- drop1(lmlumping, test="Chisq")
+lumping_drop
+summary(lmlumping)
+```
+The coefficients suggest that logmass (-1.22) is a stronger predictor than logfreq (-0.54). Dropping either predictor, however, leads to a model fit that is significantly worse (p values of 0.03 for logfreq and 1e-8 for logmass). AIC values support the same conclusion.
+
+## Compound vs monomial
+
+Fig 5 in current draft suggests that species with monomial names are more frequent than species with compound names, but I'm seeing the opposite here -- the effect goes in the opposite way than what we might predict.
+Did one of us swap codes for compound and monomial?
+
+```{r compoundvsmonomial, message=FALSE}
+compound_plot <- df_mf_long %>% 
+  ggplot(aes(x = is_compound, y = val)) +
+  geom_violin() +
+  facet_wrap(~variable)
+compound_plot
+
+logitmodcompound <- glm(
+  formula = is_compound ~ logfreq + logmass, 
+  family = binomial,
+  data = df_mf)
+
+compound_drop <- drop1(logitmodcompound, test="Chisq")
+compound_drop
+summary(logitmodcompound)
+```
+
+Coefficients suggest that logfreq (0.63) is a stronger predictor than logmass (-0.04). Dropping logfreq produces a model that's significantly worse (p < 3e-13) but dropping logmass doesn't (p = 0.60). AIC scores support same conclusion.
+
+## Name length
+
+Suggest not including a figure for this, but just reporting in the text. Effect of frequency goes in the same way as for the compound vs monomial analysis (more common things have longer names)
+
+
+```{r namelength, message=FALSE}
+
+namelength_plot <- df_mf_long %>% 
+  filter(is_named) %>% 
+  ggplot(aes(x = val, y = logname_length)) +
+  geom_point() +
+  geom_smooth(method=lm) +
+  facet_wrap(~variable)
+namelength_plot
+
+lmnamelength<- lm(
+  formula = logname_length ~ logfreq + logmass, 
+  data = df_named)
+
+namelength_drop <- drop1(lmnamelength, test="Chisq")
+namelength_drop
+summary(lmnamelength)
+```
+
+Coefficients suggest that logfreq (0.04) and logmass (-0.06) are both weak predictors. Dropping logmass significantly impairs model performance (p = 0.02) but dropping logfreq doesn't (p = 0.2). AIC scores support same conclusion.
+
+## Overall conclusions
+
+#### Frequency
+
+* decent evidence that frequency predicts whether or not a species is named
+* only weak evidence that frequency predicts lumping
+* effect of frequency on compound vs monomial is there but in the opposite direction to what we'd predict
+
+#### Mass
+
+* replicate Hunn's finding that size predicts lumping (and find that it's a stronger predictor than frequency)
+* only weak evidence that mass predicts anything else
+
+
+#### Themes for discussion:
+
+* reasons why we don't see a stronger effect of frequency  (discuss wrt theories that do predict frequency effects including functional/utilitarian view, Zipfian view, perhaps others)
+* distribution of species in morphospace is an important confound in lumping, compound vs monomial and namelength analyses. Possible that similarity is the big thing: e.g if a species is very similar to many other species than we'd expect to have a high lumping score independent of mass and frequency, and might also expect to have a compound name that reflects the relationship of the species to other similar things. 
+* Future direction: include similarity as predictor. Use the data in that recent paper  (Macroevolutionary convergence connects morphological form to ecological function in birds) to add a "neighborhood density" variable that captures how many other local species a given species is similar to.
+
+
+
+
+
+## Caveats
+
+This notebook is a quick attempt to generate results we can include in a minimal submittable draft. At some stage we should
+
+* confirm that setting `test=Chisq` in the call to `drop1()` is what we actually want. 
+* look at residuals and try other kinds of model-checking
+* consider mixed effects analyses with random effects for Clemens group
+ 
+
+
+
