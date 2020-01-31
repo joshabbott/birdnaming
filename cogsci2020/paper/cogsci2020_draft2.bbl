@@ -32,6 +32,30 @@ Berlin%
 }{%
 Berlin%
 }{%
+{\protect \APACyear {1972}}%
+}]{%
+berlin1972speculations}
+\APACinsertmetastar {%
+berlin1972speculations}%
+\begin{APACrefauthors}%
+Berlin, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Speculations on the growth of ethnobotanical
+  nomenclature} {Speculations on the growth of ethnobotanical
+  nomenclature}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language in society}{1}{1}{51--86}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Berlin%
+}{%
+Berlin%
+}{%
 {\protect \APACyear {1992}}%
 }]{%
 berlin2014ethnobiological}
