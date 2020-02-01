@@ -16,12 +16,10 @@ library(lme4)
 ```
 
 
-
-
-Read in the data frame Josh created with all the relevant information.
+Read in the data frame that adds density to the variables Josh created. We currently include density in the visualizations but not the statistical analyses.
 
 ```{r readdata, message=FALSE}
-df <- read_csv(here("code", "data", "df_zapotec.csv"))
+df <- read_csv(here("code", "data", "df_zapotec_density.csv"))
 ```
 
 Add variables we'll need for the analyses.
@@ -33,13 +31,13 @@ df_mf <- df  %>%
   mutate(is_compound = grepl('-', folk_specific)) %>% 
   mutate(name_length = str_count(folk_specific) - is_compound) %>% 
   mutate(logname_length = log(name_length)) %>% 
-  mutate(clements_group=factor(clements_group)) %>% 
+  mutate(clements_group=factor(clements_group))  %>% 
   # XXX: include only species for which we have mass and frequency?
   filter(mass > 0 & freq > 0) 
 
 # make long data frame for generating figures
 df_mf_long <- df_mf %>% 
-  gather(key='variable', value='val', logmass, logfreq)
+  gather(key='variable', value='val', logmass, logfreq, density)
 ```
 
 ## Named vs Unnamed categories
@@ -49,7 +47,7 @@ df_mf_long <- df_mf %>%
 namedvsunnamed_plot <- df_mf_long %>% 
   ggplot(aes(x = is_named, y = val)) +
   geom_violin() +
-  facet_wrap(~variable)
+  facet_wrap(~variable, scale="free")
 namedvsunnamed_plot
 
 logitmodnaming <- glm(
@@ -77,7 +75,7 @@ lumping_plot <- df_mf_long %>%
   ggplot(aes(x = val, y = group_size_folk_generics)) +
   geom_point() +
   geom_smooth(method=lm) +
-  facet_wrap(~variable)
+  facet_wrap(~variable, scales="free")
 lumping_plot
 
 lmlumping <- lm(
@@ -98,7 +96,7 @@ compound_plot <- df_mf_long %>%
   filter(is_named) %>% 
   ggplot(aes(x = is_compound, y = val)) +
   geom_violin(draw_quantiles=c(0.5)) +
-  facet_wrap(~variable)
+  facet_wrap(~variable, scale="free")
 compound_plot
 
 logitmodcompound <- glm(
@@ -126,7 +124,7 @@ namelength_plot <- df_mf_long %>%
   ggplot(aes(x = val, y = logname_length)) +
   geom_point() +
   geom_smooth(method=lm) +
-  facet_wrap(~variable)
+  facet_wrap(~variable, scale="free")
 namelength_plot
 
 lmnamelength<- lm(

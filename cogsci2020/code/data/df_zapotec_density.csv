@@ -1,0 +1,947 @@
+,species,length,mass,freq,folk_generic,folk_specific,clements_group,prototype,group_size_folk_generics,group_size_folk_specific,group_size_clements,density
+0,Catherpes mexicanus,5.0,11.97,2327,nguzhǐn,nguzhǐn-zhàn̲-quiè,Wrens,0.0,6.0,1.0,6.0,-5.132123671953931
+1,Cynanthus sordidus,3.75,4.0,4751,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-4.837269892256552
+2,Buteo brachyurus,16.0,496.01,1314,msì,msì,"Vultures, Hawks, and Allies",0.0,7.0,3.0,8.0,-4.979048909283172
+3,Accipiter cooperii,17.5,429.67,1551,msì,msì-lâg,"Vultures, Hawks, and Allies",0.0,7.0,3.0,8.0,-5.343824532791616
+4,Caracara plancus,49.5,1078.62,0,mguîn̲-rlæ̌-dzìt,mguîn̲-rlæ̌-dzìt,Falcons and Caracaras,0.0,1.0,1.0,3.0,
+5,Buteo jamaicensis,22.0,1101.16,2978,msì,msì,"Vultures, Hawks, and Allies",1.0,7.0,3.0,8.0,-5.101580174730026
+6,Cypseloides rutilus,6.25,20.2,0,xlútsǐ,xlútsǐ-ngǎs,Swifts,0.0,7.0,3.0,3.0,
+7,Coragyps atratus,25.0,1881.69,8865,pěch,pěch-rúx,"Vultures, Hawks, and Allies",0.0,2.0,1.0,8.0,-5.680783967481976
+8,Turdus migratorius,10.0,78.5,1542,miân,miân,Thrushes,0.0,1.0,1.0,5.0,-4.468447698154956
+9,Pooecetes gramineus,6.125,25.68,198,wǐt,wǐt,New World Sparrows,0.0,12.0,11.0,10.0,-4.22815351294206
+10,Glaucidium gnoma,7.25,61.25,413,mquí,mquí,Owls,0.0,3.0,3.0,6.0,-4.918753748499204
+11,Zenaida macroura,12.0,118.93,1936,mézh,mézh,Pigeons and Doves,0.0,1.0,1.0,7.0,-5.593194230103344
+12,Hylocharis leucotis,3.4,3.39,2753,dzǐn̲g,dzǐn̲g-dán-yǎ-guì,Hummingbirds,0.0,14.0,1.0,14.0,-5.415797483676789
+13,Icterus wagleri,8.75,41.8,5262,mguěy,mguěy-guièe-pchôg,Blackbirds,0.0,4.0,1.0,3.0,-4.184489834924988
+14,Picoides scalaris,7.0,31.59,0,càrpìntêr,càrpìntêr-psì-yèen̲,Woodpeckers,0.0,7.0,1.0,8.0,
+15,Carduelis psaltria,4.5,8.77,0,mdzíl-dò,mdzíl-dò,"Finches, Euphonias, and Allies",0.0,1.0,1.0,3.0,
+16,Myadestes occidentalis,8.0,36.4,3842,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,0.0,4.0,4.0,5.0,-4.6194303042335765
+17,Sphyrapicus varius,8.5,50.3,671,càrpìntêr,càrpìntêr-diè,Woodpeckers,0.0,7.0,1.0,8.0,-4.250835220047891
+18,Columbina inca,8.0,47.5,10723,côc,côc,Pigeons and Doves,0.0,2.0,2.0,7.0,-5.08909633210854
+19,Vireo huttoni,4.875,11.3,2103,mtsùu,mtsùu,Vireos,0.0,8.0,8.0,4.0,-3.599274542968409
+20,Sayornis nigricans,6.5,18.63,1918,mguîn̲-guiùu,mguîn̲-guiùu,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,1.0,1.0,12.0,-4.211278502955946
+21,Corvus corax,25.0,927.97,2006,ngǎ,ngǎ,"Jays, Magpies, Crows, and Ravens",0.0,1.0,1.0,3.0,-5.818205121618932
+22,Geococcyx velox,23.0,179.89,686,mriě,mriě,Cuckoos,0.0,1.0,1.0,1.0,-5.66213565501828
+23,Cardellina pusilla,4.3,6.96,7578,yěets,yěets,Wood-Warblers,0.0,3.0,1.0,15.0,
+24,Dryobates villosus,8.649999999999999,62.65,1156,càrpìntêr,càrpìntêr-ló-guì,Woodpeckers,0.0,7.0,1.0,8.0,
+25,Mniotilta varia,5.0,10.9,2991,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,-4.109930449908103
+26,Ciccaba virgata,13.2,283.97,338,dǎm̲,dǎm̲-yêt,Owls,0.0,3.0,2.0,6.0,
+27,Aythya affinis,16.5,819.45,258,bǎd,bǎd-guìx,Waterfowl,0.0,7.0,5.0,10.0,-5.389199300598742
+28,Stelgidopteryx serripennis,5.5,15.69,5161,xlútsǐ,xlútsǐ-nquǐts,Martins and Swallows,0.0,7.0,4.0,4.0,-5.176710914641855
+29,Empidonax affinis,5.25,11.3,393,wǐt,wǐt,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,12.0,11.0,12.0,-3.7373126958407785
+30,Salpinctes obsoletus,5.5,16.37,1078,nguzhǐn,nguzhǐn-quiè,Wrens,0.0,6.0,1.0,6.0,-4.662420410669833
+31,Ergaticus ruber,5.5,8.1,0,x-quǐit-ngùbìdz,x-quǐit-ngùbìdz,Wood-Warblers,0.0,1.0,1.0,15.0,
+32,Catharus frantzii,6.5,28.9,357,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,0.0,4.0,4.0,5.0,-4.36732079563023
+33,Megascops trichopsis,7.25,88.26,112,mquí,mquí,Owls,0.0,3.0,3.0,6.0,-5.266111577574017
+34,Tyrannus verticalis,8.75,39.6,1155,cùchguêr,cùchguêr,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,4.0,3.0,12.0,-4.201384099146596
+35,Empidonax oberholseri,5.75,10.4,1198,wǐt,wǐt,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,12.0,11.0,12.0,-3.7136178753343754
+36,Accipiter striatus,12.0,130.59,862,msì,msì-lâg,"Vultures, Hawks, and Allies",0.0,7.0,3.0,8.0,-5.491148834436393
+37,Lampornis amethystinus,4.75,5.2,562,dzǐn̲g,dzǐn̲g-yǎ-guì,Hummingbirds,0.0,14.0,2.0,14.0,-4.9352237774357715
+38,Cyanocitta stelleri,11.5,128.0,2302,cuǐl̲,cuǐl̲-guì,"Jays, Magpies, Crows, and Ravens",0.0,2.0,1.0,3.0,-5.122910721805777
+39,Melozone albicollis,8.1,46.4,9110,chûurr,chûurr,New World Sparrows,0.0,1.0,1.0,10.0,
+40,Vireo gilvus,5.25,12.67,3267,mtsùu,mtsùu,Vireos,0.0,8.0,8.0,4.0,-3.4857982618819086
+41,Dendroica coronata,5.300000000000002,11.94,0,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,
+42,Dendrortyx macroura,13.5,430.99,663,mtsòo,mtsòo,"Grouse, Quail, and Allies",0.0,1.0,1.0,4.0,-5.66621025425934
+43,Tyrannus vociferans,8.5,45.6,5119,cùchguêr,cùchguêr,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,4.0,3.0,12.0,-4.252342527437093
+44,Cairina moschata,30.0,2415.78,81,bǎd,bǎd,Waterfowl,0.0,7.0,2.0,10.0,-5.82288506457521
+45,Cinclus mexicanus,7.5,56.68,16,mguîn̲-nìs,mguîn̲-nìs,Dippers,0.0,1.0,1.0,1.0,-5.037011779072613
+46,Lampornis clemenciae,5.25,7.55,886,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.100465833920707
+47,Piranga rubra,7.75,29.13,2062,mguěy,mguěy,"Cardinals, Grosbeaks, and Allies",0.0,4.0,2.0,2.0,-4.190642895794205
+48,Columbina passerina,6.5,35.36,2100,côc,côc,Pigeons and Doves,0.0,2.0,2.0,7.0,-5.182332725512403
+49,Vermivora ruficapilla,4.699999999999998,8.09,0,mguîn̲-tsíríic,mguîn̲-tsíríic,Wood-Warblers,0.0,1.0,1.0,15.0,
+50,Bubulcus ibis,20.0,365.95,4374,gàrs,gàrs,"Herons, Ibis, and Allies",0.0,1.0,1.0,1.0,-5.675789217301666
+51,Myiarchus nuttingi,7.25,23.0,1903,mguîn̲-rchǔup,mguîn̲-rchǔup,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,2.0,2.0,12.0,-4.181816513260388
+52,Dendroica nigrescens,5.1,8.7,0,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,
+53,Micrathene whitneyi,5.5,41.0,28,mquí,mquí,Owls,0.0,3.0,3.0,6.0,-4.901070195450386
+54,Eremophila alpestris,7.5,33.33,80,mguîn̲-ló-liù,mguîn̲-ló-liù,Larks,0.0,1.0,1.0,1.0,-4.345885989406748
+55,Bubo virginianus,21.5,1575.7,145,dǎm̲,dǎm̲,Owls,1.0,3.0,1.0,6.0,-5.537775302623804
+56,Dendroica occidentalis,4.75,10.4,0,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,
+57,Vireo cassinii,5.0,14.7,916,mtsùu,mtsùu,Vireos,0.0,8.0,8.0,4.0,-3.577891581091169
+58,Tachycineta thalassina,5.125,14.14,2454,xlútsǐ,xlútsǐ-nquǐts,Martins and Swallows,0.0,7.0,4.0,4.0,-5.0590134676994785
+59,Cathartes aura,29.0,1518.24,13517,pěch,pěch,"Vultures, Hawks, and Allies",1.0,2.0,1.0,8.0,-5.5774646887996955
+60,Myioborus miniatus,6.0,9.0,3440,mguîn̲-mâ-zhiàn,mguîn̲-mâ-zhiàn,Wood-Warblers,0.0,2.0,2.0,15.0,-3.947302288947612
+61,Baeolophus wollweberi,4.625,10.4,510,mguîn̲-pàyâs,mguîn̲-pàyâs,"Tits, Chickadees, and Titmice",0.0,2.0,2.0,2.0,-4.11749550303826
+62,Pheucticus melanocephalus,7.75,47.13,2627,mguěy,mguěy-guièe-dán,"Cardinals, Grosbeaks, and Allies",0.0,4.0,1.0,2.0,-4.36905815937161
+63,Selasphorus rufus,3.75,3.5,360,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.314224543764665
+64,Myioborus pictus,5.5,9.79,1144,mguîn̲-mâ-zhiàn,mguîn̲-mâ-zhiàn,Wood-Warblers,0.0,2.0,2.0,15.0,-3.9757075055092566
+65,Lamprolaima rhami,4.75,7.8,418,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.601677100480966
+66,Meleagris gallopavo,38.5,5791.37,0,mèr,mèr,"Grouse, Quail, and Allies",0.0,1.0,1.0,4.0,
+67,Cypseloides niger,7.25,39.67,236,xlútsǐ,xlútsǐ-ngǎs,Swifts,0.0,7.0,3.0,3.0,-5.674903773078893
+68,Eugenes fulgens,4.525,8.0,1642,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.184126442104706
+69,Junco phaeonotus,6.25,20.4,2155,mguîn̲-x-còl-nquǐts,mguîn̲-x-còl-nquǐts,New World Sparrows,0.0,1.0,1.0,10.0,-4.03527071688794
+70,Buteo albonotatus,19.5,745.92,993,msì,msì,"Vultures, Hawks, and Allies",0.0,7.0,3.0,8.0,-4.976317426681932
+71,Pipilo maculatus,7.25,39.28,1523,mguîn̲-wǐx,mguîn̲-wǐx,New World Sparrows,0.0,1.0,1.0,10.0,-4.1496743544856605
+72,Troglodytes aedon,4.699999999999998,10.85,2184,nguzhǐn,nguzhǐn-guì,Wrens,0.0,6.0,2.0,6.0,-4.43180487221648
+73,Spatula discors,15.15,359.44,2080,bǎd,bǎd-guìx,Waterfowl,0.0,7.0,5.0,10.0,
+74,Melanerpes formicivorus,9.0,79.62,949,càrpìntêr,càrpìntêr-ngǎs,Woodpeckers,0.0,7.0,1.0,8.0,-4.711348895119883
+75,Dendrocygna autumnalis,19.5,755.3,1153,pìxîx,pìxîx,Waterfowl,0.0,1.0,1.0,10.0,-5.558741614869401
+76,Amazilia wagneri,3.9,5.24,0,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,
+77,Psaltriparus minimus,4.5,5.3,2790,mziùud,mziùud,Penduline-Tits and Long-tailed Tits,0.0,1.0,1.0,1.0,-5.575634451280294
+78,Aeronautes saxatalis,6.5,32.1,259,xlútsǐ,xlútsǐ-ngǎs,Swifts,0.0,7.0,3.0,3.0,-5.654682259387336
+79,Quiscalus mexicanus,14.5,160.47,6954,mguîn̲-bǒo,mguîn̲-bǒo,Blackbirds,0.0,1.0,1.0,3.0,-5.549570156027787
+80,Poecile sclateri,5.0,10.09,1172,mguîn̲-pàyâs,mguîn̲-pàyâs,"Tits, Chickadees, and Titmice",0.0,2.0,2.0,2.0,
+81,Gallus gallus,28.0,751.72,0,nguǐd,nguǐd,"Grouse, Quail, and Allies",0.0,1.0,1.0,4.0,
+82,Passer domesticus,6.0,26.51,4624,mguîn̲-mòlîn,mguîn̲-mòlîn,Old World Sparrows,0.0,1.0,1.0,1.0,-4.2096531456555875
+83,Anser anser,32.5,3302.41,0,gâns,gâns,Waterfowl,0.0,2.0,2.0,10.0,
+84,Vireo plumbeus,5.5,16.4,683,mtsùu,mtsùu,Vireos,0.0,8.0,8.0,4.0,-3.711881600838473
+85,Amazilia viridifrons,4.25,6.3,513,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.032811344634313
+86,Catharus occidentalis,6.5,26.2,1273,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,0.0,4.0,4.0,5.0,-4.679530527560852
+87,Pipilo ocai,8.2,60.95,1116,chùubây,chùubây,New World Sparrows,0.0,1.0,1.0,10.0,-4.529907614209298
+88,Patagioenas fasciata,14.5,366.3,927,pàlôm,pàlôm-dán,Pigeons and Doves,0.0,2.0,1.0,7.0,-5.648533470819592
+89,Ortalis poliocephala,25.0,760.0,2653,chìchàlác,chìchàlác,"Chachalacas, Guans, and Curassows",0.0,1.0,1.0,1.0,-5.494064974966827
+90,Ptiliogonys cinereus,7.5,33.6,5476,péedrùuch,péedrùuch,Silky-flycatchers,0.0,1.0,1.0,1.0,
+91,Thryomanes bewickii,5.25,9.9,5465,nguzhǐn,nguzhǐn,Wrens,1.0,6.0,1.0,6.0,-4.369966831854075
+92,Contopus pertinax,8.0,27.2,3019,pédrǐt,pédrǐt,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,1.0,1.0,12.0,-4.470721181148878
+93,Tyrannus crassirostris,9.5,55.89,2132,cùchguêr,cùchguêr,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,4.0,3.0,12.0,-4.949549713356911
+94,Cardellina rubrifrons,5.0,8.1,577,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,-4.195748962742487
+95,Catharus aurantiirostris,5.5,29.8,1237,mguîn̲-guìib-tsár,mguîn̲-guìib-tsár,Thrushes,0.0,4.0,4.0,5.0,-4.231904004674988
+96,Oporornis tolmiei,5.1,10.4,0,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,
+97,Trogon elegans,11.75,70.89,284,chòo-dzê,chòo-dzê,Trogons and Quetzals,0.0,1.0,1.0,2.0,-5.0641581866024925
+98,Setophaga townsendi,4.75,8.84,3787,yěets,yěets-pînt,Wood-Warblers,0.0,3.0,1.0,15.0,
+99,Mareca americana,19.85,754.61,271,bǎd,bǎd-guìx,Waterfowl,0.0,7.0,5.0,10.0,
+100,Mimus polyglottos,10.0,48.5,1678,mquièts,mquièts,"Catbirds, Mockingbirds, and Thrashers",0.0,2.0,2.0,3.0,-4.543431677480781
+101,Arremon brunneinucha,7.3,43.97,1157,mguîn̲-wchǔup,mguîn̲-wchǔup,New World Sparrows,0.0,1.0,1.0,10.0,-4.033795507539717
+102,Amazona finschi,13.0,302.0,311,lòr,lòr,"Parrots, Parakeets, and Allies",0.0,1.0,1.0,3.0,-5.6760989131633846
+103,Lepidocolaptes leucogaster,9.0,36.0,380,ârbìtrò,ârbìtrò,Woodcreepers,0.0,1.0,1.0,1.0,-5.218569485364193
+104,Anser cygnoides,34.5,3511.94,0,gâns,gâns,Waterfowl,0.0,2.0,2.0,10.0,
+105,Centurus hypopolius,7.85,52.4,0,càrpìntêr,càrpìntêr-psì,Woodpeckers,0.0,7.0,1.0,8.0,
+106,Zenaida asiatica,11.5,153.0,11054,còolíchè,còolíchè,Pigeons and Doves,0.0,1.0,1.0,7.0,-5.369505166069004
+107,Anas crecca,14.0,341.89,370,bǎd,bǎd-guìx,Waterfowl,0.0,7.0,5.0,10.0,-5.790296840359961
+108,Oreothlypis superciliosa,4.25,9.0,2207,nguzhǐn,nguzhǐn-gùts,Wood-Warblers,0.0,6.0,1.0,15.0,
+109,Aimophila mystacalis,6.25,22.2,0,mtsùu,mtsùu,New World Sparrows,0.0,8.0,8.0,10.0,
+110,Archilochus colubris,3.375,3.09,3333,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.167468393281441
+111,Ara militaris,29.5,1134.0,85,měw,měw,"Parrots, Parakeets, and Allies",0.0,1.0,1.0,3.0,-5.910993196930637
+112,Colaptes auratus,13.375,131.46,930,mguîn̲-pliêgw,mguîn̲-pliêgw,Woodpeckers,0.0,1.0,1.0,8.0,-5.439122596136158
+113,Asio stygius,16.55,565.0,10,dǎm̲,dǎm̲-yêt,Owls,0.0,3.0,2.0,6.0,-5.226231799932959
+114,Amazilia beryllina,4.0,4.5,6678,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-4.47498480011149
+115,Colibri thalassinus,4.0,5.9,973,dzǐn̲g,dzǐn̲g-yǎ-guì,Hummingbirds,0.0,14.0,2.0,14.0,-4.916615876031914
+116,Toxostoma curvirostre,10.5,80.54,5046,mquièts,mquièts,"Catbirds, Mockingbirds, and Thrashers",0.0,2.0,2.0,3.0,-4.927244350705701
+117,Hirundo rustica,7.125,17.91,1206,xlútsǐ,xlútsǐ-nquǐts,Martins and Swallows,0.0,7.0,4.0,4.0,-5.177172222172613
+118,Leptotila verreauxi,11.0,146.88,3268,guiès-ró-yù,guiès-ró-yù,Pigeons and Doves,0.0,1.0,1.0,7.0,-5.31735881924236
+119,Atthis heloisa,2.75,2.2,800,dzǐn̲g,dzǐn̲g-gué,Hummingbirds,0.0,14.0,1.0,14.0,-5.593194787142128
+120,Campephilus guatemalensis,13.5,242.0,882,càrpìntêr,càrpìntêr-mâch,Woodpeckers,0.0,7.0,2.0,8.0,-5.673070559695043
+121,Falco sparverius,10.5,114.61,2435,líd,líd,Falcons and Caracaras,0.0,1.0,1.0,3.0,-5.363937572686723
+122,Mitrephanes phaeocercus,5.0,8.59,1776,wǐt,wǐt-dán,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,12.0,1.0,12.0,-4.599290230667392
+123,Spinus notatus,4.25,10.9,664,yěets,yěets-dán,"Finches, Euphonias, and Allies",0.0,3.0,1.0,3.0,
+124,Oxyura jamaicensis,15.0,608.15,690,bǎd,bǎd-guìx,Waterfowl,0.0,7.0,5.0,10.0,-5.675484686584504
+125,Hirundo pyrrhonota,5.1,21.6,0,xlútsǐ,xlútsǐ-nquǐts,Martins and Swallows,0.0,7.0,4.0,4.0,
+126,Dryocopus lineatus,13.3,183.19,1103,càrpìntêr,càrpìntêr-mâch,Woodpeckers,0.0,7.0,2.0,8.0,-5.558730439552021
+127,Circus cyaneus,17.75,392.98,0,msì,msì-lâg,"Vultures, Hawks, and Allies",0.0,7.0,3.0,8.0,
+128,Empidonax occidentalis,5.75,11.6,967,wǐt,wǐt,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,12.0,11.0,12.0,-3.827511172301516
+129,Melospiza lincolnii,5.625,16.6,1733,mtsùu,mtsùu,New World Sparrows,0.0,8.0,8.0,10.0,-3.7663285270958684
+130,Calothorax pulcher,3.25,2.7,609,dzǐn̲g,dzǐn̲g,Hummingbirds,0.0,14.0,10.0,14.0,-5.352198490161864
+131,Caprimulgus arizonae,9.4,53.3,0,pùrpùrwít,pùrpùrwít,Nightjars,0.0,1.0,1.0,1.0,
+132,Anas platyrhynchos,23.0,843.42,0,bǎd,bǎd,Waterfowl,0.0,7.0,2.0,10.0,
+133,Cyrtonyx montezumae,8.5,185.38,18,mtǒ,mtǒ,"Grouse, Quail, and Allies",0.0,1.0,1.0,4.0,-5.573751599068785
+134,Bombycilla cedrorum,7.0,31.58,533,mguîn̲-bæ̀d,mguîn̲-bæ̀d,Waxwings,0.0,1.0,1.0,1.0,-4.610699174835405
+135,Trogon mexicanus,12.5,71.0,1561,mèr-dán,mèr-dán,Trogons and Quetzals,0.0,1.0,1.0,2.0,-5.294336859252422
+136,Spizella passerina,5.5,12.2,1834,mtsùu,mtsùu,New World Sparrows,0.0,8.0,8.0,10.0,-3.622778583034697
+137,Polioptila caerulea,4.25,5.8,6898,dìx,dìx,Gnatcatchers,0.0,1.0,1.0,1.0,-4.958012339928095
+138,Haemorhous mexicanus,6.0,21.4,7991,mguěy,mguěy,"Finches, Euphonias, and Allies",1.0,4.0,2.0,3.0,
+139,Melanotis caerulescens,10.0,61.57,4343,mæ̀cw-guiùu,mæ̀cw-guiùu,"Catbirds, Mockingbirds, and Thrashers",0.0,1.0,1.0,3.0,-4.589284356814156
+140,Myiarchus tuberculifer,6.75,17.7,2575,mguîn̲-rchǔup,mguîn̲-rchǔup,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,2.0,2.0,12.0,-4.5773870728843775
+141,Campylorhynchus jocosus,6.5,27.6,1969,mguîn̲-quiè,mguîn̲-quiè,Wrens,0.0,1.0,1.0,6.0,-4.596991802266477
+142,Falco peregrinus,18.0,759.95,883,msì,msì-dòo,Falcons and Caracaras,0.0,7.0,1.0,3.0,-5.474901767331493
+143,Henicorhina leucophrys,4.25,16.19,1592,nguzhǐn,nguzhǐn-guì,Wrens,0.0,6.0,2.0,6.0,-5.0615650095634805
+144,Columba livia,13.5,354.2,2254,pàlôm,pàlôm,Pigeons and Doves,1.0,2.0,1.0,7.0,-5.613167494343181
+145,Sayornis saya,7.5,20.9,302,cùchguêr,xín-cùchguêr,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",0.0,4.0,1.0,12.0,-4.505019934049943
+146,Vermivora celata,5.05,9.19,0,wǐt,wǐt,Wood-Warblers,0.0,12.0,11.0,15.0,
+147,Aimophila ruficeps,6.0,18.69,638,mtsùu,mtsùu,New World Sparrows,0.0,8.0,8.0,10.0,-3.9081676958322826
+148,Basileuterus rufifrons,5.25,10.4,4865,mguîn̲-dǎm̲,mguîn̲-dǎm̲,Wood-Warblers,0.0,1.0,1.0,15.0,-3.903396972522273
+149,Molothrus aeneus,7.625,62.61,3489,sànât-bûrr,sànât-bûrr,Blackbirds,0.0,1.0,1.0,3.0,-4.300998023166482
+150,Aratinga canicularis,8.9,85.0,0,pèrícw,pèrícw,"Parrots, Parakeets, and Allies",0.0,1.0,1.0,3.0,
+151,Aphelocoma californica,11.5,85.74,0,cuǐl̲,cuǐl̲,"Jays, Magpies, Crows, and Ravens",0.0,2.0,1.0,3.0,
+152,Trogon citreolus,,79.0,2030,,,,,,,,-5.003344267154313
+153,Atlapetes pileatus,,24.0,1300,,,,,,,,-4.05054558455437
+154,Diglossa baritula,,9.2,1041,,,,,,,,-4.456981339419645
+155,Leiothlypis ruficapilla,,0.0,5300,,,,,,,,
+156,Sterna forsteri,,149.0,165,,,,,,,,-5.562521956646945
+157,Numenius phaeopus,,364.57,448,,,,,,,,-5.692819127545729
+158,Icterus gularis,,55.16,2400,,,,,,,,-4.484636196817468
+159,Chaetura vauxi,,17.1,691,,,,,,,,-5.792305174055495
+160,Eudocimus albus,,889.66,1254,,,,,,,,-5.705417915017051
+161,Turdus rufopalliatus,,75.02,4272,,,,,,,,-4.211389147606674
+162,Caracara cheriway,,1078.62,4387,,,,,,,,-5.386446112857446
+163,Coereba flaveola,,10.01,386,,,,,,,,-4.187774292647958
+164,Setophaga coronata,,0.0,7097,,,,,,,,
+165,Myiarchus sp.,,0.0,557,,,,,,,,
+166,Leiothlypis virginiae,,0.0,1695,,,,,,,,
+167,Empidonax hammondii,,10.44,680,,,,,,,,-3.837156030643827
+168,Setophaga petechia,,0.0,2629,,,,,,,,
+169,Rupornis magnirostris,,0.0,1828,,,,,,,,
+170,Tityra semifasciata,,79.3,1068,,,,,,,,-4.907906915502433
+171,Megarynchus pitangua,,69.91,1561,,,,,,,,-5.271110987800465
+172,Geothlypis trichas,,9.54,730,,,,,,,,-3.9491198429487886
+173,Cyanerpes cyaneus,,14.0,1165,,,,,,,,-4.834937184277138
+174,Crotophaga sulcirostris,,82.04,3217,,,,,,,,-5.577845283028811
+175,Chondestes grammacus,,29.0,1740,,,,,,,,-3.917538227659178
+176,Ortalis vetula,,562.6,389,,,,,,,,-5.716464375726491
+177,Herpetotheres cachinnans,,623.58,420,,,,,,,,-5.155278053592469
+178,Melozone fusca,,0.0,25,,,,,,,,
+179,Melanerpes hypopolius,,52.4,2366,,,,,,,,-4.423028575811441
+180,Morococcyx erythropygus,,64.53,1029,,,,,,,,-4.4730709967020434
+181,Icterus galbula,,32.83,1242,,,,,,,,-3.7628097228575155
+182,Pitangus sulphuratus,,62.85,10326,,,,,,,,-4.709304588826116
+183,Chlorospingus flavopectus,,0.0,1392,,,,,,,,
+184,Calidris minutilla,,22.88,1308,,,,,,,,-5.144960084217066
+185,Recurvirostra americana,,304.48,313,,,,,,,,-5.788267268566389
+186,Saltator atriceps,,83.79,1149,,,,,,,,-4.908749536065021
+187,Cyanolyca nanus,,0.0,707,,,,,,,,
+188,Anthus rubescens,,20.68,454,,,,,,,,-4.588283448881546
+189,Tachybaptus dominicus,,132.59,2240,,,,,,,,-5.840788631693678
+190,Peucedramus taeniatus,,11.0,1372,,,,,,,,-4.050616615652803
+191,Saltator coerulescens,,54.9,676,,,,,,,,-4.474445402429636
+192,Amazona albifrons,,206.0,1519,,,,,,,,-5.682464433964722
+193,Tringa flavipes,,77.5,459,,,,,,,,-5.72167518569031
+194,Cochlearius cochlearius,,643.21,415,,,,,,,,-5.9043301817249345
+195,Cassiculus melanicterus,,0.0,2462,,,,,,,,
+196,Fulica americana,,636.74,1992,,,,,,,,-5.845642712638615
+197,Setophaga occidentalis,,0.0,1727,,,,,,,,
+198,Piranga ludoviciana,,28.1,6139,,,,,,,,-3.784861761930691
+199,Ammodramus savannarum,,17.61,325,,,,,,,,-4.3743971189173285
+200,Actitis macularius,,40.4,2628,,,,,,,,-5.215881845167495
+201,Pachyramphus aglaiae,,29.69,1748,,,,,,,,-3.898599269386543
+202,Egretta caerulea,,338.61,1604,,,,,,,,-5.4869727740426075
+203,Spizella pallida,,11.2,608,,,,,,,,-4.153208855650377
+204,Tiaris olivaceus,,8.5,484,,,,,,,,-4.558265311135679
+205,Pyrocephalus rubinus,,14.4,8761,,,,,,,,-3.7510935569310577
+206,Leiothlypis celata,,0.0,3241,,,,,,,,
+207,Sula leucogaster,,1288.82,517,,,,,,,,-5.670974886106066
+208,Turdus assimilis,,70.2,1176,,,,,,,,-4.169827219619405
+209,Megaceryle alcyon,,148.0,860,,,,,,,,-5.7974888037010714
+210,Leucophaeus atricilla,,0.0,1493,,,,,,,,
+211,Thalasseus maximus,,0.0,1104,,,,,,,,
+212,Regulus calendula,,6.19,1890,,,,,,,,-5.039551513251826
+213,Phaethornis longirostris,,6.0,166,,,,,,,,-5.791059118307903
+214,Icterus cucullatus,,24.3,842,,,,,,,,-4.299653935566071
+215,Vireo nelsoni,,9.4,582,,,,,,,,-4.045261208740835
+216,Vireo brevipennis,,11.8,949,,,,,,,,-3.707700091617478
+217,Empidonax minimus,,10.0,1838,,,,,,,,-3.886726544828727
+218,Thryophilus pleurostictus,,0.0,1725,,,,,,,,
+219,Chordeiles acutipennis,,48.42,570,,,,,,,,-5.811756308639262
+220,Icterus mesomelas,,39.9,107,,,,,,,,-4.229846603826248
+221,Eupsittula nana,,0.0,703,,,,,,,,
+222,Chondrohierax uncinatus,,286.07,219,,,,,,,,-5.660793495448279
+223,Glaucidium brasilianum,,75.1,1900,,,,,,,,-5.141206447871914
+224,Aphelocoma woodhouseii,,0.0,1840,,,,,,,,
+225,Campylorhynchus rufinucha,,31.0,2601,,,,,,,,-4.3056990176586725
+226,Passerina cyanea,,14.69,1547,,,,,,,,-3.990134406803068
+227,Vireolanius melitophrys,,34.7,813,,,,,,,,-3.8358412295625772
+228,Melanerpes chrysogenys,,67.72,2070,,,,,,,,-4.298719693172083
+229,Passerina leclancherii,,14.0,2207,,,,,,,,-4.192134454798646
+230,Tringa melanoleuca,,161.74,634,,,,,,,,-5.79546084270652
+231,Icterus spurius,,19.44,2405,,,,,,,,-4.03935191924055
+232,Passerina ciris,,15.54,932,,,,,,,,-4.008348860858208
+233,Butorides virescens,,201.5,1672,,,,,,,,-5.821443652041172
+234,Dendrocolaptes sanctithomae,,66.9,57,,,,,,,,-5.158097964081433
+235,Myiarchus tyrannulus,,35.45,1371,,,,,,,,-4.289896742176283
+236,Calocitta formosa,,210.0,3702,,,,,,,,-5.781989522512465
+237,Columbina talpacoti,,46.04,1205,,,,,,,,-5.356627823167107
+238,Campylorhynchus megalopterus,,33.1,1445,,,,,,,,-4.304846916026705
+239,Passerina caerulea,,27.39,3474,,,,,,,,-4.135840435991646
+240,Peucaea mystacalis,,0.0,2186,,,,,,,,
+241,Tyrannus melancholicus,,37.4,6598,,,,,,,,-4.588855951907741
+242,Phalacrocorax brasilianus,,1239.29,2731,,,,,,,,-5.692539902130254
+243,Buteogallus anthracinus,,975.09,649,,,,,,,,-4.932723503904959
+244,Egretta rufescens,,614.0,984,,,,,,,,-5.692041727766746
+245,Setophaga nigrescens,,0.0,1454,,,,,,,,
+246,Certhia americana,,8.1,1123,,,,,,,,-5.0977335104308885
+247,Thalasseus sandvicensis,,0.0,322,,,,,,,,
+248,Empidonax sp.,,0.0,1142,,,,,,,,
+249,Loxia curvirostra,,38.29,587,,,,,,,,-4.885016242048859
+250,Podilymbus podiceps,,411.93,539,,,,,,,,-5.8344709169038325
+251,Basileuterus belli,,10.7,1612,,,,,,,,-3.765218573650434
+252,Myiozetetes similis,,28.0,6005,,,,,,,,-4.062944461344359
+253,Calidris canutus,,141.87,100,,,,,,,,-5.6195051342693025
+254,Calidris mauri,,27.82,372,,,,,,,,-5.2529976127817495
+255,Spatula clypeata,,0.0,725,,,,,,,,
+256,Arremonops rufivirgatus,,22.43,872,,,,,,,,-4.054127723915257
+257,Spinus psaltria,,0.0,7126,,,,,,,,
+258,Toxostoma ocellatum,,84.29,843,,,,,,,,-5.240652126400102
+259,Aimophila notosticta,,27.1,965,,,,,,,,-3.970337977974981
+260,Chloroceryle aenea,,13.75,16,,,,,,,,-5.878382967871552
+261,Dryobates scalaris,,0.0,2324,,,,,,,,
+262,Catharus sp.,,0.0,62,,,,,,,,
+263,Polioptila albiloris,,6.26,2164,,,,,,,,-4.722450033262361
+264,Melanerpes aurifrons,,80.77,2712,,,,,,,,-4.91101916954754
+265,Tringa semipalmata,,0.0,671,,,,,,,,
+266,Icteria virens,,24.89,602,,,,,,,,-3.997702422931078
+267,Tyrannus forficatus,,39.3,1258,,,,,,,,-5.399482348189333
+268,Icterus pustulatus,,36.78,3009,,,,,,,,-3.8090173798573947
+269,Streptoprocne zonaris,,86.79,1011,,,,,,,,-5.6745780099260505
+270,Pelecanus occidentalis,,3427.84,1740,,,,,,,,-5.891841481790175
+271,Progne chalybea,,42.9,1799,,,,,,,,-5.226229913206043
+272,Fregata magnificens,,1490.52,2443,,,,,,,,-5.907455825523867
+273,Heliomaster constantii,,7.3,597,,,,,,,,-5.387331202109482
+274,Eupsittula canicularis,,0.0,2475,,,,,,,,
+275,Piranga flava,,37.7,1578,,,,,,,,-4.099307969898401
+276,Contopus sordidulus,,13.1,1422,,,,,,,,-4.439353814279713
+277,Volatinia jacarina,,9.94,971,,,,,,,,-4.512765837810102
+278,Anabacerthia variegaticeps,,27.8,194,,,,,,,,-4.210999503561421
+279,Cyanolyca mirabilis,,52.4,97,,,,,,,,-4.1847753884661465
+280,Lanius ludovicianus,,51.59,960,,,,,,,,-4.212992552021804
+281,Sturnella magna,,91.76,680,,,,,,,,-5.140510920322036
+282,Egretta tricolor,,372.3,1366,,,,,,,,-5.508428402990586
+283,Nyctanassa violacea,,681.67,489,,,,,,,,-5.643237385565146
+284,Ardea herodias,,2523.41,1774,,,,,,,,-5.904258156238372
+285,Icterus parisorum,,36.48,506,,,,,,,,-3.8470953338156124
+286,Passeriformes sp.,,0.0,106,,,,,,,,
+287,Megascops cooperi,,149.94,196,,,,,,,,-5.236766441025317
+288,Turdus grayi,,79.5,4195,,,,,,,,-4.2806142106877925
+289,Piaya cayana,,101.98,1476,,,,,,,,-5.6387671661588135
+290,Passerellidae sp. (sparrow sp.),,0.0,84,,,,,,,,
+291,Euphonia elegantissima,,15.0,1522,,,,,,,,-4.932331205068678
+292,Synallaxis erythrothorax,,17.1,269,,,,,,,,-4.3638080491823485
+293,Pachysylvia decurtata,,0.0,348,,,,,,,,
+294,Setophaga ruticilla,,8.24,1137,,,,,,,,-3.982628978729597
+295,Phaethornis striigularis,,3.0,359,,,,,,,,-5.346896196150794
+296,Eupherusa eximia,,4.3,119,,,,,,,,-5.097299444334875
+297,Contopus cooperi,,32.1,238,,,,,,,,-4.47426595721433
+298,Geothlypis tolmiei,,0.0,2101,,,,,,,,
+299,Myiobius sulphureipygius,,11.64,49,,,,,,,,-3.559312204986091
+300,Cyanocompsa parellina,,15.64,980,,,,,,,,-4.311375228127224
+301,Icterus abeillei,,33.0,106,,,,,,,,-3.8470150612356626
+302,Momotus mexicanus,,75.7,1674,,,,,,,,-5.32212634340857
+303,Cynanthus latirostris,,3.1,1899,,,,,,,,-5.092599224341429
+304,Myiarchus cinerascens,,28.2,1675,,,,,,,,-4.12730737473495
+305,Pluvialis squatarola,,250.0,398,,,,,,,,-5.625208978068686
+306,Empidonax fulvifrons,,7.9,63,,,,,,,,-4.2693272687600405
+307,Cardinalis cardinalis,,42.64,1102,,,,,,,,-4.441384759962348
+308,Chloroceryle americana,,33.73,1063,,,,,,,,-5.88076118577835
+309,Camptostoma imberbe,,7.4,2010,,,,,,,,-4.913620127376609
+310,Myiopagis viridicata,,11.51,1419,,,,,,,,-3.661036388828873
+311,Antrostomus arizonae,,0.0,371,,,,,,,,
+312,Anhinga anhinga,,1235.0,380,,,,,,,,-5.875130809953803
+313,Jacana spinosa,,94.0,923,,,,,,,,-5.685335583034276
+314,Himantopus mexicanus,,176.82,1431,,,,,,,,-5.848741878876648
+315,Egretta thula,,371.0,3158,,,,,,,,-5.4639321478824
+316,Apodidae sp.,,0.0,122,,,,,,,,
+317,Icterus graduacauda,,42.2,1108,,,,,,,,-3.8725911835244307
+318,Tigrisoma mexicanum,,1154.38,171,,,,,,,,-5.83442523866252
+319,Vireo hypochryseus,,12.2,2448,,,,,,,,-3.52797309083562
+320,Hylocichla mustelina,,50.09,228,,,,,,,,-4.316941395204871
+321,Setophaga citrina,,0.0,481,,,,,,,,
+322,Empidonax flaviventris,,11.8,397,,,,,,,,-3.8242470092303398
+323,Vermivora cyanoptera,,0.0,122,,,,,,,,
+324,Vireo griseus,,11.4,386,,,,,,,,-3.5115095337086055
+325,Dives dives,,91.32,1831,,,,,,,,-4.821551713134729
+326,Ardea alba,,0.0,3801,,,,,,,,
+327,Momotus lessonii,,0.0,460,,,,,,,,
+328,Falco rufigularis,,163.64,214,,,,,,,,-5.308254195130657
+329,Pseudastur albicollis,,0.0,169,,,,,,,,
+330,Formicarius analis,,62.19,146,,,,,,,,-4.778850858023396
+331,Tachycineta albilinea,,16.7,890,,,,,,,,-4.874259171395622
+332,Ramphocelus sanguinolentus,,41.0,450,,,,,,,,-3.9865414967817587
+333,Panyptila cayennensis,,21.1,33,,,,,,,,-5.526932114208466
+334,Pachyramphus major,,24.8,179,,,,,,,,-4.08388635395296
+335,Sterna hirundo,,129.15,129,,,,,,,,-5.595766747711011
+336,Amazilia rutila,,5.24,1506,,,,,,,,-4.531431844192329
+337,Icterus sp.,,0.0,299,,,,,,,,
+338,Icterus bullockii,,37.9,2841,,,,,,,,-3.778936756714733
+339,Xenotriccus mexicanus,,13.8,845,,,,,,,,-3.8661211150699177
+340,Streptoprocne rutila,,20.2,337,,,,,,,,-5.59046464524512
+341,Pandion haliaetus,,1483.2,1290,,,,,,,,-5.546931647809297
+342,Psarocolius montezuma,,309.87,818,,,,,,,,-5.817860943096466
+343,Leucophaeus pipixcan,,0.0,336,,,,,,,,
+344,Setophaga pitiayumi,,0.0,276,,,,,,,,
+345,Empidonax wrightii,,12.3,265,,,,,,,,-3.6356408444195427
+346,Pionus senilis,,212.0,280,,,,,,,,-5.705255604705966
+347,Hylocharis eliciae,,3.6,10,,,,,,,,-5.2330204459989424
+348,Pheucticus ludovicianus,,42.0,1132,,,,,,,,-4.285219945343578
+349,Gallinula galeata,,0.0,503,,,,,,,,
+350,Nyctidromus albicollis,,57.84,435,,,,,,,,-5.619190398781106
+351,Charadrius vociferus,,96.44,996,,,,,,,,-5.3697654375529265
+352,Dendrocincla anabatina,,34.21,68,,,,,,,,-3.9691787495596937
+353,Sporophila morelleti/torqueola,,0.0,95,,,,,,,,
+354,Sporophila morelleti,,0.0,894,,,,,,,,
+355,Vireo flavoviridis,,17.59,596,,,,,,,,-3.9136410155973063
+356,Xiphorhynchus flavigaster,,46.19,1285,,,,,,,,-5.248714244993912
+357,Selasphorus platycercus,,3.54,222,,,,,,,,-4.95038780055069
+358,Tinamus major,,1026.21,48,,,,,,,,-5.9004168643645
+359,Setophaga graciae,,0.0,226,,,,,,,,
+360,Sialia sialis,,27.5,203,,,,,,,,-4.111160488766474
+361,Colinus virginianus,,171.89,313,,,,,,,,-5.565644438373094
+362,Cyanoloxia cyanoides,,0.0,158,,,,,,,,
+363,Tringa incana,,0.0,20,,,,,,,,
+364,Turdus infuscatus,,72.4,409,,,,,,,,-4.2968070194194246
+365,Thraupis episcopus,,35.0,855,,,,,,,,-3.9587041494306527
+366,Euphonia gouldi,,14.0,121,,,,,,,,-4.804149676861562
+367,Psilorhinus morio,,0.0,1284,,,,,,,,
+368,Icterus pectoralis,,46.5,700,,,,,,,,-3.9400176650101066
+369,Sporophila torqueola,,8.7,2994,,,,,,,,-4.736205929181211
+370,Aulacorhynchus prasinus,,170.56,913,,,,,,,,-5.8802019751729375
+371,Phaethon aethereus,,749.99,126,,,,,,,,-5.853086999360061
+372,Limnodromus scolopaceus,,104.4,83,,,,,,,,-5.642535312288048
+373,Xiphorhynchus erythropygius,,46.8,131,,,,,,,,-4.790128032898305
+374,Psittacara holochlorus,,0.0,195,,,,,,,,
+375,Peucaea ruficauda,,0.0,933,,,,,,,,
+376,Elaenia flavogaster,,24.8,218,,,,,,,,-4.248096628477712
+377,Peucaea sumichrasti,,0.0,659,,,,,,,,
+378,Geothlypis poliocephala,,14.6,275,,,,,,,,-4.006178813027761
+379,Chlorostilbon canivetii,,2.61,239,,,,,,,,-5.34595285325495
+380,Trochilidae sp.,,0.0,955,,,,,,,,
+381,Euphagus cyanocephalus,,62.48,22,,,,,,,,-4.109641266614875
+382,Chordeiles sp.,,0.0,15,,,,,,,,
+383,Caryothraustes poliogaster,,41.8,227,,,,,,,,-4.12054186268172
+384,Saltator maximus,,47.62,321,,,,,,,,-4.297842174994369
+385,Henicorhina leucosticta,,14.18,466,,,,,,,,-4.738862151982172
+386,Trogon massena,,141.0,79,,,,,,,,-5.676050425406055
+387,Catharus ustulatus,,30.3,522,,,,,,,,-4.197708991392424
+388,Spizella atrogularis,,11.3,12,,,,,,,,-4.129718875601385
+389,Vireo cassinii/plumbeus,,0.0,42,,,,,,,,
+390,Amazilia violiceps,,5.1,241,,,,,,,,-4.750784248849219
+391,Glaucidium palmarum,,45.7,520,,,,,,,,-4.753511523406144
+392,Mycteria americana,,2554.47,834,,,,,,,,-5.912953034994217
+393,Zentrygon albifacies,,0.0,289,,,,,,,,
+394,Piranga bidentata,,36.07,428,,,,,,,,-3.8657497138929404
+395,Sula nebouxii,,1520.09,129,,,,,,,,-5.419804529432282
+396,Deltarhynchus flammulatus,,17.2,261,,,,,,,,-4.3795974210838935
+397,Trogon collaris,,65.43,555,,,,,,,,-5.160795523940977
+398,Riparia riparia,,12.68,122,,,,,,,,-5.329010374399516
+399,Onychorhynchus coronatus,,14.0,36,,,,,,,,-5.012305930110296
+400,Parkesia noveboracensis,,0.0,477,,,,,,,,
+401,Cardellina rubra,,0.0,2492,,,,,,,,
+402,Euphonia hirundinacea,,14.0,575,,,,,,,,-4.675257185315537
+403,Sporophila funerea,,0.0,94,,,,,,,,
+404,Tyrannus melancholicus/couchii,,0.0,160,,,,,,,,
+405,Patagioenas flavirostris,,270.81,973,,,,,,,,-5.603217228157095
+406,Piranga sp.,,0.0,31,,,,,,,,
+407,Nycticorax nycticorax,,810.0,428,,,,,,,,-5.5853478707901365
+408,Aimophila rufescens,,34.3,611,,,,,,,,-4.017290204290718
+409,Microrhopias quixensis,,7.9,6,,,,,,,,-4.33789285255714
+410,Ramphocelus passerinii,,32.0,35,,,,,,,,-3.9394499358127213
+411,Geothlypis nelsoni,,11.0,148,,,,,,,,-4.239774549486974
+412,Colaptes rubiginosus,,55.79,309,,,,,,,,-4.27019032537001
+413,Catharus guttatus,,30.1,1144,,,,,,,,-4.541855430332917
+414,Hydroprogne caspia,,0.0,461,,,,,,,,
+415,Calidris alba,,51.71,269,,,,,,,,-5.205671778922971
+416,Rhynchocyclus brevirostris,,24.3,129,,,,,,,,-4.525901422747998
+417,Setophaga virens,,0.0,1239,,,,,,,,
+418,Hirundinidae sp.,,0.0,316,,,,,,,,
+419,Megaceryle torquata,,317.0,618,,,,,,,,-5.9046285776873235
+420,Chiroxiphia linearis,,17.44,41,,,,,,,,-4.939835039568346
+421,Tolmomyias sulphurescens,,14.3,361,,,,,,,,-3.7711989663553847
+422,Ramphastos sulfuratus,,409.69,791,,,,,,,,-5.913366466363372
+423,Rhytipterna holerythra,,36.8,14,,,,,,,,-3.912059919254051
+424,Geranoaetus albicaudatus,,0.0,817,,,,,,,,
+425,Lanio aurantius,,35.0,54,,,,,,,,-4.069168855063391
+426,Tringa solitaria,,48.4,220,,,,,,,,-5.321745143379991
+427,Peucaea botterii,,0.0,225,,,,,,,,
+428,Granatellus venustus,,10.8,512,,,,,,,,-4.076443230851888
+429,Dumetella carolinensis,,35.3,394,,,,,,,,-4.27938202546599
+430,Chloroceryle amazona,,126.38,320,,,,,,,,-5.810348303713842
+431,Thalasseus elegans,,0.0,370,,,,,,,,
+432,Catharus mexicanus,,33.0,158,,,,,,,,-4.165802099347385
+433,Oceanodroma microsoma,,0.0,101,,,,,,,,
+434,Vireo cassinii/solitarius,,0.0,31,,,,,,,,
+435,Ardenna creatopus,,0.0,128,,,,,,,,
+436,Plegadis chihi,,616.89,329,,,,,,,,-5.375434253410815
+437,Limosa fedoa,,357.02,288,,,,,,,,-5.7013723237020315
+438,Pheugopedius felix,,0.0,1125,,,,,,,,
+439,Vireo solitarius,,15.3,1118,,,,,,,,-3.7412098553448643
+440,Attila spadiceus,,39.1,354,,,,,,,,-4.061348243632068
+441,Amazona autumnalis,,416.0,557,,,,,,,,-5.538388243947955
+442,Vireo flavifrons,,18.0,153,,,,,,,,-3.835341245796644
+443,Passerina rositae,,20.0,535,,,,,,,,-4.490030741652987
+444,Spizaetus tyrannus,,1007.11,119,,,,,,,,-5.354042633868284
+445,Charadrius semipalmatus,,46.74,470,,,,,,,,-5.316786592652899
+446,Ardenna pacifica,,0.0,264,,,,,,,,
+447,Falco columbarius,,188.5,176,,,,,,,,-5.427889157938564
+448,Circus hudsonius,,0.0,548,,,,,,,,
+449,Tyrannus couchii,,39.0,261,,,,,,,,-4.409479967399216
+450,Trogon melanocephalus,,85.1,215,,,,,,,,-5.256521405815963
+451,Passerina amoena,,15.49,99,,,,,,,,-3.939813421901481
+452,Cyanocorax yncas,,78.5,625,,,,,,,,-4.951083041582114
+453,Sitta pygmaea,,10.6,3,,,,,,,,-4.167428721177357
+454,Columbidae sp.,,0.0,42,,,,,,,,
+455,Calothorax lucifer,,3.3,7,,,,,,,,-5.124195117855262
+456,Amazilia tzacatl,,4.79,609,,,,,,,,-4.7015277870292485
+457,Micrastur semitorquatus,,621.68,406,,,,,,,,-5.39966554421647
+458,Cercomacroides tyrannina,,0.0,50,,,,,,,,
+459,Setophaga magnolia,,0.0,821,,,,,,,,
+460,Passerina versicolor,,12.89,399,,,,,,,,-3.9964059633420828
+461,Lepidocolaptes affinis,,34.99,980,,,,,,,,-4.955854137613602
+462,Dactylortyx thoracicus,,201.75,3,,,,,,,,-5.579513036779913
+463,Psittaciformes sp. (parrot sp.),,0.0,62,,,,,,,,
+464,Amblycercus holosericeus,,70.42,266,,,,,,,,-4.737018515190529
+465,Todirostrum cinereum,,6.29,37,,,,,,,,-5.351981103937388
+466,Myiarchus crinitus,,32.1,110,,,,,,,,-4.197203676766263
+467,Pelecanus erythrorhynchos,,5608.48,846,,,,,,,,-5.889985146224111
+468,Buteo plagiatus,,0.0,2082,,,,,,,,
+469,Vireo atricapilla,,8.99,33,,,,,,,,-3.9241900672829333
+470,Arremon aurantiirostris,,34.5,94,,,,,,,,-3.9582401872215414
+471,Amazilia candida,,3.8,522,,,,,,,,-5.097446714474875
+472,Habia fuscicauda,,36.84,462,,,,,,,,-3.867021057292001
+473,Alcedinidae sp.,,0.0,11,,,,,,,,
+474,Vireo bellii,,8.5,807,,,,,,,,-4.008359880042601
+475,Aphelocoma unicolor,,124.0,540,,,,,,,,-5.124893390034252
+476,Thraupis abbas,,45.0,1168,,,,,,,,-4.224331761858058
+477,Calidris himantopus,,57.24,117,,,,,,,,-5.6556458263695575
+478,Buteo swainsoni,,946.61,324,,,,,,,,-5.105485319463856
+479,Parabuteo unicinctus,,850.28,49,,,,,,,,-5.038144486807747
+480,Parkesia motacilla,,0.0,567,,,,,,,,
+481,Campylopterus curvipennis,,6.0,146,,,,,,,,-4.878109423535242
+482,Trogon caligatus,,46.5,497,,,,,,,,-5.1269276726740936
+483,Myiodynastes luteiventris,,46.9,693,,,,,,,,-4.300843250304883
+484,Gallinago delicata,,0.0,128,,,,,,,,
+485,Petrochelidon pyrrhonota,,21.6,496,,,,,,,,-4.930543529310619
+486,Podiceps nigricollis,,412.44,113,,,,,,,,-5.840305049289832
+487,Puffinus subalaris,,0.0,181,,,,,,,,
+488,Oncostoma cinereigulare,,6.4,220,,,,,,,,-4.838298375993209
+489,Empidonax traillii,,13.39,275,,,,,,,,-3.7781777235847716
+490,Crax rubra,,4133.0,20,,,,,,,,-5.881567610519528
+491,Cardellina canadensis,,0.0,67,,,,,,,,
+492,Mimus gilvus,,51.99,611,,,,,,,,-4.372609554006192
+493,Trogon sp.,,0.0,43,,,,,,,,
+494,Empidonax difficilis,,10.7,325,,,,,,,,-3.7469403917095767
+495,Piranga erythrocephala,,21.8,557,,,,,,,,-4.184477118355984
+496,Chordeiles minor,,79.3,37,,,,,,,,-5.7655566969322445
+497,Eupherusa cyanophrys,,4.8,595,,,,,,,,-4.397328855839156
+498,Elanus leucurus,,346.0,1144,,,,,,,,-5.381721669043879
+499,Arenaria interpres,,135.98,296,,,,,,,,-5.408696005241392
+500,Strigiformes sp.,,0.0,9,,,,,,,,
+501,Campylorhynchus zonatus,,34.6,702,,,,,,,,-4.3068933161513465
+502,Setophaga pensylvanica,,0.0,100,,,,,,,,
+503,Peucaea humeralis,,0.0,8,,,,,,,,
+504,Panyptila sanctihieronymi,,48.1,43,,,,,,,,-5.821872969973767
+505,Sternula antillarum,,0.0,198,,,,,,,,
+506,Pteroglossus torquatus,,219.07,294,,,,,,,,-5.899365095329964
+507,Pyrilia haematotis,,149.0,129,,,,,,,,-5.710637860323261
+508,Crypturellus cinnamomeus,,422.0,142,,,,,,,,-5.539657778703855
+509,Thamnophilus doliatus,,27.03,332,,,,,,,,-3.987917417252516
+510,Dendrocincla homochroa,,39.43,28,,,,,,,,-4.033069444794359
+511,Coccyzus minor,,63.89,107,,,,,,,,-4.788143952965591
+512,Coccothraustes vespertinus,,57.3,18,,,,,,,,-4.920614391555758
+513,Progne sp.,,0.0,18,,,,,,,,
+514,Molothrus oryzivorus,,181.85,27,,,,,,,,-5.358474308469079
+515,Pheugopedius maculipectus,,0.0,924,,,,,,,,
+516,Euphonia affinis,,10.0,1154,,,,,,,,-5.044326566382161
+517,Laterallus ruber,,44.4,53,,,,,,,,-5.434499298219261
+518,Sayornis phoebe,,19.7,62,,,,,,,,-4.155564092322443
+519,Claravis pretiosa,,68.2,220,,,,,,,,-5.441623410635
+520,Basileuterus lachrymosus,,0.0,342,,,,,,,,
+521,Columbina minuta,,32.59,38,,,,,,,,-5.443357729034687
+522,Molothrus ater,,40.26,485,,,,,,,,-4.0809783200102885
+523,Porzana carolina,,74.8,180,,,,,,,,-5.471124845633763
+524,Anthracothorax prevostii,,6.4,146,,,,,,,,-4.826782162794499
+525,Sitta carolinensis,,21.0,275,,,,,,,,-4.349995789606145
+526,Polioptila plumbea,,6.0,50,,,,,,,,-4.855923122491066
+527,Spiza americana,,26.18,333,,,,,,,,-4.031650068867887
+528,Setophaga americana,,0.0,453,,,,,,,,
+529,Passerculus sandwichensis,,19.97,178,,,,,,,,-3.9638727413902286
+530,Basileuterus culicivorus,,10.5,784,,,,,,,,-3.517385924758983
+531,Psittaciformes sp. (parakeet sp.),,0.0,32,,,,,,,,
+532,Sporophila minuta,,7.8,198,,,,,,,,-5.00795794459456
+533,Sterninae sp.,,0.0,130,,,,,,,,
+534,Chlorostilbon auriceps,,2.61,282,,,,,,,,-5.404024110883536
+535,Oceanodroma melania,,61.5,135,,,,,,,,-5.353947222714394
+536,Rynchops niger,,297.73,293,,,,,,,,-5.897234787298535
+537,Tyto alba,,403.32,152,,,,,,,,-5.383637544589724
+538,Pheucticus chrysopeplus,,77.6,88,,,,,,,,-5.24398256097092
+539,Charadrius wilsonia,,55.1,88,,,,,,,,-5.130395358214588
+540,Burhinus bistriatus,,787.0,315,,,,,,,,-5.798551455733443
+541,Chlidonias niger,,65.3,311,,,,,,,,-5.591867349755366
+542,Lepidocolaptes souleyetii,,25.7,192,,,,,,,,-5.330624014539365
+543,Amazona oratrix,,476.94,96,,,,,,,,-5.523368046329737
+544,Phainopepla nitens,,22.1,9,,,,,,,,-4.860579685027315
+545,Vermivora chrysoptera,,8.74,8,,,,,,,,-4.041020593736834
+546,Melozone kieneri,,38.7,85,,,,,,,,-3.8881442811696783
+547,Lampornis viridipallens,,5.33,5,,,,,,,,-4.683595147267813
+548,Buteogallus urubitinga,,1152.87,129,,,,,,,,-5.480701117344318
+549,Picidae sp.,,0.0,77,,,,,,,,
+550,Fregata sp.,,0.0,2,,,,,,,,
+551,Aramus guarauna,,1080.0,263,,,,,,,,-5.743212697650431
+552,Phaethornis mexicanus,,0.0,179,,,,,,,,
+553,Heliomaster longirostris,,6.6,253,,,,,,,,-5.329548858112355
+554,Cistothorus palustris,,10.8,33,,,,,,,,-4.56167788797863
+555,Patagioenas speciosa,,258.47,22,,,,,,,,-5.44710897822358
+556,Agelaius phoeniceus,,50.78,436,,,,,,,,-4.121542486169522
+557,Icterus prosthemelas,,27.95,203,,,,,,,,-4.104762939986849
+558,Vireo cassinii/solitarius/plumbeus,,0.0,54,,,,,,,,
+559,Crypturellus soui,,216.16,93,,,,,,,,-5.804467322246326
+560,Glaucidium griseiceps,,50.58,62,,,,,,,,-4.765421142466989
+561,Hylorchilus sumichrasti,,28.4,197,,,,,,,,-5.5225437794203796
+562,Pulsatrix perspicillata,,983.55,16,,,,,,,,-5.292700516491961
+563,Galbula ruficauda,,26.5,17,,,,,,,,-5.880017856085576
+564,Leiothlypis peregrina,,0.0,685,,,,,,,,
+565,Buteo sp.,,0.0,49,,,,,,,,
+566,Tunchiornis ochraceiceps,,0.0,26,,,,,,,,
+567,Contopus cinereus,,11.6,82,,,,,,,,-4.602896523214312
+568,Amazilia sp.,,0.0,32,,,,,,,,
+569,Taraba major,,59.2,19,,,,,,,,-4.49281281194763
+570,Regulus satrapa,,6.19,92,,,,,,,,-5.301518295198749
+571,Cyclarhis gujanensis,,28.8,210,,,,,,,,-4.1520264381200125
+572,Ridgwayia pinicola,,0.0,174,,,,,,,,
+573,Tachycineta bicolor,,21.2,76,,,,,,,,-5.0673348308953035
+574,Selasphorus sp.,,0.0,29,,,,,,,,
+575,Ramphocaenus melanurus,,9.7,163,,,,,,,,-5.487089825638954
+576,Penelope purpurascens,,2060.0,248,,,,,,,,-5.854497810711711
+577,Ortalis sp.,,0.0,9,,,,,,,,
+578,Glyphorynchus spirurus,,14.6,37,,,,,,,,-3.7537353921481285
+579,Dryobates fumigatus,,0.0,117,,,,,,,,
+580,Troglodytidae sp.,,0.0,35,,,,,,,,
+581,Sittasomus griseicapillus,,13.12,363,,,,,,,,-4.3613067516683985
+582,Amazona sp.,,0.0,77,,,,,,,,
+583,Leiothlypis crissalis,,0.0,13,,,,,,,,
+584,Nyctibius jamaicensis,,266.04,121,,,,,,,,-5.835769420919701
+585,Porphyrio martinica,,235.06,120,,,,,,,,-5.71428424063632
+586,Platalea ajaja,,1490.0,776,,,,,,,,-5.8911643645070795
+587,Empidonax difficilis/occidentalis,,0.0,158,,,,,,,,
+588,Botaurus pinnatus,,812.16,11,,,,,,,,-5.534849336212543
+589,Aramides albiventris,,0.0,42,,,,,,,,
+590,Melanerpes pucherani,,62.4,66,,,,,,,,-4.545419290235197
+591,Empidonax alnorum,,12.7,17,,,,,,,,-3.701754572660153
+592,Charadrius collaris,,28.3,279,,,,,,,,-4.928232413026969
+593,Setophaga tigrina,,0.0,6,,,,,,,,
+594,Habia rubica,,32.46,432,,,,,,,,-3.836234672319468
+595,Helmitheros vermivorum,,14.16,75,,,,,,,,-3.805464513668224
+596,Empidonax albigularis,,9.58,118,,,,,,,,-4.0845713687633545
+597,Geranospiza caerulescens,,302.5,183,,,,,,,,-5.414185114033786
+598,Amazilia cyanocephala,,5.1,438,,,,,,,,-4.403538266189304
+599,Rostrhamus sociabilis,,366.94,156,,,,,,,,-5.40666967333509
+600,Colaptes auricularis,,65.4,202,,,,,,,,-4.27648777744569
+601,Xenops minutus,,10.6,80,,,,,,,,-4.04660669628795
+602,Phalaropus fulicarius,,55.59,71,,,,,,,,-5.516880124888026
+603,Charadrius nivosus,,0.0,185,,,,,,,,
+604,Gelochelidon nilotica,,0.0,246,,,,,,,,
+605,Patagioenas nigrirostris,,176.0,158,,,,,,,,-5.3972055120564235
+606,Larus argentatus,,1090.99,26,,,,,,,,-5.654125771668269
+607,Uropsila leucogastra,,9.03,119,,,,,,,,-4.897954022434654
+608,Odontophorus guttatus,,303.83,108,,,,,,,,-5.753487376804774
+609,Campylopterus hemileucurus,,9.72,152,,,,,,,,-5.4909098838645285
+610,Xema sabini,,198.0,77,,,,,,,,-5.634044503188227
+611,Setophaga dominica,,0.0,173,,,,,,,,
+612,Automolus ochrolaemus,,40.2,111,,,,,,,,-3.9020862870143787
+613,Contopus sordidulus/virens,,0.0,84,,,,,,,,
+614,Tityra inquisitor,,43.1,117,,,,,,,,-4.672587236017291
+615,Stercorarius parasiticus,,444.31,35,,,,,,,,-5.690581805792952
+616,Ciccaba nigrolineata,,0.0,15,,,,,,,,
+617,Piranga leucoptera,,16.0,273,,,,,,,,-4.639676031131124
+618,Megascops guatemalae,,118.0,75,,,,,,,,-5.242625975805353
+619,Tapera naevia,,48.42,13,,,,,,,,-4.629615873447673
+620,Oriturus superciliosus,,41.4,3,,,,,,,,-3.972777618708659
+621,Buteo platypterus,,453.65,604,,,,,,,,-5.034621479556585
+622,Bolborhynchus lineola,,56.2,61,,,,,,,,-5.6228875236504186
+623,Cotinga amabilis,,71.49,8,,,,,,,,-4.934566299031484
+624,Psarocolius wagleri,,155.5,113,,,,,,,,-5.6718953651202915
+625,Asio clamator,,0.0,18,,,,,,,,
+626,Vireo pallens,,11.0,74,,,,,,,,-3.737554781059248
+627,Turdus sp.,,0.0,76,,,,,,,,
+628,Micrastur ruficollis,,177.64,129,,,,,,,,-5.569086632789311
+629,Coccyzus americanus,,64.0,57,,,,,,,,-4.797390097861531
+630,Ictinia mississippiensis,,276.03,59,,,,,,,,-5.177550998515077
+631,Tinamidae sp.,,0.0,1,,,,,,,,
+632,Myadestes unicolor,,37.9,576,,,,,,,,-4.536650512819421
+633,Leptotila plumbeiceps,,170.0,101,,,,,,,,-5.663253430983096
+634,Atlapetes albinucha,,33.84,199,,,,,,,,-4.00002707466951
+635,Contopus sp.,,0.0,100,,,,,,,,
+636,Chlorophanes spiza,,19.0,33,,,,,,,,-4.051455687804004
+637,Saltator sp.,,0.0,6,,,,,,,,
+638,Ornithion semiflavum,,6.6,94,,,,,,,,-5.539613990881865
+639,Phalaropus lobatus,,36.68,143,,,,,,,,-5.431527728644189
+640,Antrostomus ridgwayi,,0.0,497,,,,,,,,
+641,Granatellus sallaei,,9.9,6,,,,,,,,-3.7936572356491984
+642,Calidris bairdii,,40.97,62,,,,,,,,-5.2546564526570725
+643,Abeillia abeillei,,2.7,88,,,,,,,,-5.811150762745992
+644,Limnodromus griseus,,110.53,214,,,,,,,,-5.61724614593343
+645,Calidris virgata,,0.0,33,,,,,,,,
+646,Cathartes burrovianus,,935.0,9,,,,,,,,-5.58550638101072
+647,Sterna hirundo/paradisaea,,0.0,11,,,,,,,,
+648,Chlorophonia occipitalis,,25.8,178,,,,,,,,-4.740855187706964
+649,Cyanolyca cucullata,,101.33,196,,,,,,,,-4.930369942271215
+650,Phaethon aethereus/rubricauda,,0.0,1,,,,,,,,
+651,Poecilotriccus sylvia,,7.1,50,,,,,,,,-5.055732694521779
+652,Grallaria guatimalensis,,94.2,17,,,,,,,,-5.649058049126946
+653,Aves sp.,,0.0,65,,,,,,,,
+654,Spizella sp.,,0.0,7,,,,,,,,
+655,Anatidae sp. (teal sp.),,0.0,14,,,,,,,,
+656,Spatula cyanoptera,,0.0,175,,,,,,,,
+657,Amazona farinosa,,625.99,208,,,,,,,,-5.7395942589421765
+658,Anas acuta,,944.62,235,,,,,,,,-5.7209163525604385
+659,Dromococcyx phasianellus,,84.5,119,,,,,,,,-5.606011287765558
+660,Harpagus bidentatus,,215.25,34,,,,,,,,-5.365063063602682
+661,Polioptila sp.,,0.0,31,,,,,,,,
+662,Stilpnia larvata,,0.0,85,,,,,,,,
+663,Parulidae sp.,,0.0,88,,,,,,,,
+664,Leptodon cayanensis,,474.0,28,,,,,,,,-5.331774689423089
+665,Pluvialis dominica,,151.47,65,,,,,,,,-5.370070111433028
+666,Tyrannus sp. (yellow-bellied),,0.0,133,,,,,,,,
+667,Ictinia plumbea,,249.9,18,,,,,,,,-5.2769790230373115
+668,Seiurus aurocapilla,,18.8,278,,,,,,,,-3.97100396643844
+669,Geotrygon montana,,133.86,86,,,,,,,,-5.373646396007606
+670,Plegadis falcinellus/chihi,,0.0,3,,,,,,,,
+671,Sporophila corvina,,10.62,117,,,,,,,,-4.620064614613019
+672,Amazilia yucatanensis,,3.89,104,,,,,,,,-4.73639894760069
+673,Tilmatura dupontii,,2.2,39,,,,,,,,-5.486031786057616
+674,Progne subis,,53.79,63,,,,,,,,-5.1350706224088825
+675,Celeus castaneus,,85.59,33,,,,,,,,-4.604872350389785
+676,Glaucidium sp.,,0.0,18,,,,,,,,
+677,Calidris melanotos,,79.73,89,,,,,,,,-5.405322293682374
+678,Coccothraustes abeillei,,48.5,28,,,,,,,,-4.819820128724892
+679,Xiphocolaptes promeropirhynchus,,93.04,250,,,,,,,,-5.607952311379697
+680,Busarellus nigricollis,,766.14,4,,,,,,,,-5.107108104930502
+681,Dendrocygna bicolor,,756.37,82,,,,,,,,-5.508962827045665
+682,Vireo sp.,,0.0,75,,,,,,,,
+683,Vireo philadelphicus,,11.5,33,,,,,,,,-3.61341481735911
+684,Setophaga sp.,,0.0,17,,,,,,,,
+685,Clibanornis rubiginosus,,0.0,161,,,,,,,,
+686,Setophaga castanea,,0.0,2,,,,,,,,
+687,Manacus candei,,19.82,50,,,,,,,,-4.75309579469064
+688,Scolopacidae sp. (large shorebird sp.),,0.0,17,,,,,,,,
+689,Coccyzus erythropthalmus,,50.9,11,,,,,,,,-4.678109316150365
+690,Podicipedidae sp.,,0.0,8,,,,,,,,
+691,Geothlypis formosa,,0.0,74,,,,,,,,
+692,Icterus chrysater,,53.4,11,,,,,,,,-4.0376044541311025
+693,Cairina moschata (Domestic type),,0.0,176,,,,,,,,
+694,Numenius americanus,,583.86,67,,,,,,,,-5.83488951190953
+695,Accipiter striatus/cooperii,,0.0,21,,,,,,,,
+696,Penelopina nigra,,889.99,1,,,,,,,,-5.663737293851525
+697,Vireo leucophrys,,12.3,107,,,,,,,,-3.458150532902696
+698,Geotrygon/Leptotrygon/Zentrygon sp.,,0.0,6,,,,,,,,
+699,Legatus leucophaius,,22.2,144,,,,,,,,-4.387019690957007
+700,Sclerurus mexicanus,,25.1,59,,,,,,,,-4.879616383784693
+701,Pharomachrus mocinno,,202.46,1,,,,,,,,-5.839442313357933
+702,Phalaropus tricolor,,0.0,137,,,,,,,,
+703,Dendrocolaptinae sp.,,0.0,27,,,,,,,,
+704,Botaurus lentiginosus,,706.0,16,,,,,,,,-5.5267848928131755
+705,Anatinae sp.,,0.0,46,,,,,,,,
+706,Hylorchilus navai,,29.3,68,,,,,,,,
+707,Catharus minimus,,31.58,3,,,,,,,,-4.2518604356877
+708,Mionectes oleagineus,,11.17,125,,,,,,,,-3.6688294519921714
+709,Setophaga fusca,,0.0,51,,,,,,,,
+710,Larinae sp.,,0.0,33,,,,,,,,
+711,Bartramia longicauda,,158.92,49,,,,,,,,-5.714561670494877
+712,Psiloscops flammeolus,,0.0,77,,,,,,,,
+713,Campylopterus excellens,,6.0,46,,,,,,,,-5.685819663918539
+714,Empidonax hammondii/oberholseri,,0.0,34,,,,,,,,
+715,Tyrannus tyrannus,,39.85,125,,,,,,,,-4.071697199301711
+716,Corvus sp. (raven sp.),,0.0,10,,,,,,,,
+717,Tyrannus savana,,31.9,65,,,,,,,,-5.389328533400746
+718,Setophaga townsendi x occidentalis,,0.0,44,,,,,,,,
+719,Calidris pusilla,,27.5,172,,,,,,,,-5.202307590099823
+720,Streptopelia decaocto,,148.96,745,,,,,,,,-5.4418224874986
+721,Aegolius acadicus,,100.69,35,,,,,,,,-5.236307909772716
+722,Sula dactylatra/granti,,0.0,45,,,,,,,,
+723,Spizaetus melanoleucus,,850.0,15,,,,,,,,-5.009782318980617
+724,Geothlypis sp. (yellowthroat sp.),,0.0,1,,,,,,,,
+725,Passerina sp.,,0.0,69,,,,,,,,
+726,Stercorarius pomarinus,,692.47,112,,,,,,,,-5.5221325107096835
+727,Psittacara strenuus,,0.0,60,,,,,,,,
+728,Leptopogon amaurocephalus,,11.7,36,,,,,,,,-3.6892105246947864
+729,Icteridae sp.,,0.0,36,,,,,,,,
+730,Caprimulgidae sp.,,0.0,7,,,,,,,,
+731,Furnariidae sp. (foliage-gleaner sp.),,0.0,1,,,,,,,,
+732,Accipiter sp.,,0.0,50,,,,,,,,
+733,Tyrannidae sp.,,0.0,23,,,,,,,,
+734,Geothlypis philadelphia,,0.0,20,,,,,,,,
+735,Sula sula,,1031.1,56,,,,,,,,-5.737898130131762
+736,Euphonia sp.,,0.0,65,,,,,,,,
+737,Leptotila sp.,,0.0,8,,,,,,,,
+738,Campephilus sp./Dryocopus lineatus,,0.0,1,,,,,,,,
+739,Corvidae sp. (jay sp.),,0.0,5,,,,,,,,
+740,Calidris sp. (peep sp.),,0.0,140,,,,,,,,
+741,Falco femoralis,,335.76,70,,,,,,,,-5.252523507814942
+742,Charadriiformes sp.,,0.0,68,,,,,,,,
+743,Haematopus palliatus,,601.45,255,,,,,,,,-5.7085121470732005
+744,Empidonax virescens,,12.6,10,,,,,,,,-3.9103654205663863
+745,Vireolanius pulchellus,,24.0,122,,,,,,,,-4.345268481052786
+746,Ceratopipra mentalis,,0.0,77,,,,,,,,
+747,Eucometis penicillata,,27.0,16,,,,,,,,-3.7930643287082435
+748,Anas diazi,,0.0,6,,,,,,,,
+749,Archilochus colubris/alexandri,,0.0,36,,,,,,,,
+750,Calothorax lucifer/pulcher,,0.0,6,,,,,,,,
+751,Sturnella neglecta/magna,,0.0,2,,,,,,,,
+752,Selasphorus calliope,,0.0,17,,,,,,,,
+753,Puffinus sp. (black-and-white shearwater sp.),,0.0,50,,,,,,,,
+754,Ardenna grisea,,0.0,15,,,,,,,,
+755,Spizaetus ornatus,,1197.4,78,,,,,,,,-5.267359233396356
+756,Chaetura pelagica,,23.6,30,,,,,,,,-5.60427524487062
+757,Pheucticus ludovicianus/melanocephalus,,0.0,36,,,,,,,,
+758,Sclerurus guatemalensis,,34.7,6,,,,,,,,-4.473545948380034
+759,Lophornis helenae,,2.6,59,,,,,,,,-5.570625798725016
+760,Phaethornis longirostris/superciliosus,,0.0,1,,,,,,,,
+761,Oceanitidae/Hydrobatidae sp.,,0.0,49,,,,,,,,
+762,Sula dactylatra,,1732.08,44,,,,,,,,-5.381497318371256
+763,Procellariidae sp. (shearwater sp.),,0.0,41,,,,,,,,
+764,Icterus bullockii/galbula,,0.0,42,,,,,,,,
+765,Platyrinchus cancrominus,,9.2,62,,,,,,,,-5.3281187089069935
+766,Phalaropus lobatus/fulicarius,,0.0,35,,,,,,,,
+767,Puffinus opisthomelas,,408.0,96,,,,,,,,-5.5437168797901215
+768,Puffinus auricularis,,350.8,13,,,,,,,,-5.4539787124752666
+769,Limnodromus griseus/scolopaceus,,0.0,61,,,,,,,,
+770,Tyrannus vociferans/verticalis,,0.0,22,,,,,,,,
+771,Strix fulvescens,,559.09,131,,,,,,,,-4.958565534910824
+772,Stercorarius maccormicki,,0.0,12,,,,,,,,
+773,Oceanodroma sp.,,0.0,1,,,,,,,,
+774,Piranga olivacea,,28.2,13,,,,,,,,-3.990876529703277
+775,Setophaga caerulescens,,0.0,4,,,,,,,,
+776,Crypturellus boucardi,,435.62,125,,,,,,,,-5.549482617096199
+777,Rallus limicola,,84.1,11,,,,,,,,-5.628994436393142
+778,Ixobrychus exilis,,86.29,5,,,,,,,,-5.751696366643096
+779,Hylomanes momotula,,29.3,46,,,,,,,,-4.959001572155929
+780,Heliornis fulica,,132.0,3,,,,,,,,-5.384932508052471
+781,Icterus bullockii x galbula,,0.0,22,,,,,,,,
+782,Aythya collaris,,704.55,214,,,,,,,,-5.394607818906581
+783,Toxostoma curvirostre/bendirei,,0.0,11,,,,,,,,
+784,Myiodynastes maculatus,,43.2,27,,,,,,,,-4.657175131825778
+785,Onychoprion fuscatus,,0.0,16,,,,,,,,
+786,Aquila chrysaetos,,4247.97,5,,,,,,,,-5.8455400045476695
+787,Sterna sp.,,0.0,1,,,,,,,,
+788,Oceanodroma leucorhoa,,36.71,18,,,,,,,,-4.817481266522066
+789,Anous stolidus,,177.77,19,,,,,,,,-5.578153839750448
+790,Jabiru mycteria,,5996.29,6,,,,,,,,-5.918261606994398
+791,Haemorhous sp.,,0.0,11,,,,,,,,
+792,Aythya americana,,1075.69,182,,,,,,,,-5.474733826044943
+793,Chaetura pelagica/vauxi,,0.0,35,,,,,,,,
+794,Chaetura sp.,,0.0,18,,,,,,,,
+795,Setophaga striata,,0.0,3,,,,,,,,
+796,Contopus virens,,13.9,150,,,,,,,,-4.253968813290995
+797,Setophaga palmarum,,0.0,22,,,,,,,,
+798,Aix sponsa,,657.59,14,,,,,,,,-5.647875410540788
+799,Lophodytes cucullatus,,613.77,17,,,,,,,,-5.725552794322584
+800,Larus delawarensis,,516.31,46,,,,,,,,-5.515125968276565
+801,Notharchus hyperrhynchus,,95.89,4,,,,,,,,-5.831202012964756
+802,Eupsittula/Aratinga/Thectocercus/Psittacara sp.,,0.0,22,,,,,,,,
+803,Sula granti,,1732.08,47,,,,,,,,-5.3657278316037
+804,Empidonax alnorum/traillii,,0.0,75,,,,,,,,
+805,Oceanodroma tethys,,22.6,39,,,,,,,,-5.508458445548335
+806,Accipitridae sp. (hawk sp.),,0.0,84,,,,,,,,
+807,Vireo olivaceus,,16.06,47,,,,,,,,-3.656727477075656
+808,Calidris pugnax,,0.0,2,,,,,,,,
+809,Thalasseus maximus/elegans,,0.0,60,,,,,,,,
+810,Elanoides forficatus,,416.24,9,,,,,,,,-5.653499604199608
+811,Molothrus aeneus/ater,,0.0,4,,,,,,,,
+812,Limosa haemastica,,253.29,16,,,,,,,,-5.741148384602967
+813,Dolichonyx oryzivorus,,31.46,5,,,,,,,,-4.1356429728449715
+814,Athene cunicularia,,150.61,11,,,,,,,,-5.315542722437361
+815,Puffinus nativitatis,,356.0,1,,,,,,,,-5.528857729939996
+816,Anthus cervinus,,20.9,4,,,,,,,,-4.716161592652752
+817,Onychoprion fuscatus/anaethetus,,0.0,8,,,,,,,,
+818,Anser caerulescens,,0.0,4,,,,,,,,
+819,Protonotaria citrea,,14.3,2,,,,,,,,-4.143299667578003
+820,Nyctiphrynus mcleodii,,35.0,5,,,,,,,,-5.414667179654929
+821,Antrostomus carolinensis,,0.0,12,,,,,,,,
+822,Gallinula chloropus/galeata,,0.0,1,,,,,,,,
+823,Falco mexicanus,,713.07,2,,,,,,,,-5.20256237565232
+824,Habia sp.,,0.0,11,,,,,,,,
+825,Mareca strepera,,0.0,157,,,,,,,,
+826,Tringa melanoleuca/flavipes,,0.0,20,,,,,,,,
+827,Xanthocephalus xanthocephalus,,62.68,10,,,,,,,,-4.285948087424613
+828,Spatula discors/cyanoptera,,0.0,5,,,,,,,,
+829,Petrochelidon fulva,,18.95,10,,,,,,,,-4.849485933745909
+830,Setophaga discolor,,0.0,4,,,,,,,,
+831,Oceanodroma leucorhoa/socorroensis/cheimomnestes,,0.0,22,,,,,,,,
+832,Buteogallus solitarius,,0.0,1,,,,,,,,
+833,Stercorarius pomarinus/parasiticus,,0.0,18,,,,,,,,
+834,Calidris pusilla/mauri,,0.0,51,,,,,,,,
+835,Sulidae sp.,,0.0,11,,,,,,,,
+836,Stercorarius longicaudus,,287.9,16,,,,,,,,-5.815860449625309
+837,Geothlypis tolmiei/philadelphia,,0.0,7,,,,,,,,
+838,Stercorarius sp. (jaeger sp.),,0.0,24,,,,,,,,
+839,Cathartidae sp.,,0.0,10,,,,,,,,
+840,Petrochelidon pyrrhonota/fulva,,0.0,8,,,,,,,,
+841,Myiopsitta monachus,,120.0,148,,,,,,,,-5.715274163186603
+842,Cypseloides sp.,,0.0,8,,,,,,,,
+843,Calidris alpina,,51.89,9,,,,,,,,-5.396553740555177
+844,Lipaugus unirufus,,82.1,42,,,,,,,,-4.71995975444691
+845,Pterodroma externa,,428.0,1,,,,,,,,-5.6198078944552305
+846,Psarocolius sp.,,0.0,2,,,,,,,,
+847,Parkesia motacilla/noveboracensis,,0.0,28,,,,,,,,
+848,Turdidae sp.,,0.0,2,,,,,,,,
+849,Phalacrocorax auritus,,1806.49,1,,,,,,,,-5.7457918365072835
+850,Campylopterus rufus,,7.1,26,,,,,,,,-5.096257517054427
+851,Zonotrichia leucophrys,,28.0,1,,,,,,,,-3.9814038658411706
+852,Streptoprocne sp.,,0.0,1,,,,,,,,
+853,Sarcoramphus papa,,3400.0,49,,,,,,,,-5.846388841706794
+854,Stercorarius parasiticus/longicaudus,,0.0,10,,,,,,,,
+855,Nycticorax nycticorax/Nyctanassa violacea,,0.0,18,,,,,,,,
+856,Schiffornis veraepacis,,0.0,12,,,,,,,,
+857,Anatidae sp. (dabbling duck sp.),,0.0,13,,,,,,,,
+858,Lophostrix cristata,,538.66,8,,,,,,,,-5.052000919552884
+859,Ardenna grisea/tenuirostris,,0.0,3,,,,,,,,
+860,Florisuga mellivora,,7.4,7,,,,,,,,-5.006722688340252
+861,Pluvialis fulva,,134.9,1,,,,,,,,-5.366637208832982
+862,Accipiter bicolor,,287.54,8,,,,,,,,-5.2936516500529205
+863,Limnothlypis swainsonii,,18.9,2,,,,,,,,-4.156028160567068
+864,Pionus sp.,,0.0,1,,,,,,,,
+865,Antrostomus vociferus/arizonae,,0.0,1,,,,,,,,
+866,Pluvialis sp.,,0.0,10,,,,,,,,
+867,Larus californicus,,683.39,11,,,,,,,,-5.504348390247158
+868,Aythya sp.,,0.0,4,,,,,,,,
+869,Spatula discors x cyanoptera,,0.0,4,,,,,,,,
+870,Leiothlypis luciae,,0.0,11,,,,,,,,
+871,Setophaga townsendi/occidentalis,,0.0,13,,,,,,,,
+872,Apodidae sp. (large swift sp.),,0.0,2,,,,,,,,
+873,Caprimulgus sp.,,0.0,1,,,,,,,,
+874,Megascops sp.,,0.0,1,,,,,,,,
+875,Apodidae sp. (small swift sp.),,0.0,1,,,,,,,,
+876,Calidris alpina x fuscicollis,,0.0,1,,,,,,,,
+877,Thryophilus sinaloa,,0.0,12,,,,,,,,
+878,Geranoaetus/Buteo sp.,,0.0,1,,,,,,,,
+879,Sula sp.,,0.0,11,,,,,,,,
+880,Plegadis falcinellus,,626.61,3,,,,,,,,-5.36344145529088
+881,Eupherusa poliocerca,,4.85,4,,,,,,,,-4.475095851863058
+882,Phalaropus sp.,,0.0,34,,,,,,,,
+883,Icterus spurius/cucullatus,,0.0,10,,,,,,,,
+884,Setophaga chrysoparia,,0.0,13,,,,,,,,
+885,Passerina amoena/cyanea,,0.0,5,,,,,,,,
+886,Oceanodroma leucorhoa/socorroensis (dark-rumped),,0.0,19,,,,,,,,
+887,Gavia immer,,4956.81,2,,,,,,,,-5.920182698826133
+888,Thalasseus sp.,,0.0,1,,,,,,,,
+889,Pseudobulweria rostrata,,409.0,14,,,,,,,,-5.547069682556005
+890,Ardea/Egretta/Bubulcus sp.,,0.0,27,,,,,,,,
+891,Buteo/eagle sp.,,0.0,1,,,,,,,,
+892,Myiodynastes maculatus/luteiventris,,0.0,1,,,,,,,,
+893,Onychoprion anaethetus,,0.0,13,,,,,,,,
+894,Selasphorus rufus/sasin,,0.0,8,,,,,,,,
+895,Columba livia/Patagioenas fasciata,,0.0,1,,,,,,,,
+896,Phaethon sp.,,0.0,1,,,,,,,,
+897,Myioborus sp.,,0.0,2,,,,,,,,
+898,Sphyrapicus thyroideus,,47.6,5,,,,,,,,-4.384530713438785
+899,Sterna paradisaea,,110.0,14,,,,,,,,-5.786100720654756
+900,Laridae sp.,,0.0,18,,,,,,,,
+901,Anser anser (Domestic type),,0.0,7,,,,,,,,
+902,Cantorchilus modestus,,0.0,49,,,,,,,,
+903,Henicorhina sp.,,0.0,9,,,,,,,,
+904,Spinus sp.,,0.0,11,,,,,,,,
+905,Catharus fuscescens,,31.9,4,,,,,,,,-4.144394105627678
+906,Asio otus,,296.57,4,,,,,,,,-5.230644816015628
+907,Falco sp. (small falcon sp.),,0.0,7,,,,,,,,
+908,Falco sp. (large falcon sp.),,0.0,4,,,,,,,,
+909,Columbina sp.,,0.0,15,,,,,,,,
+910,Spizaetus sp.,,0.0,2,,,,,,,,
+911,Falco sp.,,0.0,10,,,,,,,,
+912,Spinus sp. (goldfinch sp.),,0.0,3,,,,,,,,
+913,Lonchura malacca,,12.6,3,,,,,,,,-5.175273403422893
+914,Psittacara sp.,,0.0,9,,,,,,,,
+915,Anas platyrhynchos (Domestic type),,0.0,3,,,,,,,,
+916,Dendrocolaptes sp.,,0.0,1,,,,,,,,
+917,Momotidae sp.,,0.0,8,,,,,,,,
+918,Coccyzus sp.,,0.0,8,,,,,,,,
+919,Patagioenas sp.,,0.0,1,,,,,,,,
+920,Haemorhous cassinii,,0.0,5,,,,,,,,
+921,Phaethornis sp.,,0.0,9,,,,,,,,
+922,Aythya marila/affinis,,0.0,3,,,,,,,,
+923,Sporophila sp.,,0.0,6,,,,,,,,
+924,Tityra sp.,,0.0,3,,,,,,,,
+925,Amaurospiza concolor,,13.1,4,,,,,,,,-4.146720549562049
+926,Mergus serrator,,1015.17,1,,,,,,,,-5.809535949189404
+927,Heliomaster longirostris/constantii,,0.0,2,,,,,,,,
+928,Antrostomus sp.,,0.0,1,,,,,,,,
+929,Buteogallus anthracinus/urubitinga,,0.0,8,,,,,,,,
+930,Petrochelidon sp.,,0.0,2,,,,,,,,
+931,Buteogallus sp.,,0.0,3,,,,,,,,
+932,Psittacara holochlorus/strenuus,,0.0,5,,,,,,,,
+933,Lepidocolaptes sp.,,0.0,6,,,,,,,,
+934,Ictinia mississippiensis/plumbea,,0.0,2,,,,,,,,
+935,Archilochus alexandri,,3.39,1,,,,,,,,-5.135079869795334
+936,Regulus sp.,,0.0,2,,,,,,,,
+937,Anser sp. (Domestic type),,0.0,1,,,,,,,,
+938,Rallidae sp. (rail/crake sp.),,0.0,4,,,,,,,,
+939,Aythya valisineria,,1202.0,3,,,,,,,,-5.588903967376995
+940,Thraupis sp.,,0.0,5,,,,,,,,
+941,Oceanitidae/Hydrobatidae sp. (dark-rumped),,0.0,2,,,,,,,,
+942,Oceanitidae/Hydrobatidae sp. (white-rumped),,0.0,2,,,,,,,,
+943,Toxostoma sp.,,0.0,2,,,,,,,,
+944,Aquila chrysaetos/Haliaeetus leucocephalus,,0.0,1,,,,,,,,
+945,Columbina passerina/talpacoti,,0.0,1,,,,,,,,
