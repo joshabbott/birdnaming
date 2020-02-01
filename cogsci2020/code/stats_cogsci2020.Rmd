@@ -92,31 +92,31 @@ The coefficients suggest that logmass (-1.22) is a stronger predictor than logfr
 
 ## Compound vs monomial
 
-Fig 5 in current draft suggests that species with monomial names are more frequent than species with compound names, but I'm seeing the opposite here -- the effect goes in the opposite way than what we might predict.
-Did one of us swap codes for compound and monomial?
 
 ```{r compoundvsmonomial, message=FALSE}
 compound_plot <- df_mf_long %>% 
+  filter(is_named) %>% 
   ggplot(aes(x = is_compound, y = val)) +
-  geom_violin() +
+  geom_violin(draw_quantiles=c(0.5)) +
   facet_wrap(~variable)
 compound_plot
 
 logitmodcompound <- glm(
   formula = is_compound ~ logfreq + logmass, 
   family = binomial,
-  data = df_mf)
+  data = df_named)
 
 compound_drop <- drop1(logitmodcompound, test="Chisq")
 compound_drop
 summary(logitmodcompound)
 ```
 
-Coefficients suggest that logfreq (0.63) is a stronger predictor than logmass (-0.04). Dropping logfreq produces a model that's significantly worse (p < 3e-13) but dropping logmass doesn't (p = 0.60). AIC scores support same conclusion.
+Coefficients suggest that logfreq (-0.10) is a stronger predictor than logmass (-0.04) -- and the negative values indicating that if the frequency or mass of a species increase, it's *less* likely to have a compound name. But the `drop1` analyses suggest that model fit doesn't become significantly worse when either predictor is dropped (p values of 0.46 and 0.78). AIC scores support same conclusion.
+
 
 ## Name length
 
-Suggest not including a figure for this, but just reporting in the text. Effect of frequency goes in the same way as for the compound vs monomial analysis (more common things have longer names)
+Suggest not including a figure for this, but just reporting in the text. Effect of frequency goes in opposite way compared to the compound vs monomial analysis (more common things have longer names)
 
 
 ```{r namelength, message=FALSE}
