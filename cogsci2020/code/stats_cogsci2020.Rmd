@@ -20,11 +20,17 @@ Read in the data frame that adds density to the variables Josh created. We curre
 
 ```{r readdata, message=FALSE}
 df <- read_csv(here("code", "data", "df_zapotec_density.csv"))
-```
+````
 
 Add variables we'll need for the analyses.
 
 ```{r preprocessing, message=FALSE}
+
+slab <- function(z) {
+  z[!(z %in% c("xlútsǐ", "càrpìntêr",  "msì", "bǎd",  "mtsùu", "wǐt", "dzǐn̲g"))] <-"other"
+  z
+}
+
 df_mf <- df  %>% 
   mutate(is_named = !is.na(folk_specific), logmass = log(mass), logfreq = log(freq)) %>% 
   # XXX: should is_compound and name_length be based on specific or generic names?
@@ -33,12 +39,27 @@ df_mf <- df  %>%
   mutate(logname_length = log(name_length)) %>% 
   mutate(clements_group=factor(clements_group))  %>% 
   # XXX: include only species for which we have mass and frequency?
-  filter(mass > 0 & freq > 0) 
-
+  filter(mass > 0 & freq > 0) %>% 
+  mutate(plotgen =factor(folk_generic)) %>% 
+  mutate(plotgen =fct_relabel(plotgen, slab) )
+  
 # make long data frame for generating figures
 df_mf_long <- df_mf %>% 
   gather(key='variable', value='val', logmass, logfreq, density)
 ```
+
+## Morphospace
+```{r morphospace, message=FALSE}
+
+morphospace_plot <- df_mf %>% 
+  filter(!is.na(e1) & is_named) %>% 
+  ggplot(aes(x = e1, y = e2, shape=plotgen, color = plotgen)) +
+  scale_shape_manual(values=1:nlevels(df_mf$plotgen)) +
+  geom_point() +
+  coord_fixed()
+morphospace_plot
+```
+
 
 ## Named vs Unnamed categories
 
@@ -74,12 +95,13 @@ lumping_plot <- df_mf_long %>%
   filter(is_named) %>% 
   ggplot(aes(x = val, y = group_size_folk_generics)) +
   geom_point() +
+  geom_jitter() +
   geom_smooth(method=lm) +
   facet_wrap(~variable, scales="free")
 lumping_plot
 
 lmlumping <- lm(
-  formula = group_size_folk_generics ~ logfreq + logmass, 
+  formula = group_size_folk_generics ~ logfreq + logmass + density, 
   data = df_named)
 
 lumping_drop <- drop1(lmlumping, test="Chisq")
@@ -100,7 +122,7 @@ compound_plot <- df_mf_long %>%
 compound_plot
 
 logitmodcompound <- glm(
-  formula = is_compound ~ logfreq + logmass, 
+  formula = is_compound ~ logfreq + logmass + density, 
   family = binomial,
   data = df_named)
 
@@ -128,7 +150,7 @@ namelength_plot <- df_mf_long %>%
 namelength_plot
 
 lmnamelength<- lm(
-  formula = logname_length ~ logfreq + logmass, 
+  formula = logname_length ~ logfreq + logmass + density, 
   data = df_named)
 
 namelength_drop <- drop1(lmnamelength, test="Chisq")
@@ -144,7 +166,7 @@ Coefficients suggest that logfreq (0.04) and logmass (-0.06) are both weak predi
 
 * decent evidence that frequency predicts whether or not a species is named
 * only weak evidence that frequency predicts lumping
-* effect of frequency on compound vs monomial is there but in the opposite direction to what we'd predict
+* no effect of frequency on compound vs monomial or name length
 
 #### Mass
 
