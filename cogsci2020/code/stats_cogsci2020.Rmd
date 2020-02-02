@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE, progress = TRUE)
 library(here)
 library(tidyverse)
 library(lme4)
+library(RColorBrewer)
 ```
 
 
@@ -40,8 +41,11 @@ df_mf <- df  %>%
   mutate(clements_group=factor(clements_group))  %>% 
   # XXX: include only species for which we have mass and frequency?
   filter(mass > 0 & freq > 0) %>% 
-  mutate(plotgen =factor(folk_generic)) %>% 
-  mutate(plotgen =fct_relabel(plotgen, slab) )
+  mutate(name=factor(folk_generic)) %>% 
+  mutate(name=fct_relabel(name, slab)) %>% 
+  mutate(name=factor(name, levels =  c("dzǐn̲g", "xlútsǐ", "càrpìntêr",  "msì", "bǎd",  "mtsùu", "wǐt", "other"))) %>% 
+  mutate(e1 = -e1)
+
   
 # make long data frame for generating figures
 df_mf_long <- df_mf %>% 
@@ -51,13 +55,25 @@ df_mf_long <- df_mf %>%
 ## Morphospace
 ```{r morphospace, message=FALSE}
 
+
+mycolors <- c(brewer.pal(n = 7, name = 'Dark2'), "#BDBDBD")
+
 morphospace_plot <- df_mf %>% 
   filter(!is.na(e1) & is_named) %>% 
-  ggplot(aes(x = e1, y = e2, shape=plotgen, color = plotgen)) +
-  scale_shape_manual(values=1:nlevels(df_mf$plotgen)) +
+  ggplot(aes(x = e1, y = e2, shape=name, color = name)) +
+  #scale_shape_manual(values=1:nlevels(df_mf$plotgen)) +
+  scale_shape_manual(values=c(15,16,17,18,3,4,8, 1)) +
+  scale_color_manual(values=mycolors) +
   geom_point() +
-  coord_fixed()
+  coord_fixed() +
+  theme_classic() + 
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank(), legend.title = element_blank()) +
+ #theme(plot.margin=grid::unit(c(0,0,0,0), "mm")) +
+ theme(legend.position = "bottom", legend.spacing.x = unit(0.1, 'mm'))
+
 morphospace_plot
+ggsave( here("paper", "figures", "morphospace.png"), width=3.375, units="in")
+
 ```
 
 
@@ -95,7 +111,8 @@ lumping_plot <- df_mf_long %>%
   filter(is_named) %>% 
   ggplot(aes(x = val, y = group_size_folk_generics)) +
   geom_point() +
-  geom_jitter() +
+  geom_count() +
+  scale_size_area()+
   geom_smooth(method=lm) +
   facet_wrap(~variable, scales="free")
 lumping_plot
