@@ -118,7 +118,7 @@ lumping_plot <- df_mf_long %>%
 lumping_plot
 
 lmlumping <- lm(
-  formula = group_size_folk_generics ~ logfreq + logmass + density, 
+  formula = group_size_folk_generics ~ logfreq + logmass, 
   data = df_named)
 
 lumping_drop <- drop1(lmlumping, test="Chisq")
@@ -139,7 +139,7 @@ compound_plot <- df_mf_long %>%
 compound_plot
 
 logitmodcompound <- glm(
-  formula = is_compound ~ logfreq + logmass + density, 
+  formula = is_compound ~ logfreq + logmass, 
   family = binomial,
   data = df_named)
 
@@ -167,7 +167,7 @@ namelength_plot <- df_mf_long %>%
 namelength_plot
 
 lmnamelength<- lm(
-  formula = logname_length ~ logfreq + logmass + density, 
+  formula = logname_length ~ logfreq + logmass, 
   data = df_named)
 
 namelength_drop <- drop1(lmnamelength, test="Chisq")
