@@ -176,7 +176,7 @@ plt.tight_layout()
 plt.show()
 
 slope, intercept, r_value, p_value, std_err = linregress(np.log(xs),np.log(ys))
-print("slope: %f    intercept: %f" % (slope, intercept))
+print("slope: %f    intercept: %f, p_val: %f" % (slope, intercept,p_value))
 print("Name length R-squared: %f" % r_value**2)
 
 
@@ -202,7 +202,7 @@ plt.tight_layout()
 plt.show()
 
 slope, intercept, r_value, p_value, std_err = linregress(np.log(xs),np.log(ys))
-print("slope: %f    intercept: %f" % (slope, intercept))
+print("slope: %f    intercept: %f, p_val: %f" % (slope, intercept,p_value))
 print("Name length R-squared: %f" % r_value**2)
 # In[171]:
 
