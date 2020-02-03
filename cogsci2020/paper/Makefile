@@ -1,4 +1,4 @@
-cogsci2020_draft2:	cogsci2020_draft1.tex 
+cogsci2020_draft2:	cogsci2020_draft2.tex 
 	pdflatex cogsci2020_draft2.tex  
 	bibtex cogsci2020_draft2
 	pdflatex cogsci2020_draft2.tex  
