@@ -167,14 +167,7 @@ import seaborn as sns
 plt.figure()
 namelen_df = pd.DataFrame(list(zip(np.log(xs),np.log(ys))),columns =['log frequency','log name length'])
 sns.regplot(x=namelen_df["log frequency"], y=namelen_df["log name length"])
-# plt.xlabel('# of shared category members per species')
-# plt.tight_layout()
 
-# plt.show()
-
-
-# plt.figure()
-# plt.scatter(np.log(xs),np.log(ys))
 plt.ylabel('Log frequency')
 plt.xlabel('Log name length')
 plt.title('Name length analysis')
@@ -182,16 +175,35 @@ plt.title('Name length analysis')
 plt.tight_layout()
 plt.show()
 
-# In[170]:
-
-
 slope, intercept, r_value, p_value, std_err = linregress(np.log(xs),np.log(ys))
 print("slope: %f    intercept: %f" % (slope, intercept))
 print("Name length R-squared: %f" % r_value**2)
 
 
-# ## relationship between length and mass
 
+# ## relationship between length and mass
+names = list(df['folk_specific'])
+masses = list(df['mass'])
+             
+xs = [len(i) for i in names]
+ys = masses
+
+import seaborn as sns
+
+plt.figure()
+namelen_df = pd.DataFrame(list(zip(np.log(xs),np.log(ys))),columns =['log mass','log name length'])
+sns.regplot(x=namelen_df["log mass"], y=namelen_df["log name length"])
+
+plt.ylabel('Log mass')
+plt.xlabel('Log name length')
+plt.title('Name length analysis')
+
+plt.tight_layout()
+plt.show()
+
+slope, intercept, r_value, p_value, std_err = linregress(np.log(xs),np.log(ys))
+print("slope: %f    intercept: %f" % (slope, intercept))
+print("Name length R-squared: %f" % r_value**2)
 # In[171]:
 
 
@@ -214,7 +226,8 @@ print("Name length R-squared: %f" % r_value**2)
 
 # In[192]:
 
-
+names = list(df[df['freq']>0]['folk_specific'])
+freqs = list(df[df['freq']>0]['freq'])
 monomials = []
 compounds = []
 for i in range(len(names)):
@@ -224,18 +237,6 @@ for i in range(len(names)):
     else:
         if freqs[i] > 0:
             monomials.append(freqs[i])
-
-
-# In[193]:
-
-
-np.mean(np.log(compounds))
-
-
-# In[194]:
-
-
-np.mean(np.log(monomials))
 
 
 # In[195]:
@@ -249,17 +250,12 @@ data_monomials = [np.log(i) for i in monomials]
 
 pos = [1,2]
 plotnames = ('Compounds','Monomials')
-# plt.figure()
 plt.violinplot([data_compounds,data_monomials],pos,showmeans=True)
 plt.title('Frequency densities of name forms')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log frequency')
-# plt.show()
 
 # ## monomial vs. compound analysis with mass
-
-# In[196]:
-
 
 # do the same with mass
 mass = list(df['mass'])
@@ -273,19 +269,6 @@ for i in range(len(names)):
         monomials.append(mass[i])
 
 
-# In[197]:
-
-
-np.mean(np.log(compounds))
-
-
-# In[199]:
-
-
-np.mean(np.log(monomials))
-
-
-# In[200]:
 
 
 # violin plot 

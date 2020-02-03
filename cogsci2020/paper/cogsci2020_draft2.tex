@@ -120,10 +120,10 @@ Beyond frequency it is plausible that physical and behavioral characteristics of
 % 
 \subsection{Naming data}
 
-Our naming data are based on a detailed folk taxonomy provided by \citeA{hunn2008zapotec} of the Zapotec language, from his fieldwork in San Juan Gb\"{e}\"{e}, a small village in Oaxaca, Mexico\footnote{ Also available online at \url{http://faculty.washington.edu/hunn/zapotec/z5.html}}. The data set includes a scientific name,  a folk-specific name and a folk-generic name for each species listed. For example, \emph{ Colibri thalassinus} (Mexican violetear) is named dzing-ya-gui (mountain hummingbird) at the folk-specific level and dzing (hummingbird) at the folk-generic level.  According to Hunn's taxonomy the folk-generic category \textit{dz\v{i}n\b{g}} (hummingbird) includes 14 different species. These 14 species are partitioned into 4 categories at the folk-specific level: \textit{dz\v{\i}n\b{g}}, \textit{dz\v{\i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{\i}n\b{g}-gu\'{e}}, \textit{and dz\v{\i}n\b{g}-y\v{a}-gu\`{i}}.
+Our naming data are based on a detailed folk taxonomy provided by \citeA{hunn2008zapotec} of the Zapotec language, from his fieldwork in San Juan Gb\"{e}\"{e}, a small village in Oaxaca, Mexico\footnote{ Also available online at \url{http://faculty.washington.edu/hunn/zapotec/z5.html}}. The data set includes a scientific name,  a folk-specific name and a folk-generic name for each species listed. For example, \emph{ Colibri thalassinus} (Mexican violetear) is named \textit{dz\v{\i}n\b{g}-y\v{a}-gu\`{i}} (mountain hummingbird) at the folk-specific level and \textit{dz\v{\i}n\b{g}} (hummingbird) at the folk-generic level.  According to Hunn's taxonomy the folk-generic category \textit{dz\v{\i}n\b{g}} (hummingbird) includes 14 different species. These 14 species are partitioned into 4 categories at the folk-specific level: \textit{dz\v{\i}n\b{g}}, \textit{dz\v{\i}n\b{g}-d\'{a}n-y\v{a}-gu\`{i}}, \textit{dz\v{\i}n\b{g}-gu\'{e}}, and \textit{dz\v{\i}n\b{g}-y\v{a}-gu\`{i}}.
 As this example suggests, in some cases the folk-specific and folk-generic names for a species are identical: for example, 
- \emph{ Amazilia Beryllina} is known simply as  dzing (hummingbird) at the folk-specific level.  Following Hunn's usage any folk-specific category (e.g.\ the one that includes \emph{ Amazilia Beryllina}) with the same label as the folk-generic category to which it belongs will be called an \emph{unmarked prototype}.
-
+ \emph{ Amazilia Beryllina} is known simply as \textit{dz\v{\i}n\b{g}} (hummingbird) at the folk-specific level.  Following Hunn's usage any folk-specific category (e.g.\ the one that includes \emph{ Amazilia Beryllina}) with the same label as the folk-generic category to which it belongs will be called an \emph{unmarked prototype}.
+% JTA: I'm uncertain about this last sentence -- I think we want to be clearer about what an unmarked prototype is.
 
 In total Hunn's taxonomy includes 152 species that are organized into 94 distinct folk-specific categories, which in turn are organized into 68 folk-generic categories.  The scientific species labels given by Hunn  did not always match those used by our other sources of data (eBird and EltonTraits).  We took the Clements checklist (used by eBird) as our gold standard \cite{clements2007clements}, and some manual preprocessing was required to align the labels used by all three resources.\footnote{All data and analysis code will be available on author's GitHub site.}
 
@@ -146,10 +146,7 @@ Our first analysis considers whether frequency and mass can predict whether a sp
 
 Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size for birds with and without Zapotec names.  As expected, on average birds that are named tend to be more frequent than birds that are not named. The mass distributions for named and unnamed birds, however, are very similar. To confirm these impressions we ran a logistic regression including log frequency and log mass as predictors of a binary variable that indicates whether a species was named. The estimated coefficients were 0.84 (log frequency) and -0.03 (log mass). Based on these coefficients, if the probability that a species would receive a name were initially 0.5, increasing the log frequency of the species by one unit would increase the naming probability to 0.65, and increasing the log mass by one unit would decrease the naming probability to 0.49. We compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, and found that removing log frequency produced a significant impairment ($p < 0.01$), but removing log mass did not ($p = 0.59$).  Akaike information criterion (AIC) scores supported the conclusion that the model with log frequency but without log mass is the best among the three. 
 
-
-
 % mention that information about unnamed species not systematically included in folk taxonomies
-
 
 \subsection{Category organization}
 
@@ -196,9 +193,7 @@ We analyzed the frequencies of birds named in Zapotec in relation to the name le
 
 \subsection{Compound names}
 
-Compound names exist in Hunn's bird naming data on Zapotec with a dash ('-'). Similar to English compound bird names like ``Hummingbird'' and ``Blackbird'', Zapotec has compound names of the form \textit{mgu\^{\i}n-gui\`{u}u} (``bird'' + ``river'') for the Black Phoebe and \textit{mgu\^{\i}n-rch\v{u}up} (``bird'' + ``whistle'') for the Dusky-capped Flycatcher.
-
-Here we further examine names based on whether the Zapotec label is a single word (a monomial) or a compound of multiple words. Plots of both frequency and mass are presented in Figure~\ref{fig-both-nameforms}. 
+Compound names exist in Hunn's bird naming data on Zapotec with a dash ('-'). Similar to English compound bird names like ``Hummingbird'' and ``Blackbird'', Zapotec has compound names of the form \textit{mgu\^{\i}n-gui\`{u}u} (``bird'' + ``river'') for the Black Phoebe and \textit{mgu\^{\i}n-rch\v{u}up} (``bird'' + ``whistle'') for the Dusky-capped Flycatcher. Here we further examine names based on whether the Zapotec label is a single word (a monomial) or a compound of multiple words.
 
 \begin{figure*}
   \begin{center}
@@ -208,8 +203,8 @@ Here we further examine names based on whether the Zapotec label is a single wor
   \end{center}
 \end{figure*}
 
-While there is a slight tendency for monomials to have a higher frequency and higher mass, neither is significantly different. The coefficients of a logistic regression suggest that frequency is a stronger predictor than mass, and that if the frequency or mass of a species increase, it’s less likely to have a compound name. However, the results of a mixed-effect analysis suggest that the model fit doesn’t become significantly worse when either predictor is dropped ($p = 0.46$ and $p=0.78$). AIC scores support same conclusion.
-
+Figure~\ref{fig-both-nameforms} presents the distributions of frequency and size for Zapotec birds with monomial names and compound names.
+Both distributions in both plots are similar, and we find neither environmental variable is a predictor of whether a bird is given a single-word or compound label. The coefficients of a logistic regression suggest that log frequency is a stronger predictor than log mass, and that if the frequency or mass of a species increase, it’s less likely to have a compound name. However, when we compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, analyses suggest that model fit doesn’t become significantly worse when either predictor is dropped ($p=0.46$ for log frequency and $p=0.78$ log mass).  Akaike information criterion (AIC) scores support this conclusion as well. These results in conjunction with the name length analysis suggest that the name form in Zapotec is not influenced by frequency or mass. 
 
 
 \subsection{Prototypes}
@@ -218,42 +213,11 @@ Monomial labels have also been linked to prototypes in the categorization litera
 
 We analyzed six prototypes; instances in which it was clear there was a single bird labeled as an unmarked prototype. See Figure \ref{fig-freq-prototype-all} to see the distribution for each of the prototype families. The top left bar chart shows the frequencies of vultures in Oaxaca, where we see the prototypical Turkey Vulture (in red) is clearly is more frequent. This trend holds across the other instances in the Hunn data, with an exception for the category of Owls (note this category has comparatively low frequency counts).
 
-
-% We can address \cite{berlin2014ethnobiological}:
-%  "Taxa of generic and subgeneric rank exhibit a specifiable internal
-% structure where some members of a taxon, x, are thought of as being
-% more prototypical of that taxon than others (i.e., are the best
-% examples of the taxon). Taxa of intermediate and life-form rank may
-% also show prototypicality effects. Prototypicality may be due to a
-% number of factors, the most important of which appear to be taxonomic
-% distinctiveness (as inferred from the scientific classification of the
-% organisms in any local habitat), frequency of occurrence, and cultural
-% importance (i.e., salience)."
-
-% In addition, we note \cite{berlin1972speculations} for some speculation on prototypes and binomial labels:
-% "A highly regular labeling process can be described for the encoding of
-% specific taxa, given the primarily binary partition of a generic taxon. In
-% general, one specific category, because it is most widespread, larger, best
-% known, or the like, will always be recognized as the typical species of the
-% folk genus. This taxon can be referred to as the type-specifict, he archetype,
-% or the ideal type....
-% As Wyman and Harris have said in referring to Navaho ethnobotany, 'The
-% situation is as if in our binomial system the generic name were used alone for
-% the best known species of a genus, while binomial terms were used for all other
-%  members of the genus'"
-
 % 5) pěch [`X´] ^[[SndMhpPch1]]: Cathartidae, New World vultures:
 % 5a) pěch-msìdòo [`vulture´ + `eagle´] (= rên [`blood´]); King Vulture (Sarcoramphus papa): now, at least, very rare; might be known from travels to the Isthmus of Tehuántepec; one older man reported the name and that it did occur in San Juan Gbëë; the generic synonym was noted by Reeck (1991);
 % 5b) pěch-rúx [`vulture´ + `naked´] (= ngól̲-běts [X + Y]); Black Vulture (Coragyps atratus): less common and widespread than the next; the generic synonym was reported by Reeck;
 % 5c) pěch[-0] [`vulture´, unmarked prototype] (= pěch-yèts [`vulture´ + `yellowish´]); Turkey Vulture (Cathartes aura): the prototypical vulture; normally simply named pěch.
 
-% \begin{figure}[ht!]
-%   \begin{center}
-%     \includegraphics[width=0.5\textwidth]{./figures/prototype-barplot-vultures.png}
-%         \caption{Frequencies of Vultures named in Zapotec, with the prototypical Turkey Vulture highlighted in red.}
-%         \label{fig-freq-prototype-vultures}
-%   \end{center}
-% \end{figure}
 
 \begin{figure*}[ht!]
   \begin{center}
@@ -264,25 +228,12 @@ We analyzed six prototypes; instances in which it was clear there was a single b
 \end{figure*}
 
 
-% We also examined the distribution of the frequencies of birds in Zapotec split into groups based on whether the label is an unmarked prototype or not. We found those that are prototypes are highest in frequency (m=7.93 vs. m=7.02 for log frequency of prototypes and non-prototypes respectively).
-
-% \begin{figure}[ht!]
-%   \begin{center}
-%     \includegraphics[width=0.5\textwidth]{./figures/prototypefreqs-violinplots.png}
-%         \caption{Log-Frequency densities of birds named in Zapotec as a function of whether or not their name is an unmarked-prototype.}
-%         \label{fig-freq-prototype-densities}
-%   \end{center}
-% \end{figure}
-
-
-
 
 
 
 
 \section{Discussion}
 
-% This work extends the investigation of language categories using large-scale datasets online \cite{kemp2012kinship,regier2016languages}
 % Summary of some of the questions we could explore using the methods detailed above.
 
 Questions of how categories of natural kinds are named have a long history in anthropology and psychology. There has been a particular debate over the influence of the external environment on how people partition the world. Recent large-scale digital datasets allow us to test old questions in a new light. In this paper we use frequency of occurrence and physical size of birds to examine the naming patterns of a particular folk categorization system. We found evidence that frequency predicts whether or not a species is named, and when a species is an unmarked prototype, as well as weak evidence that it predicts lumping. We replicated \citeA{hunn1999size} and found size predicts lumping (and find that it's a stronger predictor than frequency), but found only weak evidence that it predicts anything else.
