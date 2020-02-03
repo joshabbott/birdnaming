@@ -151,6 +151,9 @@ Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size fo
 
 \subsection{Category organization}
 
+
+% One relevant finding is that categories tend to be relatively broad in low-frequency regions of stimulus space, but relatively narrow in regions including frequently encountered stimuli (Parducci, 1983). We might therefore predict that bird species encountered frequently are more likely to be assigned to their own distinctive categories.
+
 Next we explore how named species are organized into categories. \citeA{hunn1999size} proposed that the size of an organism is influential in folk categorization and developed a measure which examines the degree to which the organisms are recognized taxonomically in the folk classification. 
 
 Here we investigate a variant of Hunn's analyses, simply exploring how many folk generic category members each named species in Zapotec shares. For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 14 species of bird in Zapotec. We analyze this using both mass and frequency as predictors of how many species are grouped by name. Figure~\ref{fig-ssrr} presents plots for both frequency (left column) and mass (right column).
@@ -171,10 +174,13 @@ Overall, these findings support Hunn's conclusion that mass can predict the grou
 
 
 \section{Analysis of category labels}
-Here we ask: of those birds that are named, whether frequency influences the form of the name for that species. Recall for example, there are 4 labels used for the 14 hummingbirds in Zapotec.
+
+We have explored how frequency and mass effect category extensions: whether or not a species is named, and how they are grouped with other species under the same name. We now investigate whether these environmental variables influence category labels, that is, the form of the name for that species. We will explore three simple lexical properties of the Zapotec bird labels: the word length, whether the word is a compound or monomial, and whether the word is an unmarked-prototype.
 
 % \subsection{Name-length}
-We analyzed the frequencies of birds named in Zapotec in relation to the name length of the bird. Opposite to our predictions (Zipfian), longer names had a slight tendency to be more frequent. The coefficients of a linear regression suggest that frequency and mass are both weak predictors. Dropping mass significantly impairs model performance ($p = 0.02$) but dropping frequency does not ($p = 0.2$). AIC scores support the same conclusion.
+One way frequency of observation could influence the form of the name of a bird is if it corresponds to frequency of use in language. If this were the case, birds with shorter names are predicted to be the most frequently observed birds, following Zipf's law \cite{zipf1936psycho,zipf1949human}. 
+
+We analyzed the frequencies of birds named in Zapotec in relation to the name length of the bird. Opposite to the predictions, longer names had a slight tendency to be more frequent. The coefficients of a linear regression suggest that frequency and mass are both weak predictors. Dropping mass significantly impairs model performance ($p = 0.02$) but dropping frequency does not ($p = 0.2$). AIC scores support the same conclusion.
 
 % See Figure~\ref{fig-freq-namelength}
 % \begin{figure}[!ht]
@@ -184,7 +190,6 @@ We analyzed the frequencies of birds named in Zapotec in relation to the name le
 %         \label{fig-freq-namelength}
 %   \end{center}
 % \end{figure}
-
 
 
 \subsection{Compound names}
@@ -284,13 +289,13 @@ Reasons why we don’t see a stronger effect of frequency (discuss wrt theories 
 
 Distribution of species in morphospace is an important confound in lumping, compound vs monomial and namelength analyses. Possible that similarity is the big thing: e.g if a species is very similar to many other species than we’d expect to have a high lumping score independent of mass and frequency, and might also expect to have a compound name that reflects the relationship of the species to other similar things.
 
-Future direction: include similarity as predictor. Use the data in that recent paper (Macroevolutionary convergence connects morphological form to ecological function in birds) to add a “neighborhood density” variable that captures how many other local species a given species is similar to.
-
-% \subsection{Potential concerns}
-
-We also address potential concerns that can arise in using eBird frequency of observation data here. Does frequency of observation in eBird accurately represent the statistic of interest? (SOME CITATIONS to back up this claim). Also: These questions are interesting because we typically take for granted the categories of natural kinds. However, scientific taxonomies are just another human-constructed category system. When considering the set of birds in particular, it has been difficult for biologists to agree on a standardized taxonomy, which has been shown to severely impact decisions on conservation policy \cite{peterson2006taxonomy,garnett2017taxonomy}.
+% We also address potential concerns that can arise in using eBird frequency of observation data here. Does frequency of observation in eBird accurately represent the statistic of interest? (SOME CITATIONS to back up this claim). Also: These questions are interesting because we typically take for granted the categories of natural kinds. However, scientific taxonomies are just another human-constructed category system. When considering the set of birds in particular, it has been difficult for biologists to agree on a standardized taxonomy, which has been shown to severely impact decisions on conservation policy \cite{peterson2006taxonomy,garnett2017taxonomy}.
 
 \subsection{Future Directions}
+
+Future direction: include similarity as predictor. Use the data in that recent paper (Macroevolutionary convergence connects morphological form to ecological function in birds) to add a “neighborhood density” variable that captures how many other local species a given species is similar to.
+
+
 The next step would be to expand these analyses to more languages. To do this one needs to find trustworthy ethnographies similar to the Zapotec naming data we used here from \citeA{hunn2008zapotec}, and one needs decent coverage in eBird over the geographic region in question. Clear next steps would be to analyze the Tzeltal language from Chiapas, Mexico, and the Tlingit language from the south-east Alaska, both published by Hunn as well \cite{hunn1977tzeltal,hunn2012tlingit}, which have decent coverage within their respective geographics regions in eBird observational data. 
 
 That said, it can be difficult to find languages with both expert ethnographries of the folk biological naming systems which also have good coverage in eBird. This has prohibited us from exploring bird naming data from known experts in regions with low coverage in eBird (e.g., naming data summarized in \cite{holman2002relation}, including the Tobelo language from Indonesia \cite{taylor1990folk} and the Anindilyakwa language from Australia \cite{waddy1988classification}, which do not have coverage in eBird currently).
