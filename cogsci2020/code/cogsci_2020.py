@@ -85,25 +85,25 @@ for birdcount in bird_counts.keys():
 
 
 
-plt.figure(dpi=100, facecolor='w', edgecolor='k')
-
-# plt.subplot(1,2,1)
+plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
+plt.rcParams.update({'font.size': 12})
+plt.subplot(1,2,1)
 
 pos = [1,2,3]
 plotnames = ('Zapotec','Missing','All OAX')
 # plt.figure()
-plt.violinplot([data_zapotec,missing_data,data_all],pos) 
-# plt.title('Frequency densities of OAX')
+plt.violinplot([data_zapotec,missing_data,data_all],pos,showmeans=True) 
+plt.title('Frequency densities of Zapotec')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log frequency')
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()
 
 
 
 
-plt.figure(dpi=100, facecolor='w', edgecolor='k')
+# plt.figure(dpi=100, facecolor='w', edgecolor='k')
 
 
 bigbirddata_data = pd.read_csv('./data/BirdFuncDat.txt',sep='\t',encoding = "ISO-8859-1")
@@ -134,12 +134,12 @@ for birdmass in oax_masses.keys():
 	if birdmass not in zapotec_masses.keys():
 		missing_data.append(np.log(oax_masses[birdmass]))
 
-# plt.subplot(1,2,2)
+plt.subplot(1,2,2)
 pos = [1,2,3]
 plotnames = ('Zapotec','Missing','All OAX')
 # plt.figure()
-plt.violinplot([data_zapotec,missing_data,data_all],pos) 
-# plt.title('Mass densities of Zapotec')
+plt.violinplot([data_zapotec,missing_data,data_all],pos,showmeans=True) 
+plt.title('Mass densities of Zapotec')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log mass')
 
@@ -240,7 +240,7 @@ np.mean(np.log(monomials))
 
 # In[195]:
 plt.figure(figsize=(9, 4), dpi=100, facecolor='w', edgecolor='k')
-
+plt.rcParams.update({'font.size': 12})
 plt.subplot(1,2,1)
 
 # violin plot 
@@ -250,7 +250,7 @@ data_monomials = [np.log(i) for i in monomials]
 pos = [1,2]
 plotnames = ('Compounds','Monomials')
 # plt.figure()
-plt.violinplot([data_compounds,data_monomials],pos)
+plt.violinplot([data_compounds,data_monomials],pos,showmeans=True)
 plt.title('Frequency densities of name forms')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log frequency')
@@ -296,7 +296,7 @@ plt.subplot(1,2,2)
 pos = [1,2]
 plotnames = ('Compounds','Monomials')
 # plt.figure()
-plt.violinplot([data_compounds,data_monomials],pos)
+plt.violinplot([data_compounds,data_monomials],pos,showmeans=True)
 plt.title('Mass densities of name forms')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log Mass')
@@ -345,7 +345,9 @@ bar_labels = ('Turkey','Black','King')
 subplot_title = 'Vultures'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3]
-plt.bar(pos,heights,color=['red','black','black'])
+# plt.bar(pos,heights,color=['red','black','black'])
+clrs = ['black','lightgrey','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 plt.title(subplot_title)
 # plt.xticks(pos,bar_labels)
 plt.tick_params(labelbottom=False)
@@ -357,7 +359,9 @@ bar_labels = ('Rock','Band-tailed')
 subplot_title = 'Pigeons'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2]
-plt.bar(pos,heights,color=['red','black'])
+# plt.bar(pos,heights,color=['red','black'])
+clrs = ['black','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 plt.title(subplot_title)
 # plt.xticks(pos,bar_labels)
 plt.tick_params(labelbottom=False)
@@ -369,8 +373,10 @@ bar_labels = ('Red-tailed','Coopers','Short-tailed','Zone-tailed','Peregrine Fal
 subplot_title = 'Hawks'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3,4,5,6]
-plt.bar(pos,heights,color=['red','black','black','black','black','black'])
+# plt.bar(pos,heights,color=['red','black','black','black','black','black'])
 plt.title(subplot_title)
+clrs = ['black','lightgrey','lightgrey','lightgrey','lightgrey','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 # plt.xticks(pos,bar_labels)
 plt.tick_params(labelbottom=False)
 
@@ -381,7 +387,9 @@ bar_labels = ('Mottled','Great Horned','Stygian')
 subplot_title = 'Owls'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3]
-plt.bar(pos,heights,color=['black','red','black'])
+# plt.bar(pos,heights,color=['black','red','black'])
+clrs = ['lightgrey','black','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 plt.title(subplot_title)
 # plt.xticks(pos,bar_labels)
 plt.tick_params(labelbottom=False)
@@ -393,7 +401,9 @@ bar_labels = ('House','Black-vented','Black-headed','Summer Tanager')
 subplot_title = 'Finches'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3,4]
-plt.bar(pos,heights,color=['red','black','black','black'])
+# plt.bar(pos,heights,color=['red','black','black','black'])
+clrs = ['black','lightgrey','lightgrey','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 plt.title(subplot_title)
 # plt.xticks(pos,bar_labels)
 plt.tick_params(labelbottom=False)
@@ -406,7 +416,9 @@ bar_labels = ('Bewicks','Canyon','Crescent-chested','Brown-throated','Gray-breas
 subplot_title = 'Wrens'
 heights = get_barheights_freq(bar_species,bird_list,df)
 pos = [1,2,3,4,5,6]
-plt.bar(pos,heights,color=['red','black','black','black','black','black'])
+# plt.bar(pos,heights,color=['red','black','black','black','black','black'])
+clrs = ['black','lightgrey','lightgrey','lightgrey','lightgrey','lightgrey']
+sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
 plt.title(subplot_title)
 # plt.xticks(pos,bar_labels)
 

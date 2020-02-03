@@ -156,14 +156,14 @@ Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size fo
 
 % One relevant finding is that categories tend to be relatively broad in low-frequency regions of stimulus space, but relatively narrow in regions including frequently encountered stimuli (Parducci, 1983). We might therefore predict that bird species encountered frequently are more likely to be assigned to their own distinctive categories.
 
-Next we explore how named species are organized into categories. \citeA{hunn1999size} proposed that the size of an organism is influential in folk categorization and developed a measure which examines the degree to which the organisms are recognized taxonomically in the folk classification. 
+Next we explore how named species are organized into categories. \citeA{hunn1999size} proposed that the size of an organism is influential in folk categorization and developed a measure which examines the degree to which the organisms are recognized taxonomically in the folk system based on size. 
 
 Here we investigate a variant of Hunn's analyses, simply exploring how many folk generic category members each named species in Zapotec shares. For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 14 species of bird in Zapotec. We analyze this using both mass and frequency as predictors of how many species are grouped by name. Figure~\ref{fig-ssrr} presents plots for both frequency (left column) and mass (right column).
 
 \begin{figure*}[!ht]
   \begin{center}
     \includegraphics[width=0.95\textwidth]{./figures/ssrr-singlespecies.png}
-        \caption{SSRR plots of single-species for both frequency (left column) and mass (right column).}
+        \caption{Category organization plots for both frequency (left column) and mass (right column). Category organization is measured as the number of other species a bird is grouped with under the same folk-generic name. Each point represents a bird species named in Zapotec.}
         \label{fig-ssrr}
   \end{center}
 \end{figure*}
@@ -172,7 +172,7 @@ Here we find that mass rather than frequency is a better predictor of category g
 
 Overall, these findings support Hunn's conclusion that mass can predict the grouping behavior in folk categorization, while providing only weak evidence that frequency can do the same.
 
-
+% Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size for birds with and without Zapotec names.  As expected, on average birds that are named tend to be more frequent than birds that are not named. The mass distributions for named and unnamed birds, however, are very similar. To confirm these impressions we ran a logistic regression including log frequency and log mass as predictors of a binary variable that indicates whether a species was named. The estimated coefficients were 0.84 (log frequency) and -0.03 (log mass). Based on these coefficients, if the probability that a species would receive a name were initially 0.5, increasing the log frequency of the species by one unit would increase the naming probability to 0.65, and increasing the log mass by one unit would decrease the naming probability to 0.49. We compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, and found that removing log frequency produced a significant impairment ($p < 0.01$), but removing log mass did not ($p = 0.59$).  Akaike information criterion (AIC) scores supported the conclusion that the model with log frequency but without log mass is the best among the three. 
 
 
 \section{Analysis of category labels}
@@ -203,7 +203,7 @@ Here we further examine names based on whether the Zapotec label is a single wor
 \begin{figure*}
   \begin{center}
     \includegraphics[width=0.95\textwidth]{./figures/nameforms-both.png}
-        \caption{Frequency and mass densities of birds named in Zapotec as a function of name form.}
+        \caption{Frequency densities (left) and Mass densitities (right) for species named in Zapotec, as function of name form. Monomials are single word bird names and compounds are bird names formed from multiple words.}
         \label{fig-both-nameforms}
   \end{center}
 \end{figure*}
@@ -258,7 +258,7 @@ We analyzed six prototypes; instances in which it was clear there was a single b
 \begin{figure*}[ht!]
   \begin{center}
     \includegraphics[width=0.95\textwidth]{./figures/prototypes-barplots-all.png}
-        \caption{Frequency bar plots of birds named in Zapotec as unmarked prototypes and the frequencies of other birds with the same folk-generic name. The bar highlighted in red is the unmarked-prototype.}
+        \caption{Frequency bar plots of birds named in Zapotec as unmarked prototypes and the frequencies of other birds with the same folk-generic name. The bar highlighted in black is the unmarked-prototype.}
         \label{fig-freq-prototype-all}
   \end{center}
 \end{figure*}

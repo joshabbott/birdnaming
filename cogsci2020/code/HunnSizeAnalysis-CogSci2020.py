@@ -29,7 +29,7 @@ import seaborn as sns
 from scipy.stats import pearsonr
 from scipy.stats import linregress
 
-plt.rcParams.update({'font.size': 14})
+plt.rcParams.update({'font.size': 12})
 # In[57]:
 
 
@@ -446,10 +446,12 @@ plt.subplot(1,2,1)
 ssrrdf = pd.DataFrame(list(zip(np.log(zs),ys)),columns =['log freq','num species'])
 sns.regplot(x=ssrrdf["log freq"], y=ssrrdf["num species"])
 plt.xlabel('Log frequency')
-plt.ylabel('# species per taxon')
+plt.ylabel('# species per label')
 
 # plt.xlim([0.,1.])
 plt.ylim([0.,15.])
+plt.yticks((0, 2, 4,6,8,10,12,14))
+
 
 plt.subplot(1,2,2)
 ssrrdf = pd.DataFrame(list(zip(np.log(xs),ys)),columns =['log size','num species'])
@@ -458,7 +460,7 @@ plt.xlabel('Log size')
 plt.ylabel('')
 # plt.xlim([0.,1.])
 plt.ylim([0.,15.])
-
+plt.yticks((0, 2, 4,6,8,10,12,14))
 plt.tight_layout()
 plt.show()
  
