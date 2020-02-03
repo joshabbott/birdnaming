@@ -65,7 +65,7 @@
 
 
 \begin{abstract}
-How do we name things? What role does frequency of observation and physical size play in categorization of animals? Here we explore these questions using ideas from anthropology and ethnobiology, and utilizing large-scale citizen science datasets.
+Questions of how categories of natural kinds are named have a long history in anthropology and psychology. There has been a particular debate over the influence of the external environment on how people partition the world. Recent large-scale digital datasets allow us to test old questions in a new light. In this paper we use frequency of occurrence and physical size of birds to examine the naming patterns of a folk categorization system. First, we explore the extensions of categories, and investigate whether these environmental factors predict whether a bird is named and how they are grouped with other birds by the same label. We then explore how the forms of category labels are predicted by the environmental factors. We demonstrate that the recent development and release of multiple digital datasets allows us to investigate old questions with a new perspective.
 
 \textbf{Keywords:} 
 ethnobiology; categorization; bird naming
@@ -136,8 +136,6 @@ Given the three data sets just described we ask whether the frequency and body m
 
 Our first analysis considers whether frequency and mass can predict whether a species is likely to be named. Intuitively, one might expect that common species are more likely to be named, and that larger species are especially salient perceptually and therefore more likely to be named. Most descriptions of folk classification systems in the literature do not systematically describe any species found in the local area that are \emph{not} named by the local people. Our eBird data, however, include species that were documented in Oaxaca but not included in Hunn's taxonomy. Some of these species are probably rarely if ever seen in the village (San Juan Gb\"{e}\"{e}) where Hunn carried out his fieldwork. We expect, however, that some species missing from the taxonomy would be occasionally encountered in San Juan Gb\"{e}\"{e}. 
 
-Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size for birds with and without Zapotec names.  As expected, on average birds that are named tend to be more frequent than birds that are not named. The mass distributions for named and unnamed birds, however, are very similar. To confirm these impressions we ran a logistic regression including log frequency and log mass as predictors of a binary variable that indicates whether a species was named. The estimated coefficients were 0.84 (log frequency) and -0.03 (log mass). Based on these coefficients, if the probability that a species would receive a name were initially 0.5, increasing the log frequency of the species by one unit would increase the naming probability to 0.65, and increasing the log mass by one unit would decrease the naming probability to 0.49. We compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, and found that removing log frequency produced a significant impairment ($p < 0.01$), but removing log mass did not ($p = 0.59$).  Akaike information criterion (AIC) scores supported the conclusion that the model with log frequency but without log mass is the best among the three. 
-
 \begin{figure*}[hbt!]
   \begin{center}
     \includegraphics[width=.95\textwidth]{./figures/birdfreqmass-violinplots.png}
@@ -145,6 +143,10 @@ Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size fo
         \label{fig-birdfreqmassviolin}
   \end{center}
 \end{figure*}
+
+Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size for birds with and without Zapotec names.  As expected, on average birds that are named tend to be more frequent than birds that are not named. The mass distributions for named and unnamed birds, however, are very similar. To confirm these impressions we ran a logistic regression including log frequency and log mass as predictors of a binary variable that indicates whether a species was named. The estimated coefficients were 0.84 (log frequency) and -0.03 (log mass). Based on these coefficients, if the probability that a species would receive a name were initially 0.5, increasing the log frequency of the species by one unit would increase the naming probability to 0.65, and increasing the log mass by one unit would decrease the naming probability to 0.49. We compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, and found that removing log frequency produced a significant impairment ($p < 0.01$), but removing log mass did not ($p = 0.59$).  Akaike information criterion (AIC) scores supported the conclusion that the model with log frequency but without log mass is the best among the three. 
+
+
 
 % mention that information about unnamed species not systematically included in folk taxonomies
 
