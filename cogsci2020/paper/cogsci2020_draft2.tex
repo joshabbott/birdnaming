@@ -125,28 +125,26 @@ As this example suggests, in some cases the folk-specific and folk-generic names
  \emph{ Amazilia Beryllina} is known simply as  dzing (hummingbird) at the folk-specific level.  Following Hunn's usage any folk-specific category (e.g.\ the one that includes \emph{ Amazilia Beryllina}) with the same label as the folk-generic category to which it belongs will be called an \emph{unmarked prototype}.
 
 
-In total Hunn's taxonomy includes 152 species that are organized into 94 distinct folk-specific categories, which in turn are organized into 68 folk-generic categories.  The scientific species labels given by Hunn  did not always match those used by our other sources of data (eBird and EltonTraits).  We took the Clements checklist (used by eBird) as our gold standard \cite{clements2007clements}, and some manual preprocessing was required to align the labels used by all three resources.\footnote{All data and analysis code will be available on author's GitHub site.}.
+In total Hunn's taxonomy includes 152 species that are organized into 94 distinct folk-specific categories, which in turn are organized into 68 folk-generic categories.  The scientific species labels given by Hunn  did not always match those used by our other sources of data (eBird and EltonTraits).  We took the Clements checklist (used by eBird) as our gold standard \cite{clements2007clements}, and some manual preprocessing was required to align the labels used by all three resources.\footnote{All data and analysis code will be available on author's GitHub site.}
 
 %We then linked the three resources to create a single data set with nam This resulted in 152 bird species named in Zapotec with corresponding frequencies and masses
 
 
-
-
 \section{Analysis of category extensions}
-% needs motivation
-We focus first on the extensions of folk categories, and subsequently consider the labels or names given to these categories. We look at the distributions of birds with and without names in Zapotec, using the two environmental factors, in relation to all birds seen in Oaxaca (OAX) from eBird.
-Figure~\ref{fig-birdfreqmassviolin} plots these distributions, with frequency on the left and mass on the right.
+
+Given the three data sets just described we ask whether the frequency and body mass data can predict aspect of Hunn's naming data.  We focus first on the extensions of folk categories, and subsequently consider the labels or names given to these categories. 
+
+Our first analysis considers whether frequency and mass can predict whether a species is likely to be named. Intuitively, one might expect that common species are more likely to be named, and that larger species are especially salient perceptually and therefore more likely to be named. Most descriptions of folk classification systems in the literature do not systematically describe any species found in the local area that are \emph{not} named by the local people. Our eBird data, however, include species that were documented in Oaxaca but not included in Hunn's taxonomy. Some of these species are probably rarely if ever seen in the village (San Juan Gb\"{e}\"{e}) where Hunn carried out his fieldwork. We expect, however, that some species missing from the taxonomy would be occasionally encountered in San Juan Gb\"{e}\"{e}. 
+
+Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size for birds with and without Zapotec names.  As expected, on average birds that are named tend to be more frequent than birds that are not named. The mass distributions for named and unnamed birds, however, are very similar. To confirm these impressions we ran a logistic regression including log frequency and log mass as predictors of a binary variable that indicates whether a species was named. The estimated coefficients were 0.84 (log frequency) and -0.03 (log mass). Based on these coefficients, if the probability that a species would receive a name were initially 0.5, increasing the log frequency of the species by one unit would increase the naming probability to 0.65, and increasing the log mass by one unit would decrease the naming probability to 0.49. We compared the full logistic regression model to alternatives that removed either log frequency or log mass as a predictor, and found that removing log frequency produced a significant impairment ($p < 0.01$), but removing log mass did not ($p = 0.59$).  Akaike information criterion (AIC) scores supported the conclusion that the model with log frequency but without log mass is the best among the three. 
 
 \begin{figure*}[hbt!]
   \begin{center}
     \includegraphics[width=.95\textwidth]{./figures/birdfreqmass-violinplots.png}
-        \caption{Frequency densities (left) and Mass densitities (right) of birds named in Zapotec and those observed in the state of OAX.}
+        \caption{Frequency densities (left) and Mass densitities (right) for species named in Zapotec, species found in Oaxaca (OAX) but missing from the Zapotec taxonomy, and all species in OAX.}
         \label{fig-birdfreqmassviolin}
   \end{center}
 \end{figure*}
-
-Here we find that birds named in Zapotec tend to be the most frequently observed birds in Oaxaca. Mass, on the otherhand, does not appear to have an effect on whether a bird in Oaxaca is named or not in Zapotec. We ran a logistic regression which confirms that frequency is a strong predictor, while mass is not. Testing for mixed effects suggests that dropping frequency makes the model fit significantly worse ($p < 0.01$), but dropping mass doesn’t hurt the fit ($p = 0.59$). Akaike information criterion (AIC) values also support this conclusion. 
-% (dropping logfreq makes the AIC bigger (ie worse), but dropping logmass makes the AIC a little bit better (smaller))
 
 % mention that information about unnamed species not systematically included in folk taxonomies
 
