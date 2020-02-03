@@ -152,29 +152,30 @@ Figure~\ref{fig-birdfreqmassviolin} shows distributions of frequency and size fo
 % NEEDS WORK STARTING HERE
 % 
 % 
-\subsection{Category organization}
+\subsection{Category size}
 
 
-Next we explore how named species are organized into categories. \citeA{hunn1999size} proposed that the size of an organism is influential in folk categorization and developed a measure which examines the degree to which the organisms are recognized taxonomically in the folk system based on size. 
+Next we explore how named species are organized into categories. In particular, we explore whether the frequency and mass of a species partially predict the number of other species it is grouped with at the folk-generic level.  Following prior work on frequency effects in the experimental literature~\cite{parducci83}, we hypothesized that frequent species would tend to be grouped with fewer others, because investing in a distinctive name for a species makes most sense if there are many occasions to use it. We also expected to replicate the work of \citeA{hunn1999size}, who reported that larger species tend to be grouped with fewer others, which makes sense given that larger species are especially salient perceptually. 
 
-We investigate a variant of Hunn's analyses, simply exploring how many folk generic category members each named species in Zapotec shares. For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 14 species of bird in Zapotec. We analyze this using both mass and frequency as predictors of how many species are grouped by name. 
+%We investigate a variant of Hunn's analyses, simply exploring how many folk generic category members each named species in Zapotec shares. For example, the folk-generic name for hummingbirds is \textit{dz\v{i}n\b{g}}, which covers 14 species of bird in Zapotec. We analyze this using both mass and frequency as predictors of how many species are grouped by name. 
 
 \begin{figure*}[!ht]
   \begin{center}
     \includegraphics[width=0.95\textwidth]{./figures/ssrr-singlespecies.png}
-        \caption{Category organization plots for both frequency (left column) and mass (right column). Category organization is measured as the number of other species a bird is grouped with under the same folk-generic name. Each point represents a bird species named in Zapotec.}
+        \caption{Category size plots for both frequency (left column) and mass (right column). Category size is measured as the number of other species a bird is grouped with under the same folk-generic name. Each point represents a bird species named in Zapotec.}
         \label{fig-ssrr}
   \end{center}
 \end{figure*}
 
-Figure~\ref{fig-ssrr} presents plots for both frequency (left column) and mass (right column). Here we find that mass rather than frequency is a better predictor of category grouping. The $R^2$ for frequency is 0.01, and for mass is 0.20. The coefficients of a linear regression suggest that mass is a stronger predictor than frequency. Dropping either predictor, however, leads to a model fit that is significantly worse ($p < 0.01$) for mass and ($p = 0.03$) for frequency. AIC values support the same conclusion.
+The \emph{category size} of each species is defined as the total size of the folk-generic category to which it belongs. For example, \emph{ Colibri thalassinus} (Mexican violetear) is grouped with 13 other species called \textit{dz\v{\i}n\b{g}} (hummingbird) at the folk-generic level, and therefore receives a category size of 14.  Figure~\ref{fig-ssrr} shows plots of category size (at the folk-generic level) against both frequency and mass, and shows that mass is a stronger predictor ($r^2 = 0.20$) than frequency ($r^2 = 0.01$). 
+% XXX: report linear regressions in full (including coefficients). also report hypothesis tests in full. acknowledge that category size variable is coupled across species -- all members of the same folk-genericcategory have the same value
+The coefficients of a linear regression suggest that mass is a stronger predictor than frequency. Dropping either predictor, however, leads to a model fit that is significantly worse ($p < 0.01$) for mass and ($p = 0.03$) for frequency. AIC values support the same conclusion.
 
-Overall, these findings support Hunn's conclusion that size can predict the grouping behavior in folk categorization, while providing only weak evidence that frequency can do the same.
-
+Overall these findings support Hunn's finding that larger species tend to be assigned to smaller categories, but suggest that frequency predicts category size only weakly. Our analyses, however,  did not include a third environmental factor  which probably interacts with body mass and frequency. The category size of a species almost certainly depends on how many other similar species are found in the environment. For example, one reason why \textit{dz\v{\i}n\b{g}} (hummingbird) is the largest folk-generic category in our data is that Oaxaca has many species of hummingbirds that look relatively similar to each other and relatively distinct from other species in the environment. In preliminary work we attempted to formalize this idea using a similarity space based on data from \cite{pigot}, who generated a 9-dimensional space that includes most of the world's bird species and is based on body mass in addition to 8 variables related to beak shape and body shape. We extracted a subset of this space that included only species named in Zapotec, and defined a \emph{neighborhood density} measure that captures the number of species that lie within a small radius of each point in the space. We found that neighborhood density predicted category size more strongly than mass, but that body mass and frequency remained significant as predictors even when neighborhood density was included. In future work we plan to follow up on this preliminary result by evaluating models of unsupervised categorization that are defined over the similarity space. Some of these models are sensitive to both similarity and frequency, and therefore provide a natural way to explore how the two may interact in shaping folk categorization systems.
 
 \section{Analysis of category labels}
 
-We have explored how frequency and mass effect category extensions: whether or not a species is named, and how they are grouped with other species under the same name. We now investigate whether these environmental variables influence category labels, that is, the form of the name for that species. We explore three simple lexical properties of the Zapotec bird labels: the word length, whether the word is a compound or monomial, and whether the word is an unmarked prototype.
+The previous section focused on category extensions, but we now ask whether frequency and mass influence the form of the names for each species. We focus on names at the folk-specific level and consider three lexical properties of these names: name length, whether the name is a compound or monomial, and whether the name is an unmarked prototype.
 
 \subsection{Name length}
 
