@@ -112,13 +112,14 @@ namedvsunnamed_plot <- df_mf_long %>%
   facet_wrap(~variable, scale="free")
 namedvsunnamed_plot
 
-logitmodnaming <- glm(
-  formula = is_named ~ logfreq + logmass, 
-  family = binomial,
-  data = df_mf)
+naming_full <- glm( formula = is_named ~ logfreq + logmass,  family = binomial, data = df_mf)
+naming_freq<- glm( formula = is_named ~ logfreq,  family = binomial, data = df_mf)
+naming_mass<- glm( formula = is_named ~ logmass, family = binomial, data = df_mf)
+anova(naming_freq, naming_full, naming_mass, test="Chisq")
 
-naming_drop <- drop1(logitmodnaming, test="Chisq")
-summary(logitmodnaming)
+
+naming_drop <- drop1(naming_full, test="Chisq")
+summary(naming_full)
 naming_drop
 ```
 
@@ -142,13 +143,14 @@ lumping_plot <- df_mf_long %>%
   facet_wrap(~variable, scales="free")
 lumping_plot
 
-lmlumping <- lm(
-  formula = group_size_folk_generics ~ logfreq + logmass, 
-  data = df_named)
+lmlumping_full <- lm( formula = group_size_folk_generics ~ logfreq + logmass,  data = df_named)
+lmlumping_freq <- lm( formula = group_size_folk_generics ~ logfreq,  data = df_named)
+lmlumping_mass <- lm( formula = group_size_folk_generics ~ logmass,  data = df_named)
 
-lumping_drop <- drop1(lmlumping, test="Chisq")
-lumping_drop
-summary(lmlumping)
+anova(lmlumping_freq, lmlumping_full, lmlumping_mass, test="Chisq")
+#lumping_drop <- drop1(lmlumping, test="Chisq")
+#lumping_drop
+summary(lmlumping_full)
 ```
 The coefficients suggest that logmass (-1.22) is a stronger predictor than logfreq (-0.54). Dropping either predictor, however, leads to a model fit that is significantly worse (p values of 0.03 for logfreq and 1e-8 for logmass). AIC values support the same conclusion.
 
@@ -191,13 +193,16 @@ namelength_plot <- df_mf_long %>%
   facet_wrap(~variable, scale="free")
 namelength_plot
 
-lmnamelength<- lm(
-  formula = logname_length ~ logfreq + logmass, 
-  data = df_named)
+namelength_full <- lm( formula = logname_length ~ logfreq + logmass,  data = df_named)
+namelength_freq <- lm( formula = logname_length ~ logfreq,  data = df_named)
+namelength_mass <- lm( formula = logname_length ~ logmass,  data = df_named)
 
-namelength_drop <- drop1(lmnamelength, test="Chisq")
-namelength_drop
-summary(lmnamelength)
+#namelength_drop <- drop1(namelength_full, test="Chisq")
+#namelength_drop
+
+anova(namelength_freq, namelength_full, namelength_mass, test="Chisq")
+
+summary(namelength_full)
 ```
 
 Coefficients suggest that logfreq (0.04) and logmass (-0.06) are both weak predictors. Dropping logmass significantly impairs model performance (p = 0.02) but dropping logfreq doesn't (p = 0.2). AIC scores support same conclusion.
