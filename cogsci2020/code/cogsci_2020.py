@@ -409,3 +409,14 @@ plt.tick_params(labelbottom=False)
 plt.tight_layout()
 plt.show()
 
+
+
+
+
+
+
+
+df = zapotec_data_all[zapotec_data_all['folk_generic'].notna()] 
+basics = list(df['folk_generic'])
+specifics = list(df['folk_specific'])
+

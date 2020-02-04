@@ -175,7 +175,7 @@ The \emph{category size} of each species is defined as the total size of the fol
 % XXX: report linear regressions in full (including coefficients). also report hypothesis tests in full. 
 The coefficients of a linear regression suggest that mass is a stronger predictor than frequency. Dropping either predictor, however, leads to a model fit that is significantly worse ($p < 0.01$) for mass and ($p = 0.03$) for frequency. AIC values support the same conclusion.
 
-Overall these findings support Hunn's finding that larger species tend to be assigned to smaller categories, but suggest that frequency predicts category size only weakly. Our analyses, however,  did not include a third environmental factor  which probably interacts with body mass and frequency. The category size of a species almost certainly depends on how many other similar species are found in the environment. For example, one reason why \textit{dz\v{\i}n\b{g}} (hummingbird) is the largest folk-generic category in our data is that Oaxaca has many species of hummingbirds that look relatively similar to each other and relatively distinct from other species in the environment. In preliminary work we attempted to formalize this idea using a similarity space based on data from \cite{pigot}, who generated a 9-dimensional space that includes most of the world's bird species and is based on body mass in addition to 8 variables related to beak shape and body shape. We extracted a subset of this space that included only species named in Zapotec, and defined a \emph{neighborhood density} measure that captures the number of species that lie within a small radius of each point in the space. We found that neighborhood density predicted category size about as strongly than mass, but that body mass and frequency remained significant as predictors even when neighborhood density was included. In future work we plan to follow up on this preliminary result by evaluating models of unsupervised categorization that are defined over the similarity space. Some of these models are sensitive to both similarity and frequency, and therefore provide a natural way to explore how the two may interact in shaping folk categorization systems.
+Overall these findings support Hunn's finding that larger species tend to be assigned to smaller categories, but suggest that frequency predicts category size only weakly. Our analyses, however,  did not include a third environmental factor  which probably interacts with body mass and frequency. The category size of a species almost certainly depends on how many other similar species are found in the environment. For example, one reason why \textit{dz\v{\i}n\b{g}} (hummingbird) is the largest folk-generic category in our data is that Oaxaca has many species of hummingbirds that look relatively similar to each other and relatively distinct from other species in the environment. In preliminary work we attempted to formalize this idea using a similarity space based on data from \cite{pigot2020macroevolutionary}, who generated a 9-dimensional space that includes most of the world's bird species and is based on body mass in addition to 8 variables related to beak shape and body shape. We extracted a subset of this space that included only species named in Zapotec, and defined a \emph{neighborhood density} measure that captures the number of species that lie within a small radius of each point in the space. We found that neighborhood density predicted category size about as strongly than mass, but that body mass and frequency remained significant as predictors even when neighborhood density was included. In future work we plan to follow up on this preliminary result by evaluating models of unsupervised categorization that are defined over the similarity space. Some of these models are sensitive to both similarity and frequency, and therefore provide a natural way to explore how the two may interact in shaping folk categorization systems.
 
 \section{Analysis of category labels}
 
@@ -186,7 +186,7 @@ The previous section focused on category extensions, but we now ask whether freq
 Zipf's law (1936, 1949)\nocite{zipf1936psycho,zipf1949human} is the well-established regularity that word lengths are  inversely related to word frequency. Intuition suggests that the frequency with which a species is named should roughly track the frequency with which it is observed, and we therefore hypothesized that more frequent species would tend to have shorter names.  In contrast, we expected that there would be no relationship between body mass and name length. 
 
 % XXX: refine description of stats
-Because we do not have phonemic representations of the Zapotec names, we used a crude measure of length based on the number of characters in the written form of each name...
+Because we do not have phonemic representations of the Zapotec names, we used a crude measure of length based on the number of characters in the written form of each name.
 
 We analyzed both the frequencies and masses of birds named in Zapotec in relation to the name length of the bird. In a direction opposite to our predictions, birds with longer names had a slight tendency to be more frequent, while having a slight tendency to be of smaller size. However, the coefficients of a linear regression suggest that log frequency and log mass are both weak predictors of log name length. Comparing the linear regression model to alternatives that dropped mass as a predictor significantly impaired model performance ($p = 0.02$) but dropping frequency did not ($p = 0.2$). Akaike information criterion (AIC) scores support the same conclusion.
 
@@ -234,10 +234,18 @@ The literature on folk categorization proposes a link between monomial labels an
 ~\cite{berlin1972speculations,berlin2014ethnobiological}. If some hummingbirds (e.g.\ \emph{ Amazilia Beryllina}) are simply called \textit{dz\v{\i}n\b{g}} at the folk-specific level but others have a compound name (e.g.\ \textit{dz\v{\i}n\b{g}-y\v{a}-gu\`{i}}, or mountain hummingbird), then hummingbirds with the monomial name might be expected to be more typical than those given a distinctive folk-specific name. Several factors could contribute to typicality: for example, typical hummingbirds could be those encountered most frequently, or those that are perceptually most representative of the folk-generic category 
 \textit{dz\v{\i}n\b{g}} \cite{berlin2014ethnobiological}.  Here we test the hypothesis that frequency predicts typicality.
 
-For us, any folk-specific category (e.g.\ the one that includes \emph{ Amazilia Beryllina}) with the same label as the folk-generic category to which it belongs will be called an \emph{unmarked prototype}.  Although this definition of a prototype is based purely on linguistic form, we expect that it lines up with the psychological notion of a prototype. Hunn's data includes X unmarked prototypes, and for simpilicity we focus on the Y prototypes that include a single species each, which means that the species in question can be treated as a category prototype.
+\begin{figure*}[ht!]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{./figures/prototypes-barplots-all.png}
+        \caption{Frequency bar plots of birds named in Zapotec as unmarked prototypes and the frequencies of other birds with the same folk-generic name. The bar highlighted in black is the unmarked prototype.}
+        \label{fig-freq-prototype-all}
+  \end{center}
+\end{figure*}
+
+For us, any folk-specific category (e.g.\ the one that includes \emph{ Amazilia Beryllina}) with the same label as the folk-generic category to which it belongs will be called an \emph{unmarked prototype}.  Although this definition of a prototype is based purely on linguistic form, we expect that it lines up with the psychological notion of a prototype. Hunn's data includes 11 unmarked prototypes, and for simpilicity we focus on the 6 prototypes that include a single species each, which means that the species in question can be treated as a category prototype.
 
 Figure \ref{fig-freq-prototype-all} shows ranked raw frequency distributions that compare the frequency of each category prototype to the frequency of other members of the same folk-generic category. 
-The top left chart indicates that the prototypical Turkey Vulture (in black) is more frequently observed in Oaxaca than other vultures. This trend holds across 5 of the 6 cases, with a notable exception for the folk-generic category including owls. Although the counts for this category are comparatively low, the unmarked prototype (Great Horned Owl) is only the second most frequent owl in the eBird data. . Hunn notes that the Great Horned Owl is considered an ill-omen by many, and the cultural salience of this species may therefore explain why it receives an unmarked name despite being infrequently observed. 
+The top left chart indicates that the prototypical Turkey Vulture (in black) is more frequently observed in Oaxaca than other vultures. This trend holds across 5 of the 6 cases, with a notable exception for the folk-generic category including owls. Although the counts for this category are comparatively low, the unmarked prototype (Great Horned Owl) is only the second most frequent owl in the eBird data. Hunn notes that the Great Horned Owl is considered an ill-omen by many, and the cultural salience of this species may therefore explain why it receives an unmarked name despite being infrequently observed. 
 
 % 24) dǎm̲ [ON] ^[[SndMhpBub1]]; large owls (Strigiformes in part):
 % 24a) dǎm̲[-0] [ON, unmarked prototype] (= dǎm̲-rǒb [`owl´ + `great´], dǎm̲-yòx [`owl´ + `great´]); Great Horned Owl (Bubo virginianus): occurs in woodland and forest near town; the generic name is onomatopoetic; it is cognate with Cordova´s tàma, “paxaros que tenian por agueros”; it is considered by many an ill omen; other species of larger owls which might occur here include Mottled (Strix virgata) and Stygian Owls (Asio stygius), though these may be distinguished as the next;
@@ -250,13 +258,13 @@ The top left chart indicates that the prototypical Turkey Vulture (in black) is 
 % 5c) pěch[-0] [`vulture´, unmarked prototype] (= pěch-yèts [`vulture´ + `yellowish´]); Turkey Vulture (Cathartes aura): the prototypical vulture; normally simply named pěch.
 
 
-\begin{figure*}[ht!]
-  \begin{center}
-    \includegraphics[width=0.95\textwidth]{./figures/prototypes-barplots-all.png}
-        \caption{Frequency bar plots of birds named in Zapotec as unmarked prototypes and the frequencies of other birds with the same folk-generic name. The bar highlighted in black is the unmarked prototype.}
-        \label{fig-freq-prototype-all}
-  \end{center}
-\end{figure*}
+% \begin{figure*}[ht!]
+%   \begin{center}
+%     \includegraphics[width=0.95\textwidth]{./figures/prototypes-barplots-all.png}
+%         \caption{Frequency bar plots of birds named in Zapotec as unmarked prototypes and the frequencies of other birds with the same folk-generic name. The bar highlighted in black is the unmarked prototype.}
+%         \label{fig-freq-prototype-all}
+%   \end{center}
+% \end{figure*}
 
 
 \section{Discussion}
