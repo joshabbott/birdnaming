@@ -34,6 +34,7 @@ slab <- function(z) {
 
 df_mf <- df  %>% 
   mutate(is_named = !is.na(folk_specific), logmass = log(mass), logfreq = log(freq)) %>% 
+  mutate(is_prot = !is.na(folk_specific) & folk_specific==folk_generic)  %>% 
   # XXX: should is_compound and name_length be based on specific or generic names?
   mutate(is_compound = grepl('-', folk_specific)) %>% 
   mutate(name_length = str_count(folk_specific) - is_compound) %>% 
@@ -50,6 +51,30 @@ df_mf <- df  %>%
 # make long data frame for generating figures
 df_mf_long <- df_mf %>% 
   gather(key='variable', value='val', logmass, logfreq, density)
+```
+
+
+## Prototype plots
+
+```{r protype, message=FALSE}
+protstatus <- df_mf %>% 
+  select(folk_generic, is_prot) %>% 
+  distinct() %>% 
+  group_by(folk_generic) %>% 
+  summarize(cnt = n()) %>% 
+  ungroup() %>% 
+  filter(cnt>1)
+
+protcats <- inner_join(df_mf, protstatus)
+
+protplot <- protcats %>% 
+  filter(is_named) %>% 
+  ggplot(aes(x = reorder(species, -freq), y = freq, color = is_prot)) +
+  geom_col() +
+  facet_wrap(~folk_generic, scale="free")  +
+  theme(axis.text.x=element_blank())
+ 
+protplot
 ```
 
 ## Morphospace
