@@ -420,3 +420,18 @@ df = zapotec_data_all[zapotec_data_all['folk_generic'].notna()]
 basics = list(df['folk_generic'])
 specifics = list(df['folk_specific'])
 
+
+
+
+
+zapotec_data_all = pd.read_csv('./data/df_zapotec.csv')
+df = zapotec_data_all[zapotec_data_all['folk_generic'].notna()] 
+# use new dataset
+pc_data = pd.read_csv('./data/41559_2019_1070_MOESM3_ESM.csv') 
+foo = list(pc_data['Binomial'])
+bar = [i.replace('_',' ') for i in foo] 
+
+zapotec_species = list(df['species']) 
+zapotec_pcs = []
+for bird in zapotec_species:
+	zapotec_pcs.append(np.array(pc_data[['PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8','PC9', 'Beak_PC1', 'Beak_PC2', 'Beak_PC3', 'Beak_PC4']][pc_data['Binomial'] == bird.replace(' ','_')])) 
