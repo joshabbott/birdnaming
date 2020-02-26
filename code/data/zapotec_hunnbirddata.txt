@@ -1,0 +1,186 @@
+1) gàrs [`garza<sp>´ `heron´] (= gàrs-nquǐts [`heron´+ `white´]) ^[[SndMhpGar1]]; Cattle Egret (Bubulcus ibis); heron/egret: the Cattle Egret is the species most likely to occur at San Juan, though other species might be encountered travelling at the coast and in the Isthmus of Tehuántepec; optionally modified “white.”
+
+2) pìxîx [ON] ^[[SndMhpPix1]]; Black-bellied Whistling-Duck (Dendrocygna autumnalis): the name is likely borrowed from local Spanish pijiji; known from coastal travels only.
+
+3) gâns [`ganso<sp>´ `goose´] ^[[SndMhpGan1]]; goose (Anser sp.): kept occasionally as a domestic animal; most of Gray-lag (Anser anser) and/or Swan Goose (Anser cygnoides) parentage.
+
+4) bǎd [`ganso<sp>´ `duck´];
+4a) bǎd [`duck´] (= bǎd-xtîl [`duck´ + `Castillian<sp>´]) ^[[SndMhpBad1]]; Muscovy Duck (Cairina moschata) and/or Mallard (Anas platyrhynchos): domestic ducks are uncommon, usually white, possibly of hybrid ancestry of Muscovy Duck and/or Mallard parentage; optionally modified “Castillian,” indicative of exotic origin;
+4b) bǎd-guìx [`duck<sp>´ + `bush/wild´, < pato] (= bǎd-guiùu [`duck<sp>´ + `river´]); wild ducks (Anatidae in part): a few species occur in small numbers in winter on impoundments in the Oaxaca valley, such as Green-winged Teal (Anas crecca), Blue-winged Teal (Anas discors), American Wigeon (Anas americana), Lesser Scaup (Aythya affinis), and Ruddy Duck (Oxyura jamaicensis); a few other species might occur in winter on the coast, where the Muscovy Duck (Cairina moschata) occurs natively.
+
+5) pěch [`X´] ^[[SndMhpPch1]]: Cathartidae, New World vultures:
+5a) pěch-msìdòo [`vulture´ + `eagle´] (= rên [`blood´]); King Vulture (Sarcoramphus papa): now, at least, very rare; might be known from travels to the Isthmus of Tehuántepec; one older man reported the name and that it did occur in San Juan Gbëë; the generic synonym was noted by Reeck (1991);
+5b) pěch-rúx [`vulture´ + `naked´] (= ngól̲-běts [X + Y]); Black Vulture (Coragyps atratus): less common and widespread than the next; the generic synonym was reported by Reeck;
+5c) pěch[-0] [`vulture´, unmarked prototype] (= pěch-yèts [`vulture´ + `yellowish´]); Turkey Vulture (Cathartes aura): the prototypical vulture; normally simply named pěch.
+
+6) msì [`hawk´] ^[[SndMhpMsi1]]:
+6a) msì[-0] [`hawk´, unmarked prototype]; Red-tailed Hawk (Buteo jamaicensis), Short-tailed Hawk (Buteo brachyurus) (possibly includes also the Zone-tailed Hawk [Buteo albonotatus]); the prototypical msì is the common, widespread resident Buteo jamaicensis; other species are rare visitors; some distinguish Buteo jamaicensis as msì-dòo “large hawk,” though others argue that msì-dòo is larger still (see below); cognate with Cordova´s picija (1987), a general term for diurnal birds of prey;
+6b) msì-dòo [`hawk´ + `very large´]; Red-tailed Hawk (Buteo jamaicensis), Peregrine Falcon (Falco peregrinus); larger hawks, possibly properly the eagles Harpyhaliaetus solitarius, Aquila chrysaetos, and/or Spizaetus ornatus, though none of these has been documented for the region; cognate with Cordova´s picijatào (1987),”águila real”; see note above for alternate treatment of Buteo jamaicensis; Falco peregrinus is a rare transient and likely an ad hoc affiliate;
+6c) msì-lâg [`hawk´ + X]; Sharp-shinned Hawk (Accipiter striatus), Cooper's Hawk (Accipiter cooperi), Northern Harrier (Circus cyaneus); smaller hawks, the first is a permanent resident and breeder, thus likely the prototype; Circus cyaneus is an uncommon migrant and thus likely an ad hoc affiliate; the name is composed of the generic for hawks, eagles, and falcons (excepting only Caracara plancus and Falco sparverius) modified by “small.”
+
+7) mguîn̲-rlæ̌-dzìt [`bird´ + `breaks´ + `bone´] (= quèbràntwês [quebranta-huesos<sp> `breaks bones´]); Crested Caracara (Caracara plancus): not known to occur in San Juan Gbëë, though common in the Oaxaca valley; the Zapotec name is a translation equivalent of the common local Spanish name quebranta-huesos, literally “breaks bones,”, a term originally applied to the Lammergeier or Bearded Vulture (Gypaetus barbatus) of Europe.
+
+8) líd [ON]; American Kestrel (Falco sparverius) ^[[SndAveFal1]], ^[[SndMhpLid1]]: fairly common in open country near town in winter; the name is onomatopoetic; one consultant called the Loggerhead Shrike (Lanius ludovicianus) líd-yèen̲, literally “baby kestrel.”
+
+9) chìchàlác [ON] (= mèr-zhîg [`turkey´ + `gourd´]) ^[[SndMhpCch1]]; West Mexican Chachalaca (Ortalis poliocephala) ^[[SndAveOrt1]]; an uncommon resident at the lower margins of San Juan Gbëë where occasionally hunted; the first variant is onomatopoetic and may be borrowed from local Spanish chachalaca; the second variant is composed of “turkey” (Meleagris gallopavo) modified by “gourd.”
+
+10) mèr [`turkey´] ^[[SndMhpMer1]]; the Wild Turkey (Meleagris gallopavo) ^[[VerAveMlg1]]: common domestic fowl, most retaining normal coloration; likely present pre-Spanish contact; special terms for males (mèr-gòl, nguzěy, gòchêi), females (nguzân), and chicks (ndxězh) suggest long and intimate acquaintance and strong cultural significance; cognate with Cordova´s père/pète, variously “faysan,” “gallina,” “pavo,” “pollo”; no varieties named.
+
+11) nguǐd [`chicken´] ^[[SndMhpNgi1]], ^[[SndMhpNgi2]]; Red Jungle Fowl (Gallus gallus): common domestic fowl; special terms for males (gây, nguǐd-bǎy), females (nguǐd-gùs), and chicks (nguǐd-yèen̲) suggest strong cultural significance, but the fact that these special terms incorporate Spanish loans (gây from “gallo,” bǒy from “pollo”) or generic life-stage terms (yèen̲ for juvenile) suggest that their acquaintance with chickens is of less antiquity than that with turkeys; a number of varieties are named; the following may not be exhaustive:
+11a) nguǐd-gàzh [`chicken´ + ];
+11b) nguǐd-gùzh [`chicken´ + ];
+11c) gây-àrdîl [`rooster<sp>´ + ];
+11d) gây-ngǎs [`rooster<sp>´ + `black´] (= nguǐd-ngǎs [`chicken´ + `black´];)
+11e) gây-nìzhniê [`rooster<sp>´ + `red´] (= nguǐd-nìzhniê [`chicken´ + `red´];)
+11f) gây-pînt/gây-pǐnt [`rooster<sp>´ + `spotted<sp>´] (= nguǐd-pînt [`chicken´ + `spotted<sp>´];)
+11g) nguǐd-còpètôn [`chicken´ + `big crest<sp>´];
+11h) nguǐd-zhǎnd [`chicken´ + `?´];
+11i) nguǐd-pèlûq [`chicken´ + `bald<sp>´] ^[[VerAveGal1]].
+
+12) mtsòo [X]; Long-tailed Wood-Partridge (Dendrortyx macroura) ^[[SndMhpMts1]]: common resident of higher elevation forests; it is hunted, though without great success.
+
+13) mtǒ [X]; Montezuma Quail (Cyrtonyx montezumae) ^[[SndMhpMto1]]: uncommon resident of fields and pastures below the town; it is hunted, though rarely encountered.
+
+14) pàlôm [`pigeon<sp>´] ^[[SndMhpPal1]]; Old and New World pigeons (Columba and Patagoenas);
+14a) pàlôm[-0] [`pigeon<sp>´, unmarked prototype] (= pàlôm-xtîl [`pigeon<sp>´ + `Castillian<sp>´]); Rock Pigeon (Columba livia): a few feral Rock Pigeons live in San Pedro Gbëë, though none occurs at present in San Juan;
+14b) pàlôm-dán [`pigeon<sp>´ + `forest/wild´]; Band-tailed Pigeon (Patagoenas [Columba] fasciata): common resident of higher elevation forests; it is hunted; < Sp. “paloma,” modified as “forest”; there appears to be no “authentic” Zapotec name in use.
+
+15) còolíchè [ON] ^[[SndMhpZen1]]; White-winged Dove (Zenaida asiatica) ^[[VerAveZen1]]: common resident in and near town; the name is onomatopoetic; it is often trapped and kept as a cage bird, perhaps to be sold in Miahuatlán.
+
+16) mézh [X] ^[[SndMhpZen2]]; Mourning Dove (Zenaida macroura): uncommon resident of field margins and pasture lands below town; may be hunted.
+
+17) côc [ON] ^[[SndMhpCol1]]; Inca Dove (Columbina inca) ^[[SndAveCol1]], ^[[SndAveCol2]]: abundant in and adjacent to town; the name is onomatopoetic, possibly cognate with Cordova´s cògo, “tortola aue” (1987); not distinguished from Common Ground Dove (Columbina passerina), which is rare in field margins.
+
+18) guiès-ró-yù [ON, literally “pot of the earth”] ^[[SndMhpLep1]]; White-tipped Dove (Leptotila verreauxi) ^[[SndAveLep1]]: uncommon resident on steep hillsides and in canyons below town; the Zapotec name interprets the calls of this species as “pot of the earth.”
+
+19) měw [X]; Military Macaw (Ara militaris): very rare spring visitor, attracted by fruiting cherry trees, according to one elderly consultant; the name is cognate with Cordova´s [máni]péo, “papagayo verde grande” (1987).
+
+20) pèrícw [`perico<sp>´] ^[[SndMhpPsi1]]; Orange-fronted Parakeet (Aratinga canicularis): not known to occur in San Juan Gbëë but common on the nearby Pacific coastal lowlands; might be applied as well to other Aratinga species.
+
+21) lòr [`loro<sp>´] (= còtôrr [`cotorro<sp>´]) ^[[SndMhpPsi2]], ^[[SndMhpPsi3]]; Lilac-crowned Parrot (Amazona finschi): not known to occur in San Juan Gbëë but occurs regularly on the southern slopes of the Sierra Miahuatlán; might be applied as well to other Amazona species, often kept as cage birds.
+
+22) mriě [X] ^[[SndMhpGeo1]]; Lesser Roadrunner (Geococcyx velox): uncommon resident of field edges and semiarid scrub woodland below town.
+
+23) mquí [X] ^[[SndMhpOtu1]]; Whiskered Screech-Owl (Megascops [Otus] trichopsis) ^[[SndAveOtu1]]: common resident of pine-oak forests above the village; probably also includes Elf Owl (Micrathene whitneyi), resident in oak and riparian woodland near town, and Mountain Pygmy-Owl (Glaucidium gnoma) of high elevation pine forests; possibly cognate of Cordova´s pecuicui, “paxaros que tenian por agueros”; considered an evil omen by many, foretelling by its presence near the house misfortune, illness, or death in the family.
+
+24) dǎm̲ [ON] ^[[SndMhpBub1]]; large owls (Strigiformes in part):
+24a) dǎm̲[-0] [ON, unmarked prototype] (= dǎm̲-rǒb [`owl´ + `great´], dǎm̲-yòx [`owl´ + `great´]); Great Horned Owl (Bubo virginianus): occurs in woodland and forest near town; the generic name is onomatopoetic; it is cognate with Cordova´s tàma, “paxaros que tenian por agueros”; it is considered by many an ill omen; other species of larger owls which might occur here include Mottled (Strix virgata) and Stygian Owls (Asio stygius), though these may be distinguished as the next;
+24b) dǎm̲-yêt [`owl´ + `small´]; Mottled (Strix virgata) and/or Stygian Owls (Asio stygius): neither has been recorded in San Juan Gbëë, but both are possible; both are smaller than prototypical dǎm̲ (Bubo virginianus), as the modifier implies.
+
+25) pùrpùrwít [ON] (= cuěrpò-ruín [ON], càbàyêrò [`caballero<sp>´]) ^[[SndMhpCap1]]; Mexican Whip-poor-will (Caprimulgus arizonae) ^[[SndAveCap1]]: common resident at virtually all elevations; particularly vocal February-April; the first two variants are onomatopoetic, the second apparently borrowed from a local Spanish term; the third variant may be idiosyncratic; it alludes to a folk tale in which a beautifully plumaged bird loans his feathers to another, is deceived and left without colorful plumage; this accounts for the fact that the whip-poor-will goes about after dark and is cryptically colored.
+
+26) xlútsǐ [X] ^[[SndMhpXlu1]]; swifts (Apodidae) and swallows (Hirundinidae): both types of xlútsǐ (swifts and swallows) are believed to foretell rain patterns; swifts foretelling persistent drizzles, swallows brief hard rains:
+26a) xlútsǐ-ngǎs [`swallow/swift´ + `black´]; swifts (Apodidae), specifically Black Swift (Cypseloides niger), Chestnut-collared Swift (Cypseloides rutilus), and White-throated Swift (Aeronautes saxatalis); all species of swifts (Apodidae) are presumably included: Cypseloides rutilus, is particularly conspicuous over town during the rainy season;
+26b) xlútsǐ-nquǐts [`swallow/swift´ + `white´]; swallows (Hirundinidae), specifically Violet-green Swallow (Tachycineta thalassina), Northern Rough-winged Swallow (Stelgidopteryx serripennis), Cliff Swallow (Hirundo pyrrhonota), and Barn Swallow (Hirundo rustica).
+
+27) dzǐn̲g [ON] ^[[SndMhpTro1]]; hummingbirds (Trochilidae); colibrí, chuparosa:
+27a) dzǐn̲g[-0] [ON, unmarked prototype]; hummingbirds in general (Trochilidae in large part), of which at least 14 species occur locally: the name is onomatopoetic; hummingbirds not otherwise known to be distinguished as a special type include the following: Dusky Hummingbird (Cynanthus sordidus), Berylline Hummingbird (Amazilia beryllina) ^[[VerAveAma1]]), Green-fronted Hummingbird (Amazilia viridifrons), Cinnamon-sided Hummingbird (Amazilia “wagneri”), Blue-throated Hummingbird (Lampornis clemenciae), Garnet-throated Hummingbird (Lamprolaima rhami), Magnificent Hummingbird (Eugenes fulgens) ^[[VerAveEug1]], Beautiful Hummingbird (Calothorax pulcher), Ruby-throated Hummingbird (Archilochus colubris), and Rufous Hummingbird (Selasphorus rufus); however, all hummingbirds are most often simply called dzǐn̲g;
+27b) dzǐn̲g-dán-yǎ-guì [`hummingbird´ + `forest/wild´ + `up high´ + `mountain´]; White-eared Hummingbird (Basilinna [Hylocharis] leucotis), a species most common in pine forests above town; literally “mountain-forest hummingbird”; this may be a variant of dzǐn̲g-yǎ-guì (see below);
+27c) dzǐn̲g-gué [`hummingbird´ + Y] (= dzǐn̲g-mgòod [`hummingbird´ + Y]); Bumblebee Hummingbird (Selasphorus [Atthis] heloisa); common in pine forests, occasionally to hedgerows near town; name is modified to indicate its very small size;
+27d) dzǐn̲g-yǎ-guì [`hummingbird´ + `up high´ + `mountain´]; Green Violet-ear (Colibri thalassinus) and/or Amethyst-throated Hummingbird (Lampornis amesthytinus); literally “mountain hummingbird”; both are large species restricted to pine forests above the village; certain other species such as Lampornis clemenciae, Lamprolaima rhami, and Eugenes fulgens might also be included here.
+
+28) chòo-dzê [`forty´ + `day´] ^[[SndMhpTrg1]]; Elegant Trogon (Trogon elegans): status uncertain, but apparently uncommon in oaks in canyons at middle elevations; the name means literally “forty-days” and may be a loan translation of a local Spanish name for the species (or for trogons in general); alludes to the Lenten season, at which time trogons are most vocal; it remains unclear if this term contrasts with the next or is synonymous; in that case, the two species of trogons are not distinguished.
+
+29) mèr-dán [`turkey´ + `forest/wild´]; Mountain Trogon (Trogon mexicanus) ^[[SndAveTro1]]: common resident of pine forests, occasionally moving down via riparian corridors to the level of the town; literally “forest turkey,” not because it resembles a turkey physically but because it sounds like one; see preceding note for taxonomic questions.
+
+30) càrpìntêr [`carpintero<sp>´]; woodpeckers (Picidae in general), with the sole exception of the Northern Flicker (Colaptes auratus): apparently no “authentic” Zapotec name for woodpeckers is known at present ^[[SndMhpPic1]]:
+30a) càrpìntêr-ngǎs [`woodpecker´ + `black´]; Acorn Woodpecker (Melanerpes formicivorus) ^[[VerAveMel1]]: fairly common resident in oaks near town and in pine forests above;
+30b) càrpìntêr-diè [`woodpecker´ + `powdered/dusty´]; Yellow-bellied Sapsucker (Sphyrapicus varius): fairly common winter visitor at all elevations; the name appears to describe the mottled back pattern; not always clearly distinguished from the next;
+30c) càrpìntêr-psì [`woodpecker´ + `barred´] (= càrpìntêr-diè [`woodpecker´ + `powdered/dusty´]); Gray-breasted Woodpecker (Centurus hypopolius): fairly common on field margins and in semiarid scrub woodland below town; either included with Sphyrapicus varius as càrpìntêr-diè or distinguished as càrpìntêr-psì, literally “striped woodpecker”;
+30d) càrpìntêr-psì-yèen̲ [`woodpecker´ + `barred´ + `small/child´]; Ladder-backed Woodpecker (Picoides scalaris): fairly common on field margins and in semiarid scrub woodland below town; literally “baby striped woodpecker,” which may be a nonce form, in which case it is best included with Centurus hypopolius;
+30e) càrpìntêr-ló-guì [`woodpecker´ + `on mountain´]; Hairy Woodpecker (Picoides villosus): common in pine forests above town; literally “mountain woodpecker,” aptly descriptive of its habitat preference;
+30f) càrpìntêr-mâch [`woodpecker´ + `macho<sp>´]; Lineated Woodpecker (Dryocopus linearis) and/or Pale-billed Woodpecker (Campephilus guatemalensis): both are large species of low elevation tropical forests; known to San Juaneros from their travels to Pacific coastal areas and to the Isthmus of Tehuántepec; the attributive macho presumably alludes to their large size and/or powerful bills.
+
+31) [mguîn̲-]pliêgw [[`bird´ +] ON] ^[[SndMhpClp1]]; Northern Flicker (Colaptes auratus): common in pine and oak forests above town; the generic name is onomatopoetic; a rather aberrant woodpecker that often hunts worms on the ground.
+
+32) ârbìtrò [`referee<sp>´]; White-striped Woodcreeper (Lepidocolaptes leucogaster) ^[[SndAveLep2]]: fairly common in pine and pine-oak forests above town; very hard to see but highly vocal at times, the call a loud descending trill that reminded our consultant of a referee´s whistle, hence the name, < Sp. árbitro, that is, “referee,” quite likely a nonce form; Lepidocolaptes affinis occurs at higher elevations but has very different calls, hence would not fit here and is apparently unnamed.
+
+33) pédrǐt [ON, literally < Sp. “little Peter”] ^[[SndMhpCon1]]; Greater Pewee (Contopus pertinax) ^[[VerAveCon1]]: common resident in pine, oak, and riparian forests at all elevations; the name is onomatopoetic; one consultant “translated” the full song of this species as “pédrǐt, dzě, dzě, buì yù,” that is, “Little Peter, slowly, quietly, go home.”
+
+34) mguîn̲-guiùu [`bird´ + `river´] ^[[SndMhpSay1]]; Black Phoebe (Sayornis nigricans): uncommon along rocky streams at and below town; literally “river bird”; clearly distinguished from mguîn̲-nìs [`bird´ + `water´], the American Dipper (Cinclus mexicanus), see below.
+
+35) mguîn̲-rchǔup [`bird´ + `whistle´]; Dusky-capped Flycatcher (Myiarchus tuberculifer) ^[[SndAveMyi1]]: uncommon in forest and woodland at all elevations; literally “whistle bird”; it is not clear if this term might also be extended to the very similar Nutting´s Flycatcher (Myiarchus nuttingi), which is also uncommon but restricted to semiarid woodland below town.
+
+36) cùchguêr [ON] ^[[SndMhpTyr1]]; kingbirds in general, specifically Cassin´s Kingbird (Tyrannus vociferans) ^[[SndAveTyr1]], Thick-billed Kingbird (Tyrannus crassirostris), and Western Kingbird (Tyrannus verticalis): Cassin´s and Western Kingbirds are fairly common fall migrants, perhaps rarely wintering in open areas near town; the Thick-billed Kingbird is a rare resident of semiarid woodland below town; Say´s Phoebe (Sayornis saya), a rather similar bird that is uncommon in pastures in winter, was called xín-cùchguêr “relative of the kingbird.”
+
+37) mtsùu [ON ?] ^[[SndMhpMts2]]; Cassin´s Vireo (Vireo cassinii): uncommon winter visitor; may also include the closely related Plumbeous Vireo (Vireo plumbeus), which is an uncommon resident in oak and semiarid woodland; Hutton´s (Vireo huttoni) and Warbling Vireos (Vireo gilvus) are also resident, preferring pine forests; it is not clear if this term is restricted to one or another vireo, to an assortment of vireos, or has some more general application; it is apparently onomatopoetic.
+
+38) cuǐl̲ [ON] ^[[SndMhpJay1]]; the “jays” (Corvidae in part), specifically the Western Scrub-Jay (Aphelocoma californica) ^[[SndAveAph1]], which is the unmarked prototype, contrasting with Steller´s Jay (Cyanocitta stelleri), as noted below; the generic name is onomatopoetic:
+38a) cuǐl̲[-0] [ON, unmarked prototype]; Western Scrub-Jay (Aphelocoma californica): common and conspicuous at virtually all elevations in open woodland; the unmarked prototype of the generic “jay” category;
+38b) cuǐl̲-guì [`scrub jay´ + `mountain´]; Steller´s Jay (Cyanocitta stelleri): common in thick pine forests above town; literally “mountain scrub-jay.”
+
+39) ngǎ [ON] ^[[SndMhpCor1]]; Common Raven (Corvus corax) ^[[SndAveCor1]]; cuervo, properly “crow” in the local Spanish: common at all elevations; the name is onomatopoetic.
+
+40) mguîn̲-ló-liù [`bird´ + `on ground´] (= mguîn̲-zhàn̲-guìzh [`bird´ + `under´ + `weed/grass´]) ^[[SndMhpLar1]], ^[[SndMhpSpa1]]; Horned Lark (Eremophila alpestris): uncommon resident of overgrazed pastures; literally “ground bird”; the second variant, literally “under-weed bird”, is perhaps more properly applied to the Rufous-crowned Sparrow (Aimophila ruficeps).
+
+41) mguîn̲-pàyâs [`bird´ + `clown<sp>´] ^[[SndMhpPar1]]; Mexican Chickadee (Poecile [Parus] sclateri): common in higher elevation pine forests; may include the Bridled Titmouse (Baeolophus [Parus] wollweberi), which replaces the chickadee in oak woodland near town; literally “clown bird,” < Sp. payaso “clown,” alluding to the black and white “harlequin” face pattern.
+
+42) mziùud [`bag maker´] ^[[SndMhpPsa1]]; Bushtit (Psaltriparus minimus): common in brushy thickets and woodland at all elevations; literally “bag (animate),” from bziùud, referring to the finely woven hanging nests of this species.
+
+43) mguîn̲-quiè [`bird´ + `cliff/rock´] (= mguîn̲-yěts [`bird´ + `yellowish´]) ^[[SndMhpMqe1]]; Boucard´s Wren (Campylorhynchus jocosus).
+
+44) nguzhǐn [X]; wrens in general (Troglodytidae), with the exception of Campylorhynchus jocosus, see above; the name is presumably onomatopoetic:
+44a) nguzhǐn[-0] [`wren´, unmarked prototype] ^[[SndMhpWre1]]; Bewick´s Wren (Thryomanes bewickii) ^[[VerAveThr1]]; may also include Canyon Wren (Catherpes mexicanus), but see below: common residents in town; the former is widespread in woodland near and below town; the latter is found also on steep cliffs in canyons below town (and it may be distinguished as noted below); these often nest in abandoned houses, which has earned them the reputation for some of a bird of ill-omen, as abandoned houses are associated with death;
+44b) nguzhǐn-quiè [`wren´ + `cliff/rock´]; Rock Wren (Salpinctes obsoletus): common on rocky outcrops near and below town; literally “rock wren”;
+44c) nguzhǐn-zhàn̲-quiè [`wren´ + `base of cliff/rock´]; Canyon Wren (Catherpes mexicanus): nests on steep cliffs in canyons below town as well as in abandoned buildings in town; some consultants distinguish it from Thryomanes bewickii by virtue of its cliff habitat preference; literally “cliff wren”;
+44d) nguzhǐn-guì [`wren´ + `mountain´]; Brown-throated Wren (Troglodytes “bruneicollis”): common in humid pine forests; literally “mountain wren”; Gray-breasted Wood-Wren (Henicorhina leucophrys) might be included here, but a singing bird of that species was classed by one consultant with the nightingale thrushes as mguîn̲-guìib-tsár, based on the richness of its song;
+44e) nguzhǐn-gùts [`wren´ + `yellow´] (= nguzhǐn-zhiân [`wren´ + Y]); Crescent-chested Warbler (Parula [Vermivora] superciliosa): common in pine forests above town; one consultant named a netted bird of this species “yellow wren”; it is not clear if this is a common usage; might also be called wǐt or yěets (see below).
+
+45) mguîn̲-nìs [`bird´ + `water´] (= bǎd-guiùu [`duck<sp>´ + `river´]); American Dipper (Cinclus mexicanus): uncommon resident of swift streams in deep canyons below town; literally “water bird” or “river duck,” the former the more commonly heard; compare with mguîn̲-guiùu[`bird´ + `river´], the Black Phoebe (Sayornis nigricans), see above.
+
+46) dìx [ON] ^SndMhpDix1; Blue-gray Gnatcatcher (Polioptila caerulea) ^[[SndAvePol1]]: common in chapparal and field margins at and below town; the name is onomatopoetic.
+
+47) mguîn̲-guìib-tsár [`bird´ + `bell/metal´ + `vespers<sp>´] ^SndMhpThr1; Brown-backed Solitaire (Myadestes occidentalis) ^[[SndAveMya1]], Orange-billed Nightingale-Thrush (Catharus aurantiirostris), Russet Nightingale-Thrush (Catharus occidentalis^[[VerAveCat1]], and Ruddy-capped Nightingale-Thrush (Catharus frantzii): the prototype is the common, widespread, and vocal Myadestes occidentalis; the name means literally “vespers-bell bird”; the three resident species of nightingale thrushes (Catharus) are likewise etherially musical; all are difficult to see, thus it is perhaps not surprising they are not distinguished; a singing Gray-breasted Wood-Wren (Henicorhina leucophrys) was so-named also by one consultant for its ringing song.
+
+48) miân [ON] ^[[SndMhpTur1]]; American Robin (Turdus migratorius): fairly common in woodland and forest at all elevations; the name is onomatopoetic, imitating a common call note.
+
+49) mquièts [X] ^[[SndMhpMim1]]; Northern Mockingbird (Mimus polyglottos): fairly common in hedgerows and semiarid woodland below town; possibly cognate with Cordova´s [piguiñe]pequiche, “cençontlatloli paxaro que canta de muchas maneras”; may include also Curve-billed Thrasher (Toxostoma curvirostre), which is an uncommon resident in town and semiarid scrub.
+
+50) mæ̀cw-guiùu [`dog´ + `river´] ^[[SndMhpMel1]]; Blue Mockingbird (Melanotis caerulescens) ^[[SndAveMel1]]: common and highly vocal, though skulking; found especially in riparian thickets at all elevations, but also common in town gardens; literally “river-dog,” homonymic with the river otter (Lutra annectens), which shares the habitat preference for riparian sites; one consultant explained that it is likened to a dog for its intelligence, manifested in its creative mimicry of other birds, animals, and even people.
+
+51) mguîn̲-bæ̀d [[`bird´] + `Peter<sp>´] ^[[SndMhpBom1]]; Cedar Waxwing (Bombycilla cedrorum), soldadito: variably abundant in winter and early spring; eagerly hunted by boys with slingshots; they fly in tight flocks and numbers can be immobilized with a single shot.
+
+52) péedrùuch [ON] ^[[SndMhpPti1]]; Gray Silky-Flycatcher (Ptilogonys cinereus) ^[[SndAvePti1]]: common resident at all elevations; the name is onomatopoetic.
+
+53) wǐt [ON] ^[[SndMhpWit1]]; Tyrannidae, Parulidae, Emberizidae in part: a very general term for small birds that make soft “wit” notes; this apparently contrasts in some way with yěets, tsíríic, chǐlí, etc.), though it is difficult to discern consistent patterns of application; combinations also frequently occur, e.g., yěets-wǐt:
+53a) wǐt[-0] [ON, unmarked prototype] (= yěets-wǐt [`yellowish´ + `small bird´]); for example: Dusky Flycatcher (Empidonax oberholseri), Yellow-rumped Warbler (Dendroica coronata), Vesper Sparrow (Poocetes gramineus); possibly including as well Cordilleran Flycatcher (Empidonax occidentalis), Pine Flycatcher (Empidonax affinis) ^[[VerAveEmp1]]; Orange-crowned Warbler (Vermivora celata), Black-throated-gray Warbler (Dendroica nigrescens), Hermit Warbler (Dendroica occidentalis), Black-and-white Warbler (Mniotilta varia), MacGillivray´s Warbler (Oporornis tolmiei), and Red-faced Warbler (Cardellina rubrifrons);
+53b) wǐt-dán [`small bird´ + `forest/wild´]; Tufted Flycatcher (Mitrephanes phaeocercus): common resident of pine forests above town; literally “forest wǐt.”
+
+54) mguîn̲-mâ-zhiàn [`bird´ + `animal´ + X] (= chǐlí [ON], tìlí [ON], or tsíríic [ON]); Painted Redstart (Myioborus pictus) and Slate-throated Redstart (Myioborus miniatus): the two redstart species are common residents, the former of oaks, the latter of pines (and it has been distinguished as chǐlí-dán, literally “forest redstart”); they appear to be the primary referents of the onomatopoetic variants: chǐlí = tìlí; the occasional consultant has applied these to Hutton´s Vireo (Vireo huttoni) based on vocalizations, but the latter species does not match the plumage descriptions provided.
+
+55) mguîn̲-tsíríic [[`bird´] + ON] ^[[SndMhpTsi1]]; Parulidae in part, for example: Nashville Warbler (Vermivora ruficapilla): fairly common winter visitor in a variety of habitats; the onomatopoetic name tsíríic, like wǐt, may be applied rather inconsistently to a variety of small birds in imitation of their call notes; tsíríic has been applied also to Myioborus pictus, Myioborus miniatus, and Wilson´s Warbler (Wilsonia pusilla), however, these species are more often given other, more specifically appropriate, names.
+
+56) yěets [`yellowish´] (or tsíríic [ON]) ^[[SndMhpYts1]]; Wilson´s Warbler (Wilsonia pusilla): common winter visitor; the name alludes to the bright yellow plumage; some variant of yěets may be applied to a wide variety of birds, all of which, apparently, show some yellow or yellowish in the plumage;
+56a) yěets-dán [`yellowish´ + `forest/wild´]; Black-headed Siskin (Carduelis notata): uncommon in high pine forests;
+56b) yěets-pînt [`yellowish´ + `spotted<sp>´]; Townsend´s Warbler (Dendroica townsendi): common winter visitor in pine and oak forests; literally “spotted” [< Sp. pinto] yěets.”
+*53) yěets-wǐt [`yellowish´ + `small bird´]: see wǐt[-0], above.
+
+57) x-quǐit-ngùbìdz [poss. + `toy´ + `sun´, literally `Sun´s toy´ ^[[SndMhpErg1]]; Red Warbler (Ergaticus ruber): common in pine forests above town; literally “red bird” and “Sun´s playmate,” both evocative of this bird´s bright red plumage.
+
+58) mguîn̲-dǎm̲ [`bird´ + `large owl´] (or mguîn̲-ló-liù [`bird´ + `on´ + `ground´]); Rufous-capped Warbler (Basileuterus rufifrons) ^[[VerAveBas1]]: common resident of brushy habitats at all elevations; literally “owl bird,” a usage that remains obscure; the second variant is “ground bird,” a term used for a variety of ground-nesting birds.
+
+59) mguěy [X] (= mguěy-guièe [`finch´ + `flower´]) ^[[SndMhpCar1]]; House Finch (Carpodacus mexicanus) and Summer Tanager (Piranga rubra): the House Finch is common in town, fields, and semiarid woodland below town; the Summer Tanager is a fairly common winter visitor in similar situations; the generic mguěy-guièe is literally “flower mguěy,” alluding to its bright red plumage; the House Finch is clearly the prototype, but may be marked off as mguěy-ndòo, “tame finch”; the tanager may be distinguished as měy-guièe, literally “mushroom flower,” the meaning of which remains obscure:
+59a) mguěy-ndòo [`finch´ + `tame´]; House Finch (Carpodacus mexicanus);
+59b) měy-guièe [`mushroom´ + `flower´]; Summer Tanager (Piranga rubra);
+59c) mguěy-guièe-pchôg [`finch´ + flower´ + `shell/husk´] (= mguěy-pchôg [`finch´ + `shell/husk´]) ^[[SndMhpPhe1]]; Black-vented Oriole (Icterus wagleri) and Black-headed Grosbeak (Pheucticus melanocephalus): Black-vented Orioles are common in town and hedgerows and in semiarid woodland below town; it is the prototype of mguěy-guièe-pchôg; the Black-headed Grosbeak is common in pine and oak forests; the two species are not particularly similar in plumage and form, but both have rich songs and plumage highlights of yellow and orange; the name is literally “shell/husk [beak] finch,” perhaps alluding to the heavy beaks, particularly of the grosbeak, in contrast to the generic prototype of mguěy-guièe, the House Finch (Carpodacus mexicanus);
+59d) mguěy-guièe-dán [`finch´ + `flower´ + `forest/wild´]; Black-headed Grosbeak (Pheucticus melanocephalus) ^[[VerAvePhe1]]: the Black-headed Grosbeak may be distinguished from the Black-vented Oriole as mguěy-guièe-dán, literally “forest finch.”
+
+60) mguîn̲-wchǔup [`bird´ + `whistle´]; Chestnut-capped Brushfinch (Buarremon [Atlapetes] brunneinucha): fairly common in thickets in humid pine forests; this name strongly resembles mguîn̲-rchǔup, literally “whistle bird,” which, however, applies to the very different Dusky-capped Flycatcher (Myiarchus tuberculifer).
+
+61) chùubây [ON] (= xùubây [ON]); Collared Towhee (Pipilo ocai): uncommon resident of field margins and riparian thickets in pine forests above town; the name is said to apply to a bird resembling the Spotted Towhee (Pipilo maculatus), but which is larger and found at higher elevations; this species might be the one intended.
+
+62) [mguîn̲-]wǐx [[`bird´] + ON] ^[[SndMhpWix1]]; Spotted Towhee (Pipilo maculatus): common in brushy thickets at all elevations; the name is onomatopoetic; the Hepatic Tanager (Piranga flava) was called xín-wǐx “relative of wǐx” by one consultant, perhaps alluding to the dull red colors on both.
+
+63) chûurr [ON] (= chûurr-nìs [ON + `water´], chûurr-guié [ON + `rain´]) ^[[SndMhpPip1]]; White-throated Towhee (Pipilo albicollis) ^[[VerAvePip1]], ^[[SndAvePip1]]: abundant in town and common in fields; the generic name is onomatopoetic; it is sometimes modified by children as noted, literally, “water chûurr” and “rain chûurr.”
+
+64) mtsùu [X] (= mguîn̲-pánt [`bird´ + Y] or mguîn̲-zhàn̲-guìzh [`bird´ + `under´ + `weeds/brush´]) ^[[SndMhpMts2]]; Rufous-crowned Sparrow (Aimophila ruficeps) ^[[VerAveAim1]]: common resident in hedgerows and semiarid scrub; the first viariant may be onomatopoetic; the second variant is descriptive of its reddish crown; the third is literally “under-weed bird” descriptive of its habitat; Bridled Sparrow (Aimophila mystacalis), an uncommon resident of semiarid scrub below town, may be included, as may wintering sparrows such as Chipping Sparrow (Spizella passerina) and Lincoln´s Sparrow (Melospiza lincolnii).
+
+65) mguîn̲-x-còl-nquǐts [`bird´ + poss. + `tail<sp>´ + `white´] (or mguîn̲-ló-quiè [`bird´ + `on´ + `rock´]); Yellow-eyed Junco (Junco phaeonotus): fairly common in pine forests above town; literally “white-tailed bird,” with the “tail” element < Sp cola; the second variant is literally “rock bird,” a term applied somewhat inconsistently to a variety of small birds that nest in rocky banks, e.g., Cordilleran Flycatcher (Empidonax occidentalis).
+
+66) mguîn̲-bǒo [`bird´ + `charcoal´] (= mguîn̲-ngǎs [`bird´ + `black´], mguîn̲-guìzdòo [`bird´ + `Miahuatlán´]) ^[[SndMhpQui1]]; Great-tailed Grackle (Quiscalus mexicanus): common in town and fields; literally “charcoal bird” or “black bird,” descriptive of the grackle´s plumage; the third variant is literally “Miahuatlán bird,” alluding to the fact that it became common after cattle were introduced from Miahuatlán, the main regional market center.
+
+67) sànât-bûrr [`zanate<sp>´ + `donkey<sp>´] ^[[SndMhpMol1]]; Bronzed Cowbird (Molothrus aeneus): fairly common, especially in summer, in town and fields; literally “donkey grackle,” < Sp sanate, “grackle,” and burro, “donkey.”
+
+68) mdzíl-dò [ON, literally `maize tassel´] (= mdzíli-dò [ON, literally `maize-tassel]) ^[[SndMhpSpi1]]; Lesser Goldfinch (Carduelis psaltria): common in fields and gardens; the name is likely onomatopoetic, though means “maize tassel,” a reference to its habit of feeding in milpas.
+
+69) mguîn̲-mòlîn [`bird´ + `mill<sp>´] (= mguîn̲-ziělgâ [`bird´ + Y]); House Sparrow (Passer domesticus) ^[[VerAvePas1]]: a small population of this introduced weaver finch is resident in both San Juan and San Pedro Gbëë; one consultant called them literally “mill [< Sp. molino] birds,” as they gather at the town corn mill; the second variant is as yet uninterpretable.
