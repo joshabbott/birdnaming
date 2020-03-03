@@ -164,17 +164,18 @@ pc_data = pd.read_csv('./data/41559_2019_1070_MOESM3_ESM.csv')
 
 # just need to change this for other birds
 # work on just hummingbirds for now
+print("hummingbirds")
 hummingbirds = list(df[df['folk_generic'] == 'dzǐn̲g']['species'])
-
 # birds = list(df[df['folk_generic'] == 'dzǐn̲g']['species'])
-
 run_informativeness_on_basic_level(hummingbirds)
 
-
+print("sparrows")
 sparrow_birds = list(df[df['folk_generic'] == 'mtsùu']['species'])
-
 run_informativeness_on_basic_level(sparrow_birds)
 
+print("hawks")
+hawk_birds = list(df[df['folk_generic'] == 'msì']['species'])
+run_informativeness_on_basic_level(hawk_birds)
 
 # bird_pcs = {}
 # for bird in birds:
