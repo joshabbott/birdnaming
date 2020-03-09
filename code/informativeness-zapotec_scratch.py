@@ -127,7 +127,7 @@ def run_informativeness_on_basic_level(birds):
 
 	# compute ERE with uniform need probs
 	evalue = ERE(lmap,simMatrix,uniform_need_probs)
-	print("Uniform need probs (Zapotec birds): ", evalue)
+	print("Uniform need probs (Zapotec birds): "+"{:.4f}".format(evalue))
 
 	# create need probs with ebird relative freqs
 	freq_need_probs = {}
@@ -140,16 +140,20 @@ def run_informativeness_on_basic_level(birds):
 
 	# compute ERE with freq need probs
 	evalue_freq = ERE(lmap,simMatrix,freq_need_probs)
-	print("Freq need probs (Zapotec birds): ", evalue_freq)
+	print("Freq need probs (Zapotec birds): "+"{:.4f}".format(evalue_freq))
 
 	# RANDOM SHUFFLES WITH UNIFORM NEED
 	# shuffle labels and recompute E
 	evalue_rands_uniform = computeRandomShuffles(bird_list,bird_labels,simMatrix,uniform_need_probs)
-	print("RAND shuffle with uniform need probs: ",evalue_rands_uniform)
+	print("RAND shuffle with uniform need probs: ")
+	for i in evalue_rands_uniform.keys():
+		print(""+"{:.4f}".format(evalue_rands_uniform[i]))
 
 	## RANDOM SHUFFLES WITH 
 	evalue_rands_freq = computeRandomShuffles(bird_list,bird_labels,simMatrix,freq_need_probs)
-	print("RAND shuffle with freq need probs: ",evalue_rands_freq)
+	print("RAND shuffle with freq need probs: ")
+	for i in evalue_rands_freq.keys():
+		print(""+"{:.4f}".format(evalue_rands_freq[i]))
 
 
 
@@ -164,16 +168,16 @@ pc_data = pd.read_csv('./data/41559_2019_1070_MOESM3_ESM.csv')
 
 # just need to change this for other birds
 # work on just hummingbirds for now
-print("hummingbirds")
+print("\nhummingbirds")
 hummingbirds = list(df[df['folk_generic'] == 'dzǐn̲g']['species'])
 # birds = list(df[df['folk_generic'] == 'dzǐn̲g']['species'])
 run_informativeness_on_basic_level(hummingbirds)
 
-print("sparrows")
+print("\nsparrows")
 sparrow_birds = list(df[df['folk_generic'] == 'mtsùu']['species'])
 run_informativeness_on_basic_level(sparrow_birds)
 
-print("hawks")
+print("\nhawks")
 hawk_birds = list(df[df['folk_generic'] == 'msì']['species'])
 run_informativeness_on_basic_level(hawk_birds)
 
