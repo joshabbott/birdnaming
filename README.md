@@ -1,6 +1,6 @@
 # birdnaming
-This is a repo of code for analyzing bird naming data. 
+This is a repo of code for the analyses in our paper "Birds and Words: Exploring environmental influences on folk categorization". 
 
-The directory cogsci2020/ contains the code, data, and text for the Cogsci 2020 submission.
+The directory paper/ contains text for the Cogsci 2020 submission.
 
-The directory code/ contains current analyses and data beyond what was used for the Cogsci 2020 submission.
+The directory code/ contains the analyses and data for what was used in the Cogsci 2020 submission.
