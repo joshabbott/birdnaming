@@ -13,16 +13,18 @@ from scipy.spatial.distance import pdist, squareform
 bw = 0.2
 
 # data from morphospace paper
-ms = pd.read_csv('41559_2019_1070_MOESM3_ESM.csv')
-df = pd.read_csv('df_zapotec.csv')
+ms = pd.read_csv('./Pigot_data.csv')
+# df = pd.read_csv('./df_zapotec.csv')
+zapotec_data_all = pd.read_csv('./df_zapotec_fullfeats_cogsci2020.csv')
+
 # make species names match
-ms['Binomial'] = ms['Binomial'].str.replace('_',' ')
+# ms['Binomial'] = ms['Binomial'].str.replace('_',' ')
 
 # pull in PC coordinates
-alldf = pd.merge(df, ms, how='left', left_on='species', right_on='Binomial')
+# alldf = pd.merge(df, ms, how='left', left_on='species', right_on='Binomial')
 
 # keep only those with PC coords that are named
-kddf = alldf[alldf['PC1'].notnull() & alldf['folk_generic'].notnull()]
+kddf = zapotec_data_all[zapotec_data_all['PC1'].notnull() & zapotec_data_all['folk_generic'].notnull()]
 
 # keep only those with PC coords that are named and have freq > 0
 # kddf = alldf[(alldf['PC1'].notnull()) & (alldf['freq'] > 0) & (alldf['folk_generic'].notnull())]
@@ -31,7 +33,7 @@ kddf = alldf[alldf['PC1'].notnull() & alldf['folk_generic'].notnull()]
 #kddf = alldf[(alldf['PC1'].notnull()) & ((alldf['freq'] > 2) | ((alldf['freq']>0) & alldf['folk_generic'].notnull()))]
 # pull out PC columns
 
-Xdf = kddf.iloc[:, 12:21]
+Xdf = kddf.iloc[:, 11:20]
 X = Xdf.values
 
 # use PC1 and PC2 as embedding
@@ -63,9 +65,9 @@ nbdist = np.sum(pwdists < 0.5 , axis=1)
 kddf = kddf.assign(density = nbdist, e1=X_embedded[:,0], e2=X_embedded[:,1])
 kddf = kddf[['species', 'density', 'e1', 'e2']]
 
-finaldf = pd.merge(df, kddf, how='left', on='species')
+finaldf = pd.merge(zapotec_data_all, kddf, how='left', on='species')
 
-finaldf.to_csv('df_zapotec_density.csv')
+finaldf.to_csv('df_zapotec_density.csv',index=False)
 
 vf = finaldf.sort_values(by='folk_generic')
 
