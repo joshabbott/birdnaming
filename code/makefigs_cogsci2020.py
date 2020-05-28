@@ -120,7 +120,7 @@ plt.ylabel('Log frequency')
 
 zapotec_masses = {}
 for zapotec_bird in basic_levels.keys():
-	mass = float(df[df['species'] == zapotec_bird]['mass'])  
+	mass = float(zapotec_data_only[zapotec_data_only['species'] == zapotec_bird]['mass'])  
 	if mass > 0:
 		zapotec_masses[zapotec_bird] = mass
 
@@ -151,6 +151,15 @@ plt.ylabel('Log mass')
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+# stats on this? logistic regression including log
+
+
 
 
 
