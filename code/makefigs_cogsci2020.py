@@ -64,11 +64,11 @@ def get_terminallevel(zapotec_data):
 # zapotec_data_all = pd.read_csv('./data/df_zapotec.csv')
 zapotec_data_all = pd.read_csv('./data/df_zapotec_fullfeats_cogsci2020.csv')
 
-df = zapotec_data_all[zapotec_data_all['folk_generic'].notna()] 
+zapotec_data_only = zapotec_data_all[zapotec_data_all['folk_generic'].notna()] 
 
-basic_levels = get_basiclevel(df)
-basic_level_names = list(set(df['folk_generic']))
-terminal_names = get_terminallevel(df)
+basic_levels = get_basiclevel(zapotec_data_only)
+basic_level_names = list(set(zapotec_data_only['folk_generic']))
+terminal_names = get_terminallevel(zapotec_data_only)
 
 # load ebird data
 ebd_data = pd.read_csv('./data/ebird_MX-OAX_cogsci_clean.csv')
@@ -86,8 +86,8 @@ bird_counts = get_birdcounts(ebd_data)
 
 # violin plot (with log frequency of occurrence)
 
-bird_list = list(df['species'])
-freqs = list(df['freq'])
+bird_list = list(zapotec_data_only['species'])
+freqs = list(zapotec_data_only['freq'])
 # bird_list = list(df[df['folk_generic'].notna()]['species'])
 # freqs = list(df[df['folk_generic'].notna()]['freq'])
 
@@ -109,7 +109,7 @@ pos = [1,2,3]
 plotnames = ('Zapotec','Missing','All OAX')
 # plt.figure()
 plt.violinplot([data_zapotec,missing_data,data_all],pos,showmeans=True) 
-plt.title('Frequency densities of Zapotec')
+# plt.title('Frequency densities of Zapotec')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log frequency')
 
@@ -144,7 +144,7 @@ pos = [1,2,3]
 plotnames = ('Zapotec','Missing','All OAX')
 # plt.figure()
 plt.violinplot([data_zapotec,missing_data,data_all],pos,showmeans=True) 
-plt.title('Mass densities of Zapotec')
+# plt.title('Mass densities of Zapotec')
 plt.xticks(pos,plotnames)
 plt.ylabel('Log mass')
 
@@ -174,15 +174,15 @@ zs = []
 for bird_species in bird_list:
     # get basic level
 
-    if float(df[df['species'] == bird_species]['freq']) > 0.0:
+    if float(zapotec_data_only[zapotec_data_only['species'] == bird_species]['freq']) > 0.0:
 	    basic_taxon = basic_levels[bird_species]
 	    len_unique_species_in_basic = len(list(set(zapotec_data_all[zapotec_data_all['folk_generic'] == basic_taxon]['species'])))
 	    # SSRR_species[bird_species] = 1/len_unique_species_in_basic
 	    SSRR_species[bird_species] = len_unique_species_in_basic
 	    # xs.append(bird_sizes[bird_species])
-	    xs.append(float(df[df['species'] == bird_species]['mass']))
+	    xs.append(float(zapotec_data_only[zapotec_data_only['species'] == bird_species]['mass']))
 	    ys.append(SSRR_species[bird_species])
-	    zs.append(float(df[df['species'] == bird_species]['freq']))
+	    zs.append(float(zapotec_data_only[zapotec_data_only['species'] == bird_species]['freq']))
     
 
 
@@ -245,7 +245,7 @@ def get_barheights_freq(bar_species,bird_list,df):
 	heights = []
 	for bird_name in bar_species:
 		if bird_name in bird_list:
-			heights.append(float(df[df['species'] == bird_name]['freq']))
+			heights.append(float(zapotec_data_only[zapotec_data_only['species'] == bird_name]['freq']))
 		else:
 			heights.append(0.0)
 
@@ -257,7 +257,7 @@ prototypes = ['Cathartes aura','Buteo jamaicensis','Columba livia',
 'Haemorhous mexicanus']
 
 # read zapotec data
-df = pd.read_csv('./data/df_zapotec.csv')
+# df = pd.read_csv('./data/df_zapotec.csv')
 
 plt.figure(figsize=(12, 6), dpi=100, facecolor='w', edgecolor='k')
 
@@ -266,7 +266,7 @@ plt.subplot(2, 3, 1)
 bar_species = ['Cathartes aura','Coragyps atratus','Sarcoramphus papa']
 bar_labels = ('Turkey','Black','King')
 subplot_title = 'Vultures'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2,3]
 clrs = ['black','lightgrey','lightgrey']
 sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
@@ -278,7 +278,7 @@ plt.subplot(2, 3, 2)
 bar_species = ['Columba livia','Patagioenas fasciata']
 bar_labels = ('Rock','Band-tailed')
 subplot_title = 'Pigeons'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2]
 clrs = ['black','lightgrey']
 sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
@@ -290,7 +290,7 @@ plt.subplot(2, 3, 3)
 bar_species = ['Buteo jamaicensis','Accipiter cooperii','Buteo brachyurus','Buteo albonotatus','Falco peregrinus','Accipiter striatus']
 bar_labels = ('Red-tailed','Coopers','Short-tailed','Zone-tailed','Peregrine Falcon','Sharp-shinned')
 subplot_title = 'Hawks'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2,3,4,5,6]
 plt.title(subplot_title)
 clrs = ['black','lightgrey','lightgrey','lightgrey','lightgrey','lightgrey']
@@ -302,7 +302,7 @@ plt.subplot(2, 3, 4)
 bar_species = ['Ciccaba virgata','Bubo virginianus','Asio stygius']
 bar_labels = ('Mottled','Great Horned','Stygian')
 subplot_title = 'Owls'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2,3]
 clrs = ['lightgrey','black','lightgrey']
 sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
@@ -314,7 +314,7 @@ plt.subplot(2, 3, 5)
 bar_species = ['Haemorhous mexicanus','Icterus wagleri','Pheucticus melanocephalus','Piranga rubra']
 bar_labels = ('House','Black-vented','Black-headed','Summer Tanager')
 subplot_title = 'Finches'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2,3,4]
 clrs = ['black','lightgrey','lightgrey','lightgrey']
 sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
@@ -327,7 +327,7 @@ plt.subplot(2, 3, 6)
 bar_species = ['Thryomanes bewickii','Catherpes mexicanus','Oreothlypis superciliosa','Troglodytes aedon','Henicorhina leucophrys','Salpinctes obsoletus']
 bar_labels = ('Bewicks','Canyon','Crescent-chested','Brown-throated','Gray-breasted','Rock')
 subplot_title = 'Wrens'
-heights = get_barheights_freq(bar_species,bird_list,df)
+heights = get_barheights_freq(bar_species,bird_list,zapotec_data_only)
 pos = [1,2,3,4,5,6]
 clrs = ['black','lightgrey','lightgrey','lightgrey','lightgrey','lightgrey']
 sns.barplot(pos,heights,palette=clrs,edgecolor="Black")
