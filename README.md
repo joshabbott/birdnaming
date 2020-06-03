@@ -1,6 +1,7 @@
-# birdnaming
-This is a repo of code for the analyses in our paper "Birds and Words: Exploring environmental influences on folk categorization". 
+# Birds and Words: Exploring environmental influences on folk categorization
 
-The directory paper/ contains text for the Cogsci 2020 submission.
+This repo contains the code and data to reproduce the analyses in our CogSci 2020 paper (BirdsAndWords-cogsci2020.pdf). 
 
-The directory code/ contains the analyses and data for what was used in the Cogsci 2020 submission.
+The python notebook (CogSci2020_analyses.ipynb) reproduces the analyses and figures for the paper, while the statistics for the paper are reproduced in stats_cogsci2020.html, produced from the R file stats_cogsci2020.Rmd.
+
+The directory data/ contains each of the separate data files used in the paper.

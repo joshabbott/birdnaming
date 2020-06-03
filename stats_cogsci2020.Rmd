@@ -1,0 +1,134 @@
+---
+title: 'Stats for CogSci2020 submission'
+date: "May 2020"
+output:
+  html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, progress = TRUE)
+```
+
+```{r packageload, message=FALSE}
+library(here)
+library(tidyverse)
+library(lme4)
+library(RColorBrewer)
+```
+
+
+Read in the Zapotec dataframe with complete features.
+
+```{r readdata, message=FALSE}
+df <- read_csv(here("code", "data", "df_zapotec_fullfeats_cogsci2020.csv"))
+
+````
+
+Add variables we'll need for the analyses.
+
+```{r preprocessing, message=FALSE}
+
+slab <- function(z) {
+  z[!(z %in% c("xlútsǐ", "càrpìntêr",  "msì", "bǎd",  "mtsùu", "wǐt", "dzǐn̲g"))] <-"other"
+  z
+}
+
+df_mf <- df  %>% 
+  mutate(is_named = !is.na(folk_specific), logmass = log(mass), logfreq = log(freq)) %>% 
+  mutate(is_prot = !is.na(folk_specific) & folk_specific==folk_generic)  %>% 
+  mutate(is_compound = grepl('-', folk_specific)) %>% 
+  mutate(name_length = str_count(folk_specific) - is_compound) %>% 
+  mutate(logname_length = log(name_length)) %>% 
+  mutate(clements_group=factor(clements_group))  %>% 
+  # XXX: include only species for which we have mass and frequency
+  filter(mass > 0 & freq > 0) %>% 
+  mutate(name=factor(folk_generic)) %>% 
+  mutate(name=fct_relabel(name, slab)) %>% 
+  mutate(name=factor(name, levels =  c("dzǐn̲g", "xlútsǐ", "càrpìntêr",  "msì", "bǎd",  "mtsùu", "wǐt", "other"))) 
+
+  
+# make long data frame for generating figures
+df_mf_long <- df_mf %>% 
+  gather(key='variable', value='val', logmass, logfreq)
+```
+
+
+
+## Named vs Unnamed categories
+
+```{r namedunnamed, message=FALSE}
+
+naming_full <- glm( formula = is_named ~ logfreq + logmass,  family = binomial, data = df_mf)
+naming_freq<- glm( formula = is_named ~ logfreq,  family = binomial, data = df_mf)
+naming_mass<- glm( formula = is_named ~ logmass, family = binomial, data = df_mf)
+anova(naming_freq, naming_full, naming_mass, test="Chisq")
+
+
+naming_drop <- drop1(naming_full, test="Chisq")
+summary(naming_full)
+naming_drop
+```
+
+The coefficients suggest that logfreq is a strong predictor (123.525) but that logmass is not (0.006). The call to `drop1` compares the full model against models that drop one of the predictors. Dropping logfreq means that the model fit gets significantly worse (p < 2e-16), but dropping logmass doesn't hurt the fit (p = 0.94). The AIC values support this conclusion (dropping logfreq makes the AIC bigger (ie worse), but dropping logmass makes the AIC a little bit better (smaller))
+
+
+## Category size analysis
+Now we analyze how many other species each named species is lumped with. 
+
+```{r lumping, message=FALSE}
+df_named <- df_mf %>% 
+  filter(is_named) %>% 
+  mutate(norm_group_size_generic = group_size_folk_generics/group_size_clements) 
+
+
+lmlumping_full <- lm( formula = group_size_folk_generics ~ logfreq + logmass,  data = df_named)
+lmlumping_freq <- lm( formula = group_size_folk_generics ~ logfreq,  data = df_named)
+lmlumping_mass <- lm( formula = group_size_folk_generics ~ logmass,  data = df_named)
+
+anova(lmlumping_freq, lmlumping_full, lmlumping_mass, test="Chisq")
+
+summary(lmlumping_full)
+```
+The coefficients suggest that logmass (-1.18) is a stronger predictor than logfreq (-0.55). Dropping either predictor, however, leads to a model fit that is significantly worse (p values of 0.02 for logfreq and 2e-8 for logmass). AIC values support the same conclusion.
+
+
+## Name length
+
+```{r namelength, message=FALSE}
+
+
+namelength_full <- lm( formula = logname_length ~ logfreq + logmass,  data = df_named)
+namelength_freq <- lm( formula = logname_length ~ logfreq,  data = df_named)
+namelength_mass <- lm( formula = logname_length ~ logmass,  data = df_named)
+
+anova(namelength_freq, namelength_full, namelength_mass, test="Chisq")
+
+summary(namelength_full)
+```
+
+Coefficients suggest that logfreq (0.04) and logmass (-0.06) are both weak predictors. Dropping logmass significantly impairs model performance (p = 0.03) but dropping logfreq doesn't (p = 0.16). AIC scores support same conclusion.
+
+
+## Compound vs monomial
+
+
+```{r compoundvsmonomial, message=FALSE}
+
+logitmodcompound <- glm(
+  formula = is_compound ~ logfreq + logmass, 
+  family = binomial,
+  data = df_named)
+
+compound_drop <- drop1(logitmodcompound, test="Chisq")
+compound_drop
+summary(logitmodcompound)
+```
+
+Coefficients suggest that logfreq (-0.0387) is a stronger predictor than logmass (-0.0384) -- and the negative values indicating that if the frequency or mass of a species increase, it's *less* likely to have a compound name. But the `drop1` analyses suggest that model fit doesn't become significantly worse when either predictor is dropped (p values of 0.75 and 0.72). AIC scores support same conclusion.
+
+
+
+
+
+
+
