@@ -1,5 +1,4 @@
-# Birds and Words: 
-# Exploring environmental influences on folk categorization
+# Birds and Words: Exploring environmental influences on folk categorization
 
 * Joshua T. Abbott (joshua.abbott@unimelb.edu.au)
 * Charles Kemp (c.kemp@unimelb.edu.au)
